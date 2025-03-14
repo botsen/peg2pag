@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">04-Fluxo</PROPERTY>
+<PROPERTY KEY="Alinhar">0</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">457</PROPERTY>
+<PROPERTY KEY="AoClicar"></PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">1001653</PROPERTY>
+<PROPERTY KEY="Container"></PROPERTY>
+<!-- Cor: Valor númerico que representa uma cor. Utiliza o padrão Delphi. Valor: inteiro. -->
+<PROPERTY KEY="Cor">-16777211</PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<PROPERTY KEY="EstiloCss"></PROPERTY>
+<PROPERTY KEY="LarguraMaxima">0</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">ContainerDefFluxo</PROPERTY>
+<PROPERTY KEY="NomeClasseCss">position-relative d-flex align-items-center justify-content-center flex-fill w-100 h-100 p-3 p-sm-0</PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">0</PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">88</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">48</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">569</PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">True</PROPERTY>
+</PROPERTIES>

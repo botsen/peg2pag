@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ACTIONS>
+<EVENT TYPE="Ao Clicar">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Entrada">Tipo do CSS='geral'</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Editor de Layout - Selecionar Tipo CSS</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+</ACTIONS>

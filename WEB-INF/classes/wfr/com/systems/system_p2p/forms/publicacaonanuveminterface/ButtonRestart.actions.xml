@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ACTIONS>
+<EVENT TYPE="Ao Clicar">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Entrada">Login={inputUser};Senha={inputPassword};Comando='ubic restart ea-tomcat85'</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Publica&#231;&#227;o na Nuvem - Executar Comandos</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+</ACTIONS>

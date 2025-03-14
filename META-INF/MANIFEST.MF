@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Version-Details: Compiled: true, Reports: true, All Rules: true
+Version-Dependences: Biometria, Conector DB2, Conector DBF, Conector F
+ irebird, Conector MySQL, Conector Postgres, Conector SQL Server, Gera
+ dor de codigo fonte, Gerador de relatorio Local, Gerador de relatorio
+  Local 7.0 IE, Gerador de relatorio Local 10.0 IE, Impressora Bematec
+ h, Impressora Local, Jasper, Linux
+Created-By: Webrun Edição Bootstrap - 1.2.1.7.1 (Softwell Solutions 
+ Ltda)
+Version-Date: 2023-03-08 18:57:46
+

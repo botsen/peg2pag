@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ACTIONS>
+<EVENT TYPE="Ao Clicar">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Entrada">Usuario={MakerEdit1};Senha={MakerEdit3};Check Autoriza&#231;&#227;o={MakerCheckBox1}</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Ficha T&#233;cnica - Enviar Ranking</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+</ACTIONS>

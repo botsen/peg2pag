@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">05-Eventos</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">209</PROPERTY>
+<PROPERTY KEY="AoClicar"></PROPERTY>
+<PROPERTY KEY="ClasseCSS"></PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">1049209</PROPERTY>
+<!-- CodigoForm: Código do formulário: Valor: inteiro. -->
+<PROPERTY KEY="CodigoForm">0</PROPERTY>
+<PROPERTY KEY="ConsiderarOrdem">True</PROPERTY>
+<PROPERTY KEY="Container"></PROPERTY>
+<!-- Cor: Valor númerico que representa uma cor. Utiliza o padrão Delphi. Valor: inteiro. -->
+<PROPERTY KEY="Cor">-16777211</PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<!-- Estilo: Informa o estilo do lookup (Como, Edit e Memo). Valor: 0, 1 ou 2. -->
+<PROPERTY KEY="Estilo">0</PROPERTY>
+<PROPERTY KEY="EstiloCss"></PROPERTY>
+<!-- Forma:  -->
+<PROPERTY KEY="Forma">1</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">TMAKERBEVEL</PROPERTY>
+<PROPERTY KEY="NomeClasseCss"></PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">0</PROPERTY>
+<!-- Parametros:  -->
+<PROPERTY KEY="Parametros"></PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">13</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">352</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">364</PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">True</PROPERTY>
+</PROPERTIES>

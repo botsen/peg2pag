@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">05-Eventos</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">244</PROPERTY>
+<PROPERTY KEY="AlturaCabecalho">38</PROPERTY>
+<PROPERTY KEY="AlturaLinha">33</PROPERTY>
+<PROPERTY KEY="AoClicar"></PROPERTY>
+<PROPERTY KEY="AoModificar"></PROPERTY>
+<!-- ApenasLeitura: Valor lógico que informa se o componente é apenas para leitura -->
+<PROPERTY KEY="ApenasLeitura">False</PROPERTY>
+<!-- Atributos: Informa os atributos de um componente. Valor: números separados por ";". -->
+<PROPERTY KEY="Atributos"></PROPERTY>
+<PROPERTY KEY="CanFreezeColumns">True</PROPERTY>
+<!-- ChamaSubForm: Informa se o componente deve chamar o subformulário definido na propriedade Formulário. Valor: true|false. -->
+<PROPERTY KEY="ChamaSubForm">False</PROPERTY>
+<PROPERTY KEY="ClasseCSS"></PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">1049193</PROPERTY>
+<!-- CodigoForm: Código do formulário: Valor: inteiro. -->
+<PROPERTY KEY="CodigoForm">358682202</PROPERTY>
+<!-- Colunas: Campos do formulário que deverão aparecer na grid. Valor: string separada por ";". -->
+<PROPERTY KEY="Colunas"></PROPERTY>
+<PROPERTY KEY="Container"></PROPERTY>
+<!-- Cor: Valor númerico que representa uma cor. Utiliza o padrão Delphi. Valor: inteiro. -->
+<PROPERTY KEY="Cor">-16777211</PROPERTY>
+<!-- CorCondicional: Condição para aplicar uma cor a uma célula de uma grid. Valor: [[<Condição>;<Cor><tabulação>[[[Campo 1];Campo 2];Campo N]]<quebra de linha>...] -->
+<PROPERTY KEY="CorCondicional"></PROPERTY>
+<!-- Descricao: Informa a descrição do campo. Valor: string. -->
+<PROPERTY KEY="Descricao"></PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<!-- Editavel: Informa se a grid é editável ou não. Valor: true|false. -->
+<PROPERTY KEY="Editavel">False</PROPERTY>
+<PROPERTY KEY="EnableGridExport">True</PROPERTY>
+<PROPERTY KEY="EnableSimpleFilter">False</PROPERTY>
+<PROPERTY KEY="EstiloCss"></PROPERTY>
+<PROPERTY KEY="ExecutarApenasDuploClicar">False</PROPERTY>
+<PROPERTY KEY="FilterMode">0</PROPERTY>
+<!-- Fonte: Representa uma fonte do sistema. Valor: Nome da Fonte, tamanho, propriedades, cor -->
+<PROPERTY KEY="Fonte">MS Sans Serif,8,0000,clWindowText</PROPERTY>
+<PROPERTY KEY="GradeDesabilitarCustomizarUsuario">False</PROPERTY>
+<PROPERTY KEY="GradeExecutarAoModificarAoPaginar">False</PROPERTY>
+<PROPERTY KEY="GradeHabilitarColunaNumerica">True</PROPERTY>
+<PROPERTY KEY="GradeLarguraColunaNumerica">28</PROPERTY>
+<PROPERTY KEY="GridPai"></PROPERTY>
+<!-- Habilitado:  -->
+<PROPERTY KEY="Habilitado">True</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">MakerGrid2</PROPERTY>
+<PROPERTY KEY="NomeClasseCss"></PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">2</PROPERTY>
+<!-- Paginacao:  -->
+<PROPERTY KEY="Paginacao">0</PROPERTY>
+<!-- Parametros:  -->
+<PROPERTY KEY="Parametros"></PROPERTY>
+<PROPERTY KEY="ParametrosDosEventos"></PROPERTY>
+<PROPERTY KEY="PermiteOrdenacao">False</PROPERTY>
+<PROPERTY KEY="PlaceHolder">N&#227;o existem dados a serem exibidos</PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">388</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">317</PROPERTY>
+<PROPERTY KEY="SummaryProperties"></PROPERTY>
+<!-- Tabulacao:  -->
+<PROPERTY KEY="Tabulacao">1</PROPERTY>
+<!-- Tabular:  -->
+<PROPERTY KEY="Tabular">True</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">557</PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">True</PROPERTY>
+</PROPERTIES>

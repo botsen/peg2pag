@@ -1,0 +1,57 @@
+
+/*Rodrigo*/
+
+[webrun-type="HTMLButton"] [type="button"] {
+  border: none;
+  color: #f8f7f7 !important;
+ /* background: #343A40; */
+  background: #82eea6 !important;
+  cursor: pointer !important;
+  padding: 0;
+  vertical-align: middle;
+  outline: none;
+}
+
+[webrun-type="HTMLButton"] [type="button"]:hover {
+  background: #f8f7f7 !important;
+  color:#353333 !important;
+}
+
+.headerButton{
+  background-color: #343A40;
+}
+  
+.sorterButton{
+  background-color: #343A40;
+}
+  
+.listGrid [role="toolbar"] {
+  background-color: #343A40 !important;
+}
+
+.nav-tabs .nav-link.active {
+  color: #ffffff !important;
+  background-color: #495057 !important;
+}
+
+.gridSelected, 
+.gridSelectedAltCol, 
+.gridSelectedOver,
+.gridSelectedOverAltCol,
+.gridSelectedDark,
+.gridSelectedOverDark,
+.gridSelectedOverDarkAltCol, 
+.gridSelectedDarkAltCol {
+ background-color: #986!important;
+  color: #FFF;
+}
+
+.nav-item .nav-link.active [type="button"].btn.btn-light.d-inline-flex.align-items-center.ml-2.p-2.tab-close-button {
+      background-color: #495057;
+      border: 0px;
+  }
+
+  .nav-item .nav-link.active [type="button"].btn.btn-light.d-inline-flex.align-items-center.ml-2.p-2.tab-close-button {
+    background-color: #fff;
+    border: 0px;
+}

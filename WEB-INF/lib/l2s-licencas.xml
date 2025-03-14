@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<certificado versao="1"><autorizacao><autorizado><nome>contato@delphossistemas.com.br</nome><doc/><email/></autorizado><licencas><licenca recurso="BOLETO"><recurso>BOLETO</recurso><data-inicial>2021-02-06</data-inicial><data-expiracao>2019-02-06</data-expiracao></licenca><licenca recurso="PRINT"><recurso>PRINT</recurso><data-inicial>2016-10-23</data-inicial><data-expiracao>2018-10-23</data-expiracao></licenca></licencas></autorizacao><Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="ass_autorizacao_"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>cwcocMYveT2LXAPoedU4OFsTH6Y=</DigestValue></Reference></SignedInfo><SignatureValue>ugHLWiozDburyoWtzGd/sgjm2hodRaOyAdujNyKHNIchNpfJOgTVQoobgt3Dp4MmftP1rNIPkaYV
+6pDMNhJvDmoZVkCoXrfQ74hSiLi7H9Agnew7/gF2AiSjOitucHPIUg+FH77UNanw1YqS9kZT5AzE
+bBDDtVhdUIRFCwdeVUM=</SignatureValue><KeyInfo><X509Data><X509Certificate>MIICjTCCAfagAwIBAgIEVTr6tjANBgkqhkiG9w0BAQsFADCBijELMAkGA1UEBhMCQlIxDjAMBgNV
+BAgMBUJhaGlhMREwDwYDVQQHDAhTYWx2YWRvcjEmMCQGA1UECgwdTDIgU09MVUNPRVMgVEVDTk9M
+T0dJQ0FTIExUREExEDAOBgNVBAsMB0wyTUFLRVIxHjAcBgNVBAMMFUwyTUFLRVIgTElDRU5DSUFN
+RU5UTzAeFw0xNTA0MjUwMjI1MTNaFw00NTA0MjUwMjI1MTNaMIGKMQswCQYDVQQGEwJCUjEOMAwG
+A1UECAwFQmFoaWExETAPBgNVBAcMCFNhbHZhZG9yMSYwJAYDVQQKDB1MMiBTT0xVQ09FUyBURUNO
+T0xPR0lDQVMgTFREQTEQMA4GA1UECwwHTDJNQUtFUjEeMBwGA1UEAwwVTDJNQUtFUiBMSUNFTkNJ
+QU1FTlRPMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+9dLHNyDZ86VD+QVLHRBZ+vVp10vi
+2GJXEXqC7/c2nSs4kGKoPIa1vKLinkj9DoexafR4UDZ1UcPAZGq9mO/tyYGnKorcjXnRrLwdTmqK
+L5DqLjnbBoNGXGPscyPHdwaJVgXUFYZBbcfocsPXz8kW7O1YNExdexN7vvGLowsClwIDAQABMA0G
+CSqGSIb3DQEBCwUAA4GBAEbWFcDC7ENPwwKa1q7n5GNGAyYILYLgv3q2bHVX6COT8wIo3/RnU7or
+JXTHGoCwb5jAu1ByK4TuI1r3sEGbc9eOhBRmGe83kitBqjvqrkHJGH978YG6e5LnJoNW3e6kE1Jg
+cwS2EYwp0mK2Q5OgSRmMOREhEKGUtdQCMz26kSZi</X509Certificate></X509Data></KeyInfo></Signature></certificado>

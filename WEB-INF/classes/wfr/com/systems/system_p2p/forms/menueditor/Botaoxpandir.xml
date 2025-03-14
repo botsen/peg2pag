@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">01-Menu</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">32</PROPERTY>
+<PROPERTY KEY="AoClicar">[12]
+Entrada=A&#231;&#227;o='true'
+Nome=Menu - Contrair/Expandir &#193;rvore
+
+</PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">1001649</PROPERTY>
+<!-- CodigoForm: Código do formulário: Valor: inteiro. -->
+<PROPERTY KEY="CodigoForm">0</PROPERTY>
+<PROPERTY KEY="Container"></PROPERTY>
+<!-- Descricao: Informa a descrição do campo. Valor: string. -->
+<PROPERTY KEY="Descricao">&lt;i class=&quot;fas fa-plus&quot;&gt;&lt;/i&gt;</PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica">Expandir Todos os N&#243;s</PROPERTY>
+<PROPERTY KEY="EstiloCss"></PROPERTY>
+<!-- Fonte: Representa uma fonte do sistema. Valor: Nome da Fonte, tamanho, propriedades, cor -->
+<PROPERTY KEY="Fonte">MS Sans Serif,8,0000,clWindowText</PROPERTY>
+<!-- Habilitado:  -->
+<PROPERTY KEY="Habilitado">True</PROPERTY>
+<!-- Imagem:  -->
+<PROPERTY KEY="Imagem"></PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">botaoxpandir</PROPERTY>
+<PROPERTY KEY="NomeClasseCss">btn-secondary</PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">7</PROPERTY>
+<!-- Parametros:  -->
+<PROPERTY KEY="Parametros"></PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">346</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">72</PROPERTY>
+<!-- Tabulacao:  -->
+<PROPERTY KEY="Tabulacao">3</PROPERTY>
+<!-- Tabular:  -->
+<PROPERTY KEY="Tabular">False</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">32</PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">True</PROPERTY>
+</PROPERTIES>

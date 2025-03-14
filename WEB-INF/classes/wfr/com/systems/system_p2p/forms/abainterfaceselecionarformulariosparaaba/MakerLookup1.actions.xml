@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ACTIONS>
+<EVENT TYPE="Ao Modificar">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Entrada">Guid={MakerLookup1}</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Aba - Interface - Incluir formul&#225;rio na grade</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+</ACTIONS>

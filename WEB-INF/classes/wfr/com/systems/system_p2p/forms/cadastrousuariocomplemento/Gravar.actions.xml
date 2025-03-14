@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ACTIONS>
+<EVENT TYPE="Ao Clicar">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Destino">1</PROPERTY>
+<PROPERTY KEY="Entrada">termo={MakerCheckBox1}</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Cadastro - Complemento - Gravar Dados - Intera&#231;&#227;o</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+</ACTIONS>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">01-Cadastro</PROPERTY>
+<PROPERTY KEY="Acessivel">1</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">25</PROPERTY>
+<PROPERTY KEY="Categoria">jQuery</PROPERTY>
+<PROPERTY KEY="ClasseComponente">ColorPicker</PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">837489</PROPERTY>
+<PROPERTY KEY="Container"></PROPERTY>
+<!-- Descricao: Informa a descrição do campo. Valor: string. -->
+<PROPERTY KEY="Descricao"></PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<!-- Habilitado:  -->
+<PROPERTY KEY="Habilitado">True</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">cp5</PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">41</PROPERTY>
+<PROPERTY KEY="PosicaoDescricao">4</PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">962</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">80</PROPERTY>
+<!-- Tabulacao:  -->
+<PROPERTY KEY="Tabulacao">0</PROPERTY>
+<!-- Tabular:  -->
+<PROPERTY KEY="Tabular">False</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">61</PROPERTY>
+<PROPERTY KEY="TextoNulo"></PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">True</PROPERTY>
+</PROPERTIES>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- AbaLocalizar: Informa se a Aba Localizar padrão de um formulário deve ser exibida. Valor: true|false. -->
+<PROPERTY KEY="AbaLocalizar">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirImportarDados">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirOrdenarGrade">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioHtml">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioListagem">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioTxt">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioXml">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRemoverOrdenacaoGrade">TRUE</PROPERTY>
+<!-- Abas: Informa se o controle de abas padrão de um formulário deve ser exibido ou não. Valor: true|false. -->
+<PROPERTY KEY="Abas">TRUE</PROPERTY>
+<!-- Ajuda: Propriedade que contém um texto de ajuda. Valor: string. -->
+<PROPERTY KEY="Ajuda"></PROPERTY>
+<!-- Apresentacao: Informa o modo de apresentação de um formulário (Desktop ou Web). Valor: 0 ou 1. -->
+<PROPERTY KEY="Apresentacao">0</PROPERTY>
+<!-- BarraDeRolagem: Informa se o formulário poderá ou não apresentar uma barra de rolagem. Valor: true|false. -->
+<PROPERTY KEY="BarraDeRolagem">True</PROPERTY>
+<PROPERTY KEY="BarraNavegacaoFixa">FALSE</PROPERTY>
+<!-- BotaoFechar: Informa se o botão fechar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoFechar">True</PROPERTY>
+<!-- BotaoMaximizar: Informa se o botão maximizar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoMaximizar">False</PROPERTY>
+<!-- BotaoMinimizar: Informa se o botão minimizar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoMinimizar">True</PROPERTY>
+<PROPERTY KEY="CODE">464570585</PROPERTY>
+<PROPERTY KEY="CampoVersao"></PROPERTY>
+<!-- Centralizado: Informa se o formulário deve estar centralizado na tela. Valor: true|false. -->
+<PROPERTY KEY="Centralizado">False</PROPERTY>
+<PROPERTY KEY="CentralizadoVertical">False</PROPERTY>
+<PROPERTY KEY="ClasseCss"></PROPERTY>
+<!-- Cor: Valor númerico que representa uma cor. Utiliza o padrão Delphi. Valor: inteiro. -->
+<PROPERTY KEY="Cor">clWindow</PROPERTY>
+<PROPERTY KEY="EditarAoDuploClicar">TRUE</PROPERTY>
+<!-- EntrarComoPesquisa: Informa se o formulário deve entrar sem dados e direto na aba Localizar. Valor: true|false. -->
+<PROPERTY KEY="EntrarComoPesquisa">FALSE</PROPERTY>
+<PROPERTY KEY="ExibicaoImagemFundo"></PROPERTY>
+<PROPERTY KEY="FNT_CAMPOCHAVE">id_pessoa</PROPERTY>
+<PROPERTY KEY="FNT_CAMPOGRADE">id_pessoa;cpf_pessoa;nome_social;telefone;status_cadastro;usr_nome;usr_email;cpfformatado;estado_civil;nome_genero;rendaformatada;status;rating</PROPERTY>
+<PROPERTY KEY="FNT_CAMPOPESQUISA">id_pessoa;cpf_pessoa;nome_social</PROPERTY>
+<PROPERTY KEY="FNT_SQLDEFAULT"></PROPERTY>
+<PROPERTY KEY="FNT_SQLMASCARA"></PROPERTY>
+<PROPERTY KEY="FNT_SQLSELECT">Select
+  cad_pessoa.id_pessoa,
+  cad_pessoa.cpf_pessoa,
+  cad_pessoa.nome_social,
+  cad_pessoa.telefone,
+  cad_pessoa.status_cadastro,
+  fr_usuario.usr_nome,
+  fr_usuario.usr_email,
+  Regexp_Replace(cad_pessoa.cpf_pessoa, '(\d{3})(\d{3})(\d{3})', '\1.\2.\3-') As cpfformatado,
+  cad_estadocivil.estado_civil,
+  cad_genero.nome_genero,
+  To_Char(cad_pessoa.rendamensal_declarada, 'L9G999G990D99') As rendaformatada,
+  cad_pessoa.status_cadastro As status,
+  cad_pessoa.rating,
+  Case When cad_pessoa.status_cadastro = 6 Then '&lt;span class=&quot;text-danger font-weight-bold&quot;&gt;Reprovado&lt;/span&gt;' Else '&lt;span class=&quot;text-dark font-weight-bold&quot;&gt;N&#227;o Finalizado&lt;/span&gt;' End As statustexto
+From
+  cad_pessoa
+  Inner Join
+  fr_usuario On cad_pessoa.id_pessoa = fr_usuario.id_pessoa
+  Left Join
+  cad_estadocivil On cad_pessoa.id_estadocivil = cad_estadocivil.id_estadocivil
+  Left Join
+  cad_genero On cad_pessoa.id_genero = cad_genero.id_genero
+Where
+  cad_pessoa.status_cadastro In (3, 6)
+
+/*WHERE_ADD*/
+Order By
+  cad_pessoa.id_pessoa
+
+/*ORDER_ADD*/
+</PROPERTY>
+<PROPERTY KEY="FNT_SQLUPDATE">id_pessoa
+cpf_pessoa
+status_cadastro
+</PROPERTY>
+<PROPERTY KEY="FNT_TABELA">cad_pessoa</PROPERTY>
+<PROPERTY KEY="FRM_ALTURA">723</PROPERTY>
+<PROPERTY KEY="FRM_DESCRICAO">Cadastro B&#225;sico N&#227;o Finalizado - Grade</PROPERTY>
+<PROPERTY KEY="FRM_GUID">{7B332D4E-6F13-4028-B61D-3161FFEA875E}</PROPERTY>
+<PROPERTY KEY="FRM_LOG">S</PROPERTY>
+<PROPERTY KEY="FRM_POSICAOX">525</PROPERTY>
+<PROPERTY KEY="FRM_POSICAOY">172</PROPERTY>
+<PROPERTY KEY="FRM_TAMANHO">848</PROPERTY>
+<PROPERTY KEY="FRM_TIPO"></PROPERTY>
+<PROPERTY KEY="FRM_TIPO_CRIACAO">0</PROPERTY>
+<!-- FonteDeDados:  -->
+<PROPERTY KEY="FonteDeDados">(Conex&#227;o principal)</PROPERTY>
+<PROPERTY KEY="FormularioLocalizar">0</PROPERTY>
+<PROPERTY KEY="IMG_AJUDA">14</PROPERTY>
+<PROPERTY KEY="IMG_ALTERAR">2</PROPERTY>
+<PROPERTY KEY="IMG_ANTERIOR">4</PROPERTY>
+<PROPERTY KEY="IMG_ATUALIZAR">7</PROPERTY>
+<PROPERTY KEY="IMG_CANCELAR">13</PROPERTY>
+<PROPERTY KEY="IMG_EXCLUIR">8</PROPERTY>
+<PROPERTY KEY="IMG_GRAVAR">12</PROPERTY>
+<PROPERTY KEY="IMG_GRAVAR_MAIS">15</PROPERTY>
+<PROPERTY KEY="IMG_IMPRIMIR">10</PROPERTY>
+<PROPERTY KEY="IMG_INCLUIR">1</PROPERTY>
+<PROPERTY KEY="IMG_LOG">16</PROPERTY>
+<PROPERTY KEY="IMG_PRIMEIRO">3</PROPERTY>
+<PROPERTY KEY="IMG_PROXIMO">5</PROPERTY>
+<PROPERTY KEY="IMG_SAIR">11</PROPERTY>
+<PROPERTY KEY="IMG_ULTIMO">6</PROPERTY>
+<PROPERTY KEY="IMG_UTILITARIO">17</PROPERTY>
+<PROPERTY KEY="IMG_VALORES_PADRAO">17</PROPERTY>
+<!-- Imagem:  -->
+<PROPERTY KEY="Imagem"></PROPERTY>
+<PROPERTY KEY="MensagemErroChaveEstrangeira"></PROPERTY>
+<PROPERTY KEY="MensagemErroChavePrimaria"></PROPERTY>
+<PROPERTY KEY="Modal">False</PROPERTY>
+<!-- Navegacao:  -->
+<PROPERTY KEY="Navegacao">TRUE</PROPERTY>
+<PROPERTY KEY="Popup">FALSE</PROPERTY>
+<PROPERTY KEY="PreLoad">FALSE</PROPERTY>
+<PROPERTY KEY="REL_CODIGO">0</PROPERTY>
+<PROPERTY KEY="Responsivo">TRUE</PROPERTY>
+<PROPERTY KEY="UltimaModificacao">07/10/2022 14:19:58</PROPERTY>
+<PROPERTY KEY="UltimoUsuario">master</PROPERTY>
+</PROPERTIES>

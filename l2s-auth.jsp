@@ -1,0 +1,1 @@
+<%=br.com.l2software.api.utils.v1.Authorization.getAppletLicense()%>

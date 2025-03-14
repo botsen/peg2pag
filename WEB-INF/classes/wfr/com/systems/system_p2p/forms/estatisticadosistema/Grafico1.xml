@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">01-Cadastro</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">251</PROPERTY>
+<PROPERTY KEY="Categoria">GoogleCharts</PROPERTY>
+<PROPERTY KEY="ClasseComponente">Grafico</PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">1033842</PROPERTY>
+<PROPERTY KEY="Container"></PROPERTY>
+<PROPERTY KEY="CorFundo">#0F0000</PROPERTY>
+<PROPERTY KEY="CorGrafico">#008080</PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<PROPERTY KEY="ExibirLegenda">true</PROPERTY>
+<!-- Habilitado:  -->
+<PROPERTY KEY="Habilitado">True</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Grafico1</PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">12</PROPERTY>
+<PROPERTY KEY="PosicaoLegenda">right</PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">8</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">40</PROPERTY>
+<!-- Tabulacao:  -->
+<PROPERTY KEY="Tabulacao">0</PROPERTY>
+<!-- Tabular:  -->
+<PROPERTY KEY="Tabular">False</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">889</PROPERTY>
+<PROPERTY KEY="TituloEixoX"></PROPERTY>
+<PROPERTY KEY="TituloEixoY">N&#250;mero</PROPERTY>
+<PROPERTY KEY="TituloGrafico">N&#250;meros Gerais do Sistema</PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">True</PROPERTY>
+<PROPERTY KEY="animation">true</PROPERTY>
+<PROPERTY KEY="animationTime">500</PROPERTY>
+<PROPERTY KEY="areautil">68</PROPERTY>
+<PROPERTY KEY="gSerie">%7B%0A+%227C984D67-9D52-4AC6-819E-8E4196F22CE8%22%3A+%7B%0A++%22nome%22%3A+%22Formul%25E1rios%22%2C%0A++%22tipo%22%3A+%22Barra%22%2C%0A++%22fontedados%22%3A+%22%22%2C%0A++%22sql%22%3A+%22Select%5Cn++Count%28FR_FORMULARIO.FRM_CODIGO%29+As+Contador%2C%5Cn++Case+FR_FORMULARIO.FRM_DESCRICAO+When+%27%24_FORMULARIO%25%27+Then+%27Quantidade%27+Else+%27Quantidade%27+End+As+Descricao%5CnFrom%5Cn++FR_FORMULARIO%5Cn++Inner+Join%5Cn++FR_FORMULARIO_SISTEMA+On+FR_FORMULARIO.FRM_CODIGO+%3D+FR_FORMULARIO_SISTEMA.FRM_CODIGO%5Cn++Inner+Join%5Cn++FR_SISTEMA+On+FR_FORMULARIO_SISTEMA.SIS_CODIGO+%3D+FR_SISTEMA.SIS_CODIGO%5CnWhere%5Cn++FR_FORMULARIO.FRM_DESCRICAO+Not+Like+%27%24_FORMULARIO%25%27%5Cn%5Cn%2F*WHERE_ADD*%2F%5CnGroup+By%5Cn++Case+FR_FORMULARIO.FRM_DESCRICAO+When+%27%24_FORMULARIO%25%27+Then+%27Quantidade%27+Else+%27Quantidade%27+End%5Cn%5Cn%2F*ORDER_NEW*%2F%5Cn%22%2C%0A++%22campos%22%3A+%22descricao%3Bcontador%3B%3B%3B%3B%3B%3B%3B%3B%22%0A+%7D%2C%0A+%223CDF63EB-1171-40B7-B97B-44649A698394%22%3A+%7B%0A++%22nome%22%3A+%22Fluxos%22%2C%0A++%22tipo%22%3A+%22Barra%22%2C%0A++%22fontedados%22%3A+%22%22%2C%0A++%22sql%22%3A+%22Select%5Cn++Count%28fr_regras.reg_cod%29+As+Contador%2C%5Cn++Case+fr_regras.reg_cod+When+0+Then+%27Fluxos%27+Else+%27Fluxos%27+End+As+Fluxos%5CnFrom%5Cn++fr_regras%5CnGroup+By%5Cn++Case+fr_regras.reg_cod+When+0+Then+%27Fluxos%27+Else+%27Fluxos%27+End%22%2C%0A++%22campos%22%3A+%22fluxos%3Bcontador%3B%3B%3B%3B%3B%3B%3B%3B%22%0A+%7D%2C%0A+%226974A182-B178-4E97-8895-7B30DF5D36F7%22%3A+%7B%0A++%22nome%22%3A+%22Relat%25F3rio%22%2C%0A++%22tipo%22%3A+%22Barra%22%2C%0A++%22fontedados%22%3A+%22%22%2C%0A++%22sql%22%3A+%22Select%5Cn++Count%28fr_relatorio.rel_codigo%29+As+Contador%2C%5Cn++Case+fr_relatorio.rel_codigo+When+0+Then+%27Relatorio%27+Else+%27Relatorio%27+End+As+Relatorio%5CnFrom%5Cn++fr_relatorio%5Cn++Inner+Join%5Cn++fr_sistema+On+fr_relatorio.sis_codigo+%3D+fr_sistema.sis_codigo%5CnWhere%5Cn++fr_sistema.sis_codigo+%3D+%3AFUNCAO_sistema%5CnGroup+By%5Cn++Case+fr_relatorio.rel_codigo+When+0+Then+%27Relatorio%27+Else+%27Relatorio%27+End%22%2C%0A++%22campos%22%3A+%22relatorio%3Bcontador%3B%3B%3B%3B%3B%3B%3B%3B%22%0A+%7D%0A%7D
+</PROPERTY>
+</PROPERTIES>

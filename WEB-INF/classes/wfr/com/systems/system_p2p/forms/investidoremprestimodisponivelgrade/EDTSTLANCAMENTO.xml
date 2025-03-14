@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">01-Cadastro</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">35</PROPERTY>
+<!-- ApenasLeitura: Valor lógico que informa se o componente é apenas para leitura -->
+<PROPERTY KEY="ApenasLeitura">False</PROPERTY>
+<!-- Atributos: Informa os atributos de um componente. Valor: números separados por ";". -->
+<PROPERTY KEY="Atributos"></PROPERTY>
+<PROPERTY KEY="AutoCompletar">True</PROPERTY>
+<!-- Campo: Informa o valor do campo da consulta que o componente está associado. Valor: string. -->
+<PROPERTY KEY="Campo">stlancamento</PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">1042423</PROPERTY>
+<PROPERTY KEY="Container"></PROPERTY>
+<!-- Conteudo: Tipo do conteúdo do campo (Livre, Número e Data). Valor: 0, 1 ou 2. -->
+<PROPERTY KEY="Conteudo">0</PROPERTY>
+<!-- Cor: Valor númerico que representa uma cor. Utiliza o padrão Delphi. Valor: inteiro. -->
+<PROPERTY KEY="Cor">-16777211</PROPERTY>
+<!-- Descricao: Informa a descrição do campo. Valor: string. -->
+<PROPERTY KEY="Descricao">stlancamento</PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<PROPERTY KEY="EstiloCss"></PROPERTY>
+<!-- Fonte: Representa uma fonte do sistema. Valor: Nome da Fonte, tamanho, propriedades, cor -->
+<PROPERTY KEY="Fonte">MS Sans Serif,8,0000,clWindowText</PROPERTY>
+<PROPERTY KEY="FonteDescricao"></PROPERTY>
+<!-- Habilitado:  -->
+<PROPERTY KEY="Habilitado">True</PROPERTY>
+<PROPERTY KEY="LabelPosition">0</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">EDTSTLANCAMENTO</PROPERTY>
+<PROPERTY KEY="NomeClasseCss"></PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">6</PROPERTY>
+<PROPERTY KEY="Placeholder"></PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">472</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">24</PROPERTY>
+<!-- Senha:  -->
+<PROPERTY KEY="Senha">False</PROPERTY>
+<!-- Tabulacao:  -->
+<PROPERTY KEY="Tabulacao">7</PROPERTY>
+<!-- Tabular:  -->
+<PROPERTY KEY="Tabular">True</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">56</PROPERTY>
+<!-- TamanhoMaximo:  -->
+<PROPERTY KEY="TamanhoMaximo">0</PROPERTY>
+<!-- Tipo:  -->
+<PROPERTY KEY="Tipo"></PROPERTY>
+<PROPERTY KEY="ValorInicial"></PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">False</PROPERTY>
+</PROPERTIES>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">01-Cadastro</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">35</PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">1041970</PROPERTY>
+<!-- CodigoForm: Código do formulário: Valor: inteiro. -->
+<PROPERTY KEY="CodigoForm">464570570</PROPERTY>
+<PROPERTY KEY="Container"></PROPERTY>
+<!-- Descricao: Informa a descrição do campo. Valor: string. -->
+<PROPERTY KEY="Descricao"></PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica">Aprovar / Reprovar Cadastro</PROPERTY>
+<PROPERTY KEY="EstiloCss"></PROPERTY>
+<!-- Fonte: Representa uma fonte do sistema. Valor: Nome da Fonte, tamanho, propriedades, cor -->
+<PROPERTY KEY="Fonte">MS Sans Serif,8,0000,clWindowText</PROPERTY>
+<!-- Habilitado:  -->
+<PROPERTY KEY="Habilitado">True</PROPERTY>
+<!-- Imagem:  -->
+<PROPERTY KEY="Imagem">{991DE5B9-6BDE-4B08-AA1A-60D06AFA28E5}</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">TMAKERBUTTON</PROPERTY>
+<PROPERTY KEY="NomeClasseCss"></PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">13</PROPERTY>
+<!-- Parametros:  -->
+<PROPERTY KEY="Parametros">cad_pessoa.id_pessoa=id_pessoa
+</PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">340</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">12</PROPERTY>
+<!-- Tabulacao:  -->
+<PROPERTY KEY="Tabulacao">0</PROPERTY>
+<!-- Tabular:  -->
+<PROPERTY KEY="Tabular">False</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">69</PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">True</PROPERTY>
+</PROPERTIES>

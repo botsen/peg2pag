@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">02-Simular Empr&#233;stimo</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">30</PROPERTY>
+<!-- ApenasLeitura: Valor lógico que informa se o componente é apenas para leitura -->
+<PROPERTY KEY="ApenasLeitura">False</PROPERTY>
+<!-- Atributos: Informa os atributos de um componente. Valor: números separados por ";". -->
+<PROPERTY KEY="Atributos"></PROPERTY>
+<PROPERTY KEY="BuscaIncremental">True</PROPERTY>
+<!-- Campo: Informa o valor do campo da consulta que o componente está associado. Valor: string. -->
+<PROPERTY KEY="Campo"></PROPERTY>
+<!-- CampoChave: Informa o campo chave do componente. Valor: string. -->
+<PROPERTY KEY="CampoChave">generate_series</PROPERTY>
+<!-- CampoLista: Informa o campo de exibição do componente. Valor: string. -->
+<PROPERTY KEY="CampoLista">generate_series</PROPERTY>
+<!-- ChamaSubForm: Informa se o componente deve chamar o subformulário definido na propriedade Formulário. Valor: true|false. -->
+<PROPERTY KEY="ChamaSubForm">True</PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">1042298</PROPERTY>
+<!-- CodigoForm: Código do formulário: Valor: inteiro. -->
+<PROPERTY KEY="CodigoForm">0</PROPERTY>
+<PROPERTY KEY="Container">containerSimulacao</PROPERTY>
+<!-- Cor: Valor númerico que representa uma cor. Utiliza o padrão Delphi. Valor: inteiro. -->
+<PROPERTY KEY="Cor">-16777211</PROPERTY>
+<!-- Descricao: Informa a descrição do campo. Valor: string. -->
+<PROPERTY KEY="Descricao">Selecione as Parcelas</PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<!-- Estilo: Informa o estilo do lookup (Como, Edit e Memo). Valor: 0, 1 ou 2. -->
+<PROPERTY KEY="Estilo">0</PROPERTY>
+<PROPERTY KEY="EstiloCss"></PROPERTY>
+<!-- Fonte: Representa uma fonte do sistema. Valor: Nome da Fonte, tamanho, propriedades, cor -->
+<PROPERTY KEY="Fonte">MS Sans Serif,8,0000,clWindowText</PROPERTY>
+<!-- FonteDeDados:  -->
+<PROPERTY KEY="FonteDeDados"></PROPERTY>
+<PROPERTY KEY="FonteDescricao"></PROPERTY>
+<!-- Habilitado:  -->
+<PROPERTY KEY="Habilitado">True</PROPERTY>
+<PROPERTY KEY="LabelPosition">0</PROPERTY>
+<PROPERTY KEY="LarguraExibicao">0</PROPERTY>
+<!-- Mascara:  -->
+<PROPERTY KEY="Mascara"></PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">listaParcelas</PROPERTY>
+<PROPERTY KEY="NomeClasseCss"></PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">6</PROPERTY>
+<!-- Paginacao:  -->
+<PROPERTY KEY="Paginacao">0</PROPERTY>
+<PROPERTY KEY="Placeholder"></PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">6</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">32</PROPERTY>
+<!-- SQL:  -->
+<PROPERTY KEY="SQL">Select
+  vw_series.generate_series
+From
+  vw_series
+Where
+  vw_series.generate_series &lt;= :rating_maxparcelas
+
+
+/*WHERE_ADD*/
+/*ORDER_NEW*/
+</PROPERTY>
+<!-- Tabulacao:  -->
+<PROPERTY KEY="Tabulacao">4</PROPERTY>
+<!-- Tabular:  -->
+<PROPERTY KEY="Tabular">True</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">127</PROPERTY>
+<!-- Tipo:  -->
+<PROPERTY KEY="Tipo"></PROPERTY>
+<PROPERTY KEY="TipoFiltroInicial">2</PROPERTY>
+<PROPERTY KEY="ValorInicial"></PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">True</PROPERTY>
+</PROPERTIES>

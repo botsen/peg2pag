@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ACTIONS>
+<EVENT TYPE="Antes de Gravar">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Destino">2</PROPERTY>
+<PROPERTY KEY="Entrada">idPessoa=id_pessoa;termos={MakerCheckBox1}</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Cadastro - Complemento - Antes de Alterar</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+<EVENT TYPE="Ao Navegar">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Destino">1</PROPERTY>
+<PROPERTY KEY="Entrada"></PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Cadastro - Usuario - Ao navegar</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+<EVENT TYPE="Depois de Gravar">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Destino">1</PROPERTY>
+<PROPERTY KEY="Entrada">idPessoa=id_pessoa;email=usr_email</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Cadastro - Complemento - Apos alterar</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+</ACTIONS>

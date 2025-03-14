@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">04-Bibliotecas</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">35</PROPERTY>
+<PROPERTY KEY="AoClicar">[12]
+Entrada=
+Nome=Integracao - Configuracoes - Bibliotecas - Alterar URL
+
+</PROPERTY>
+<PROPERTY KEY="ClasseCSS"></PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">1049204</PROPERTY>
+<!-- CodigoForm: Código do formulário: Valor: inteiro. -->
+<PROPERTY KEY="CodigoForm">0</PROPERTY>
+<PROPERTY KEY="Container"></PROPERTY>
+<!-- Descricao: Informa a descrição do campo. Valor: string. -->
+<PROPERTY KEY="Descricao">&lt;i class=&quot;fas fa-edit mr-2 in-font&quot;&gt;&lt;/i&gt;&lt;span&gt;Alterar&lt;/span&gt;</PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<PROPERTY KEY="EstiloCss"></PROPERTY>
+<!-- Fonte: Representa uma fonte do sistema. Valor: Nome da Fonte, tamanho, propriedades, cor -->
+<PROPERTY KEY="Fonte">MS Sans Serif,8,0000,clWindowText</PROPERTY>
+<!-- Habilitado:  -->
+<PROPERTY KEY="Habilitado">True</PROPERTY>
+<!-- Imagem:  -->
+<PROPERTY KEY="Imagem"></PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">TMAKERBUTTON5</PROPERTY>
+<PROPERTY KEY="NomeClasseCss"></PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">1</PROPERTY>
+<!-- Parametros:  -->
+<PROPERTY KEY="Parametros"></PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">634</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">30</PROPERTY>
+<!-- Tabulacao:  -->
+<PROPERTY KEY="Tabulacao">0</PROPERTY>
+<!-- Tabular:  -->
+<PROPERTY KEY="Tabular">False</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">150</PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">False</PROPERTY>
+</PROPERTIES>

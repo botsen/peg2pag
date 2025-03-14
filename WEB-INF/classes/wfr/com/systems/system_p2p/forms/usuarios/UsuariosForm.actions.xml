@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ACTIONS>
+<EVENT TYPE="Ao Navegar">
+<ACTION TYPE="ENABLE_COMPONENT">
+<PROPERTIES>
+<!-- Lista de Objetos: Representa um mapa, onde a quebra de linha separa cada dupla chave e valor e o caracter '=' separa uma chave de um valor -->
+<PROPERTY KEY="Lista de Objetos">MakerEdit8=USR_TIPO_EXPIRACAO='T' | USR_TIPO_EXPIRACAO='E'
+MakerEdit4=USR_TIPO_EXPIRACAO='T' | USR_TIPO_EXPIRACAO='E'</PROPERTY>
+</PROPERTIES></ACTION>
+<ACTION TYPE="CHANGE_COLOR">
+<PROPERTIES>
+<!-- Lista de Objetos: Representa um mapa, onde a quebra de linha separa cada dupla chave e valor e o caracter '=' separa uma chave de um valor -->
+<PROPERTY KEY="Lista de Objetos">USR_INICIO_EXPIRACAO=	USR_TIPO_EXPIRACAO='N'
+USR_DIAS_EXPIRACAO=	USR_TIPO_EXPIRACAO='N'</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+</ACTIONS>

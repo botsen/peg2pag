@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ACTIONS>
+<EVENT TYPE="Ao Modificar">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Entrada">Index CSS Selecionado={listaCSS}</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Editor de Layout - Magic - Modificar CSS pela Lista</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+</ACTIONS>

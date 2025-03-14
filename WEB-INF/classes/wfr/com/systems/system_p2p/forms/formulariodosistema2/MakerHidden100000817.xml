@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<PROPERTY KEY="Avancado"></PROPERTY>
+<!-- CodigoForm: Código do formulário: Valor: inteiro. -->
+<PROPERTY KEY="CodigoForm">0</PROPERTY>
+<PROPERTY KEY="FluxosExternos"></PROPERTY>
+<PROPERTY KEY="FormularioDoSerial">0</PROPERTY>
+<PROPERTY KEY="FormulariosExternos"></PROPERTY>
+<PROPERTY KEY="RelatoriosExternos"></PROPERTY>
+<!-- RequerAutenticacao:  -->
+<PROPERTY KEY="RequerAutenticacao">True</PROPERTY>
+</PROPERTIES>

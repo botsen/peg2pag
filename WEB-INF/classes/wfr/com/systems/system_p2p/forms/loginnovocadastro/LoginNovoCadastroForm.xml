@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- AbaLocalizar: Informa se a Aba Localizar padrão de um formulário deve ser exibida. Valor: true|false. -->
+<PROPERTY KEY="AbaLocalizar">FALSE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirImportarDados">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirOrdenarGrade">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioHtml">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioListagem">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioTxt">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioXml">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRemoverOrdenacaoGrade">TRUE</PROPERTY>
+<!-- Abas: Informa se o controle de abas padrão de um formulário deve ser exibido ou não. Valor: true|false. -->
+<PROPERTY KEY="Abas">FALSE</PROPERTY>
+<!-- Ajuda: Propriedade que contém um texto de ajuda. Valor: string. -->
+<PROPERTY KEY="Ajuda"></PROPERTY>
+<!-- Apresentacao: Informa o modo de apresentação de um formulário (Desktop ou Web). Valor: 0 ou 1. -->
+<PROPERTY KEY="Apresentacao">0</PROPERTY>
+<!-- BarraDeRolagem: Informa se o formulário poderá ou não apresentar uma barra de rolagem. Valor: true|false. -->
+<PROPERTY KEY="BarraDeRolagem">False</PROPERTY>
+<PROPERTY KEY="BarraNavegacaoFixa">FALSE</PROPERTY>
+<!-- BotaoFechar: Informa se o botão fechar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoFechar">True</PROPERTY>
+<!-- BotaoMaximizar: Informa se o botão maximizar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoMaximizar">False</PROPERTY>
+<!-- BotaoMinimizar: Informa se o botão minimizar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoMinimizar">True</PROPERTY>
+<PROPERTY KEY="CODE">464570566</PROPERTY>
+<PROPERTY KEY="CampoVersao"></PROPERTY>
+<!-- Centralizado: Informa se o formulário deve estar centralizado na tela. Valor: true|false. -->
+<PROPERTY KEY="Centralizado">False</PROPERTY>
+<PROPERTY KEY="CentralizadoVertical">False</PROPERTY>
+<PROPERTY KEY="ClasseCss">body {
+  background-color: var(--light);
+}
+
+div#logincontainer {
+  max-width: 850px !important;    
+  width: 100% !important;    
+  top: 0 !important;    
+  left: 0 !important;  
+  border-radius: .5rem;
+}
+
+.tab-pane, div#logincontainer {
+  display: -ms-flexbox !important;  
+  display: flex !important;
+  flex-direction: column;    
+  align-items: center;  
+  justify-content: center;
+}
+
+div#logo {
+  top: 0 !important;  
+  left: 0 !important;
+}
+
+
+.botaoIcone {
+
+  background-color:#2e7d32 !important;  
+  border-color:#2e7d32 !important;  
+  color: white !important
+
+}
+
+
+.botaoIcone button {
+
+  cursor: default !important;   
+  color: white !important
+
+}
+
+
+.botaoIcone [type=&quot;button&quot;]:hover {
+
+  /*background-color:#005005 !important;*/
+  cursor: default !important; 
+  color: white !important 
+
+}
+
+#iconeSenha button{
+
+  font-size: 19pt !important;   
+  text-decoration: underline !important;  
+  color: white !important
+
+}
+
+#acessar [type=&quot;button&quot;]{
+    background-color: #fdfffd !important;
+    color: #2e7d32 !important;        
+    border-color: #005005 !important;
+}
+
+#acessar [type=&quot;button&quot;]:hover{
+
+    /*background-color: #2e7d32 !important;
+    color: #fdfffd !important;*/    
+    background-color: #c3d3c3 !important;
+    color: #2e7d32 !important;
+
+}
+
+[webrun-type=&quot;HTMLLabel&quot;] label {
+    color: #ffffff !important;
+}
+
+#MakerLabel2 label {
+    color: #767373 !important;
+}
+/*#004fcb*/
+#esquecisenha button {
+  font-size: 0.75rem !important;
+ color: #ffffff!important;
+ /**  border-color: #ffffff!important; **/    
+ border: 1px solid !important;
+ border-color: #005005 !important;
+}
+
+#esquecisenha button:hover {
+   background-color:#005005 !important;
+}
+
+#cadastrar div label{
+    font-size: smaller;
+}
+
+#cadastrar div label:hover{
+  cursor: pointer;
+} 
+
+#MakerImage2 div:nth-child(2) { 
+ min-height: 175px !important;
+}
+
+#MakerImage2 div:nth-child(2)&gt;img { 
+ max-height: 175px !important;
+}
+</PROPERTY>
+<!-- Cor: Valor númerico que representa uma cor. Utiliza o padrão Delphi. Valor: inteiro. -->
+<PROPERTY KEY="Cor">$00D9D9D9</PROPERTY>
+<PROPERTY KEY="EditarAoDuploClicar">FALSE</PROPERTY>
+<!-- EntrarComoPesquisa: Informa se o formulário deve entrar sem dados e direto na aba Localizar. Valor: true|false. -->
+<PROPERTY KEY="EntrarComoPesquisa">FALSE</PROPERTY>
+<PROPERTY KEY="ExibicaoImagemFundo"></PROPERTY>
+<PROPERTY KEY="ExternalFormDependentRules"></PROPERTY>
+<PROPERTY KEY="FNT_CAMPOCHAVE"></PROPERTY>
+<PROPERTY KEY="FNT_CAMPOGRADE"></PROPERTY>
+<PROPERTY KEY="FNT_CAMPOPESQUISA"></PROPERTY>
+<PROPERTY KEY="FNT_SQLDEFAULT"></PROPERTY>
+<PROPERTY KEY="FNT_SQLMASCARA"></PROPERTY>
+<PROPERTY KEY="FNT_SQLSELECT"></PROPERTY>
+<PROPERTY KEY="FNT_SQLUPDATE"></PROPERTY>
+<PROPERTY KEY="FNT_TABELA"></PROPERTY>
+<PROPERTY KEY="FRM_ALTURA">684</PROPERTY>
+<PROPERTY KEY="FRM_DESCRICAO">Login - Novo - Cadastro</PROPERTY>
+<PROPERTY KEY="FRM_GUID">{957595A3-96BF-4CC5-8FC1-58D97B251B3A}</PROPERTY>
+<PROPERTY KEY="FRM_LOG">S</PROPERTY>
+<PROPERTY KEY="FRM_POSICAOX">733</PROPERTY>
+<PROPERTY KEY="FRM_POSICAOY">179</PROPERTY>
+<PROPERTY KEY="FRM_TAMANHO">895</PROPERTY>
+<PROPERTY KEY="FRM_TIPO"></PROPERTY>
+<PROPERTY KEY="FRM_TIPO_CRIACAO">0</PROPERTY>
+<!-- FonteDeDados:  -->
+<PROPERTY KEY="FonteDeDados">(Conex&#227;o principal)</PROPERTY>
+<PROPERTY KEY="FormularioLocalizar">0</PROPERTY>
+<PROPERTY KEY="IMG_AJUDA">14</PROPERTY>
+<PROPERTY KEY="IMG_ALTERAR">2</PROPERTY>
+<PROPERTY KEY="IMG_ANTERIOR">4</PROPERTY>
+<PROPERTY KEY="IMG_ATUALIZAR">7</PROPERTY>
+<PROPERTY KEY="IMG_CANCELAR">13</PROPERTY>
+<PROPERTY KEY="IMG_EXCLUIR">8</PROPERTY>
+<PROPERTY KEY="IMG_GRAVAR">12</PROPERTY>
+<PROPERTY KEY="IMG_GRAVAR_MAIS">15</PROPERTY>
+<PROPERTY KEY="IMG_IMPRIMIR">10</PROPERTY>
+<PROPERTY KEY="IMG_INCLUIR">1</PROPERTY>
+<PROPERTY KEY="IMG_LOG">16</PROPERTY>
+<PROPERTY KEY="IMG_PRIMEIRO">3</PROPERTY>
+<PROPERTY KEY="IMG_PROXIMO">5</PROPERTY>
+<PROPERTY KEY="IMG_SAIR">11</PROPERTY>
+<PROPERTY KEY="IMG_ULTIMO">6</PROPERTY>
+<PROPERTY KEY="IMG_UTILITARIO">1</PROPERTY>
+<PROPERTY KEY="IMG_VALORES_PADRAO">17</PROPERTY>
+<!-- Imagem:  -->
+<PROPERTY KEY="Imagem"></PROPERTY>
+<PROPERTY KEY="MensagemErroChaveEstrangeira"></PROPERTY>
+<PROPERTY KEY="MensagemErroChavePrimaria"></PROPERTY>
+<PROPERTY KEY="Modal">False</PROPERTY>
+<!-- Navegacao:  -->
+<PROPERTY KEY="Navegacao">FALSE</PROPERTY>
+<PROPERTY KEY="Popup">FALSE</PROPERTY>
+<PROPERTY KEY="PreLoad">FALSE</PROPERTY>
+<PROPERTY KEY="REL_CODIGO">0</PROPERTY>
+<PROPERTY KEY="Responsivo">TRUE</PROPERTY>
+<PROPERTY KEY="UltimaModificacao">27/02/2023 21:09:39</PROPERTY>
+<PROPERTY KEY="UltimoUsuario">master</PROPERTY>
+</PROPERTIES>

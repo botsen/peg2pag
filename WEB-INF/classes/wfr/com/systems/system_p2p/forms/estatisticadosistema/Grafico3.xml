@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">01-Cadastro</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">265</PROPERTY>
+<PROPERTY KEY="Categoria">GoogleCharts</PROPERTY>
+<PROPERTY KEY="ClasseComponente">Grafico</PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">1033846</PROPERTY>
+<PROPERTY KEY="Container"></PROPERTY>
+<PROPERTY KEY="CorFundo">#0F0000</PROPERTY>
+<PROPERTY KEY="CorGrafico">#008080</PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<PROPERTY KEY="ExibirLegenda">true</PROPERTY>
+<!-- Habilitado:  -->
+<PROPERTY KEY="Habilitado">True</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Grafico3</PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">15</PROPERTY>
+<PROPERTY KEY="PosicaoLegenda">right</PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">232</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">516</PROPERTY>
+<!-- Tabulacao:  -->
+<PROPERTY KEY="Tabulacao">0</PROPERTY>
+<!-- Tabular:  -->
+<PROPERTY KEY="Tabular">False</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">553</PROPERTY>
+<PROPERTY KEY="TituloGrafico">Fluxos por Categoria (%)</PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">True</PROPERTY>
+<PROPERTY KEY="animation">true</PROPERTY>
+<PROPERTY KEY="animationTime">500</PROPERTY>
+<PROPERTY KEY="areautil">0</PROPERTY>
+<PROPERTY KEY="gSerie">%7B%0A+%228E6F3DB5-E349-4017-A27C-F4D257581B87%22%3A+%7B%0A++%22nome%22%3A+%22Fluxos+Por+Categoria%22%2C%0A++%22tipo%22%3A+%22Pizza%22%2C%0A++%22fontedados%22%3A+%22%22%2C%0A++%22sql%22%3A+%22Select%5Cn++fr_regras_categorias.cat_nome+as+Categoria%2C%5Cn++Count%28fr_regras.reg_cod%29+as+Contador%5CnFrom%5Cn++fr_regras_categorias%5Cn++Inner+Join%5Cn++fr_regras+On+fr_regras.cat_cod+%3D+fr_regras_categorias.cat_cod%5CnWhere%5Cn++fr_regras_categorias.cat_nome+Not+Like+%27%25MKR_CATEGORY%25%27%5CnGroup+By%5Cn++fr_regras_categorias.cat_nome%22%2C%0A++%22campos%22%3A+%22Categoria%3BContador%3B%3B%3B%3B%3B%3B%3B%3B%22%0A+%7D%0A%7D
+</PROPERTY>
+</PROPERTIES>

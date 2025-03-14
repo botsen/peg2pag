@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- AbaLocalizar: Informa se a Aba Localizar padrão de um formulário deve ser exibida. Valor: true|false. -->
+<PROPERTY KEY="AbaLocalizar">FALSE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirImportarDados">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirOrdenarGrade">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioHtml">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioListagem">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioTxt">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioXml">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRemoverOrdenacaoGrade">TRUE</PROPERTY>
+<!-- Abas: Informa se o controle de abas padrão de um formulário deve ser exibido ou não. Valor: true|false. -->
+<PROPERTY KEY="Abas">FALSE</PROPERTY>
+<!-- Ajuda: Propriedade que contém um texto de ajuda. Valor: string. -->
+<PROPERTY KEY="Ajuda"></PROPERTY>
+<!-- Apresentacao: Informa o modo de apresentação de um formulário (Desktop ou Web). Valor: 0 ou 1. -->
+<PROPERTY KEY="Apresentacao">0</PROPERTY>
+<!-- BarraDeRolagem: Informa se o formulário poderá ou não apresentar uma barra de rolagem. Valor: true|false. -->
+<PROPERTY KEY="BarraDeRolagem">False</PROPERTY>
+<PROPERTY KEY="BarraNavegacaoFixa">FALSE</PROPERTY>
+<!-- BotaoFechar: Informa se o botão fechar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoFechar">True</PROPERTY>
+<!-- BotaoMaximizar: Informa se o botão maximizar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoMaximizar">False</PROPERTY>
+<!-- BotaoMinimizar: Informa se o botão minimizar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoMinimizar">True</PROPERTY>
+<PROPERTY KEY="CODE">2</PROPERTY>
+<PROPERTY KEY="CampoVersao"></PROPERTY>
+<!-- Centralizado: Informa se o formulário deve estar centralizado na tela. Valor: true|false. -->
+<PROPERTY KEY="Centralizado">False</PROPERTY>
+<PROPERTY KEY="CentralizadoVertical">False</PROPERTY>
+<PROPERTY KEY="ClasseCss">.tab-content{
+ overflow: hidden !important;
+}
+.card.shadow.border.position-absolute.WFRIframeForm.WFRIframeForm-Active {
+
+  left: calc(100% - 320px) !important;
+  top: calc(100% - 470px)!important;
+
+}
+
+#WFRIframeForm8395{
+    left: calc(100% - 320px) !important;
+    top: calc(100% - 470px)!important;
+}
+
+
+[webrun-floating-type=&quot;form&quot;]{
+
+  left: calc(100% - 320px) !important;
+  top: calc(100% - 470px)!important;
+
+}
+
+#userName{
+
+  background-color: var(--azul) !important;     
+
+}
+
+#Aba{
+  z-index: -999999999  
+}
+
+#central {
+  display:none  !important;
+ }
+
+@media only screen and (max-device-width: 480px) {
+  #central{  
+    display: block !important    
+  }  
+}
+
+@media (max-width: 500px) {
+ #moldura,#moldura&gt;div,#moldura&gt;div&gt;iframe {
+   height: 100% !important;
+ }       
+ #userImage{ 
+    display:none!important;  
+  }     
+  #central{  
+    display: block !important;    
+  } 
+  #userName &gt; div &gt; label{  
+   white-space: break-spaces !important;  
+   text-overflow: unset !important; 
+  }
+}
+#imgLogo1 div:nth-child(2)&gt;img { 
+ max-height: 60px !important;   
+ width: auto;
+}
+
+#topoCosmo{
+ background-color: #43a047!important;
+}
+
+#userName&gt;div&gt;label,#saldo&gt;div&gt;label,#agencia&gt;div&gt;label{
+  text-align: right!important;
+  width: 100% !important  
+}
+
+
+IconButtonContainer {
+ left: 21% Important;
+}
+
+#agencia, #saldo {
+ font-size: smaller;
+}
+</PROPERTY>
+<!-- Cor: Valor númerico que representa uma cor. Utiliza o padrão Delphi. Valor: inteiro. -->
+<PROPERTY KEY="Cor">$00F0F0F0</PROPERTY>
+<PROPERTY KEY="EditarAoDuploClicar">TRUE</PROPERTY>
+<!-- EntrarComoPesquisa: Informa se o formulário deve entrar sem dados e direto na aba Localizar. Valor: true|false. -->
+<PROPERTY KEY="EntrarComoPesquisa">FALSE</PROPERTY>
+<PROPERTY KEY="ExibicaoImagemFundo"></PROPERTY>
+<PROPERTY KEY="FNT_CAMPOCHAVE"></PROPERTY>
+<PROPERTY KEY="FNT_CAMPOGRADE"></PROPERTY>
+<PROPERTY KEY="FNT_CAMPOPESQUISA"></PROPERTY>
+<PROPERTY KEY="FNT_SQLDEFAULT"></PROPERTY>
+<PROPERTY KEY="FNT_SQLMASCARA"></PROPERTY>
+<PROPERTY KEY="FNT_SQLSELECT"></PROPERTY>
+<PROPERTY KEY="FNT_SQLUPDATE"></PROPERTY>
+<PROPERTY KEY="FNT_TABELA"></PROPERTY>
+<PROPERTY KEY="FRM_ALTURA">768</PROPERTY>
+<PROPERTY KEY="FRM_DESCRICAO">Abas - Formul&#225;rio Principal</PROPERTY>
+<PROPERTY KEY="FRM_GUID">{DDAE4D3C-A545-4F04-9A20-BABE303A7756}</PROPERTY>
+<PROPERTY KEY="FRM_LOG">S</PROPERTY>
+<PROPERTY KEY="FRM_POSICAOX">424</PROPERTY>
+<PROPERTY KEY="FRM_POSICAOY">149</PROPERTY>
+<PROPERTY KEY="FRM_TAMANHO">1051</PROPERTY>
+<PROPERTY KEY="FRM_TIPO"></PROPERTY>
+<PROPERTY KEY="FRM_TIPO_CRIACAO">0</PROPERTY>
+<!-- FonteDeDados:  -->
+<PROPERTY KEY="FonteDeDados">(Conex&#227;o principal)</PROPERTY>
+<PROPERTY KEY="FormularioLocalizar">0</PROPERTY>
+<PROPERTY KEY="IMG_AJUDA">14</PROPERTY>
+<PROPERTY KEY="IMG_ALTERAR">2</PROPERTY>
+<PROPERTY KEY="IMG_ANTERIOR">4</PROPERTY>
+<PROPERTY KEY="IMG_ATUALIZAR">7</PROPERTY>
+<PROPERTY KEY="IMG_CANCELAR">13</PROPERTY>
+<PROPERTY KEY="IMG_EXCLUIR">8</PROPERTY>
+<PROPERTY KEY="IMG_GRAVAR">12</PROPERTY>
+<PROPERTY KEY="IMG_GRAVAR_MAIS">15</PROPERTY>
+<PROPERTY KEY="IMG_IMPRIMIR">10</PROPERTY>
+<PROPERTY KEY="IMG_INCLUIR">1</PROPERTY>
+<PROPERTY KEY="IMG_LOG">16</PROPERTY>
+<PROPERTY KEY="IMG_PRIMEIRO">3</PROPERTY>
+<PROPERTY KEY="IMG_PROXIMO">5</PROPERTY>
+<PROPERTY KEY="IMG_SAIR">11</PROPERTY>
+<PROPERTY KEY="IMG_ULTIMO">6</PROPERTY>
+<PROPERTY KEY="IMG_UTILITARIO">1</PROPERTY>
+<PROPERTY KEY="IMG_VALORES_PADRAO">17</PROPERTY>
+<!-- Imagem:  -->
+<PROPERTY KEY="Imagem"></PROPERTY>
+<PROPERTY KEY="MensagemErroChaveEstrangeira"></PROPERTY>
+<PROPERTY KEY="MensagemErroChavePrimaria"></PROPERTY>
+<PROPERTY KEY="Modal">False</PROPERTY>
+<!-- Navegacao:  -->
+<PROPERTY KEY="Navegacao">FALSE</PROPERTY>
+<PROPERTY KEY="Popup">TRUE</PROPERTY>
+<PROPERTY KEY="PreLoad">FALSE</PROPERTY>
+<PROPERTY KEY="REL_CODIGO">0</PROPERTY>
+<PROPERTY KEY="Responsivo">TRUE</PROPERTY>
+<PROPERTY KEY="UltimaModificacao">08/03/2023 18:56:06</PROPERTY>
+<PROPERTY KEY="UltimoUsuario">master</PROPERTY>
+</PROPERTIES>

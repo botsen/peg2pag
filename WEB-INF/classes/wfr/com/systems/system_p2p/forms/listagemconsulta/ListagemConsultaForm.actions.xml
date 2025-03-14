@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ACTIONS>
+<EVENT TYPE="Ao Entrar">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Entrada">Componente='SQL'</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Listagem - Carrega Consulta</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+</ACTIONS>

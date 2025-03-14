@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ACTIONS>
+<EVENT TYPE="Antes de Gravar">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Destino">2</PROPERTY>
+<PROPERTY KEY="Entrada">valor={EDTRATING_VALORMAX}</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Rating - Verifica MinMax</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+<EVENT TYPE="Antes de Inserir">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Destino">2</PROPERTY>
+<PROPERTY KEY="Entrada">valor={EDTRATING_VALORMAX}</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Rating - Verifica MinMax</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+</ACTIONS>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">01-Cadastro</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">22</PROPERTY>
+<!-- ApenasLeitura: Valor lógico que informa se o componente é apenas para leitura -->
+<PROPERTY KEY="ApenasLeitura">False</PROPERTY>
+<!-- Campo: Informa o valor do campo da consulta que o componente está associado. Valor: string. -->
+<PROPERTY KEY="Campo">uss_acessar</PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">1026434</PROPERTY>
+<PROPERTY KEY="Container"></PROPERTY>
+<!-- Cor: Valor númerico que representa uma cor. Utiliza o padrão Delphi. Valor: inteiro. -->
+<PROPERTY KEY="Cor">-16777201</PROPERTY>
+<!-- Descricao: Informa a descrição do campo. Valor: string. -->
+<PROPERTY KEY="Descricao">Acessar</PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<PROPERTY KEY="EstiloCss"></PROPERTY>
+<!-- Fonte: Representa uma fonte do sistema. Valor: Nome da Fonte, tamanho, propriedades, cor -->
+<PROPERTY KEY="Fonte">Arial,8,0000,clWindowText</PROPERTY>
+<!-- Habilitado:  -->
+<PROPERTY KEY="Habilitado">True</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">MakerCheckBox3</PROPERTY>
+<PROPERTY KEY="NomeClasseCss"></PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">3</PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">13</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">83</PROPERTY>
+<!-- Tabela:  -->
+<PROPERTY KEY="Tabela"></PROPERTY>
+<!-- Tabulacao:  -->
+<PROPERTY KEY="Tabulacao">1</PROPERTY>
+<!-- Tabular:  -->
+<PROPERTY KEY="Tabular">True</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">289</PROPERTY>
+<!-- Tipo:  -->
+<PROPERTY KEY="Tipo"></PROPERTY>
+<!-- ValorCheck:  -->
+<PROPERTY KEY="ValorCheck">S</PROPERTY>
+<PROPERTY KEY="ValorInicial"></PROPERTY>
+<!-- ValorUnCheck:  -->
+<PROPERTY KEY="ValorUnCheck">N</PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">True</PROPERTY>
+</PROPERTIES>

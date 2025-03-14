@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ACTIONS>
+<EVENT TYPE="Ao Pressionar Tecla">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Destino">1</PROPERTY>
+<PROPERTY KEY="Entrada">Alt=;Ctrl=;Shift=;C&#243;digo da Tecla=;Caractere da Tecla=;Login='Login';Senha='Senha'</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Template - Formul&#225;rio Login - Ao Logar</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+</ACTIONS>

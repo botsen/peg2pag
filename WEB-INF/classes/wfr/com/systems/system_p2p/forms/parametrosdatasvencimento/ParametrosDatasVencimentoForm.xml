@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- AbaLocalizar: Informa se a Aba Localizar padrão de um formulário deve ser exibida. Valor: true|false. -->
+<PROPERTY KEY="AbaLocalizar">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirImportarDados">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirOrdenarGrade">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioHtml">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioListagem">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioTxt">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioXml">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRemoverOrdenacaoGrade">TRUE</PROPERTY>
+<!-- Abas: Informa se o controle de abas padrão de um formulário deve ser exibido ou não. Valor: true|false. -->
+<PROPERTY KEY="Abas">TRUE</PROPERTY>
+<!-- Ajuda: Propriedade que contém um texto de ajuda. Valor: string. -->
+<PROPERTY KEY="Ajuda"></PROPERTY>
+<!-- Apresentacao: Informa o modo de apresentação de um formulário (Desktop ou Web). Valor: 0 ou 1. -->
+<PROPERTY KEY="Apresentacao">0</PROPERTY>
+<!-- BarraDeRolagem: Informa se o formulário poderá ou não apresentar uma barra de rolagem. Valor: true|false. -->
+<PROPERTY KEY="BarraDeRolagem">True</PROPERTY>
+<PROPERTY KEY="BarraNavegacaoFixa">FALSE</PROPERTY>
+<!-- BotaoFechar: Informa se o botão fechar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoFechar">True</PROPERTY>
+<!-- BotaoMaximizar: Informa se o botão maximizar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoMaximizar">False</PROPERTY>
+<!-- BotaoMinimizar: Informa se o botão minimizar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoMinimizar">True</PROPERTY>
+<PROPERTY KEY="CODE">464570606</PROPERTY>
+<PROPERTY KEY="CampoVersao"></PROPERTY>
+<!-- Centralizado: Informa se o formulário deve estar centralizado na tela. Valor: true|false. -->
+<PROPERTY KEY="Centralizado">False</PROPERTY>
+<PROPERTY KEY="CentralizadoVertical">False</PROPERTY>
+<PROPERTY KEY="ClasseCss"></PROPERTY>
+<!-- Cor: Valor númerico que representa uma cor. Utiliza o padrão Delphi. Valor: inteiro. -->
+<PROPERTY KEY="Cor">clWindow</PROPERTY>
+<PROPERTY KEY="EditarAoDuploClicar">TRUE</PROPERTY>
+<!-- EntrarComoPesquisa: Informa se o formulário deve entrar sem dados e direto na aba Localizar. Valor: true|false. -->
+<PROPERTY KEY="EntrarComoPesquisa">FALSE</PROPERTY>
+<PROPERTY KEY="ExibicaoImagemFundo"></PROPERTY>
+<PROPERTY KEY="FNT_CAMPOCHAVE">id_dtvencimento</PROPERTY>
+<PROPERTY KEY="FNT_CAMPOGRADE">id_dtvencimento;data_vencimento;dt_cadastro;usr_cadastro</PROPERTY>
+<PROPERTY KEY="FNT_CAMPOPESQUISA">id_dtvencimento;data_vencimento;dt_cadastro</PROPERTY>
+<PROPERTY KEY="FNT_SQLDEFAULT">usr_cadastro=FUNCAO(&quot;MAKER_CODIGO_USUARIO&quot;)
+</PROPERTY>
+<PROPERTY KEY="FNT_SQLMASCARA"></PROPERTY>
+<PROPERTY KEY="FNT_SQLSELECT">Select
+  fin_parametros_dtvencimento.id_dtvencimento,
+  fin_parametros_dtvencimento.data_vencimento,
+  fin_parametros_dtvencimento.dt_cadastro,
+  fin_parametros_dtvencimento.usr_cadastro
+From
+  fin_parametros_dtvencimento
+
+/*WHERE_NEW*/
+Order By
+  fin_parametros_dtvencimento.data_vencimento
+
+/*ORDER_ADD*/
+</PROPERTY>
+<PROPERTY KEY="FNT_SQLUPDATE">id_dtvencimento
+data_vencimento
+</PROPERTY>
+<PROPERTY KEY="FNT_TABELA">fin_parametros_dtvencimento</PROPERTY>
+<PROPERTY KEY="FRM_ALTURA">326</PROPERTY>
+<PROPERTY KEY="FRM_DESCRICAO">Par&#226;metros - Datas Vencimento</PROPERTY>
+<PROPERTY KEY="FRM_GUID">{966F842F-8191-4714-A3CA-9249F643D674}</PROPERTY>
+<PROPERTY KEY="FRM_LOG">S</PROPERTY>
+<PROPERTY KEY="FRM_POSICAOX">592</PROPERTY>
+<PROPERTY KEY="FRM_POSICAOY">370</PROPERTY>
+<PROPERTY KEY="FRM_TAMANHO">715</PROPERTY>
+<PROPERTY KEY="FRM_TIPO"></PROPERTY>
+<PROPERTY KEY="FRM_TIPO_CRIACAO">0</PROPERTY>
+<!-- FonteDeDados:  -->
+<PROPERTY KEY="FonteDeDados">(Conex&#227;o principal)</PROPERTY>
+<PROPERTY KEY="FormularioLocalizar">0</PROPERTY>
+<PROPERTY KEY="IMG_AJUDA">14</PROPERTY>
+<PROPERTY KEY="IMG_ALTERAR">2</PROPERTY>
+<PROPERTY KEY="IMG_ANTERIOR">4</PROPERTY>
+<PROPERTY KEY="IMG_ATUALIZAR">7</PROPERTY>
+<PROPERTY KEY="IMG_CANCELAR">13</PROPERTY>
+<PROPERTY KEY="IMG_EXCLUIR">8</PROPERTY>
+<PROPERTY KEY="IMG_GRAVAR">12</PROPERTY>
+<PROPERTY KEY="IMG_GRAVAR_MAIS">15</PROPERTY>
+<PROPERTY KEY="IMG_IMPRIMIR">10</PROPERTY>
+<PROPERTY KEY="IMG_INCLUIR">1</PROPERTY>
+<PROPERTY KEY="IMG_LOG">16</PROPERTY>
+<PROPERTY KEY="IMG_PRIMEIRO">3</PROPERTY>
+<PROPERTY KEY="IMG_PROXIMO">5</PROPERTY>
+<PROPERTY KEY="IMG_SAIR">11</PROPERTY>
+<PROPERTY KEY="IMG_ULTIMO">6</PROPERTY>
+<PROPERTY KEY="IMG_UTILITARIO">17</PROPERTY>
+<PROPERTY KEY="IMG_VALORES_PADRAO">17</PROPERTY>
+<!-- Imagem:  -->
+<PROPERTY KEY="Imagem"></PROPERTY>
+<PROPERTY KEY="MensagemErroChaveEstrangeira"></PROPERTY>
+<PROPERTY KEY="MensagemErroChavePrimaria"></PROPERTY>
+<PROPERTY KEY="Modal">False</PROPERTY>
+<!-- Navegacao:  -->
+<PROPERTY KEY="Navegacao">TRUE</PROPERTY>
+<PROPERTY KEY="Popup">FALSE</PROPERTY>
+<PROPERTY KEY="PreLoad">FALSE</PROPERTY>
+<PROPERTY KEY="REL_CODIGO">0</PROPERTY>
+<PROPERTY KEY="Responsivo">TRUE</PROPERTY>
+<PROPERTY KEY="UltimaModificacao">01/01/2023 18:35:29</PROPERTY>
+<PROPERTY KEY="UltimoUsuario">master</PROPERTY>
+</PROPERTIES>

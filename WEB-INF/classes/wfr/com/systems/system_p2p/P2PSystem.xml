@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<PROPERTY KEY="Avancado">RedirecionarAoExpirar=1</PROPERTY>
+<PROPERTY KEY="CNF_MAKER_VERSION">2.7.0.0</PROPERTY>
+<!-- CodigoForm: Código do formulário: Valor: inteiro. -->
+<PROPERTY KEY="CodigoForm">2</PROPERTY>
+<PROPERTY KEY="CurrentAPIVersion">12.0.48</PROPERTY>
+<PROPERTY KEY="CurrentWebrunVersion">Qm9vdHN0cmFwIDEuMi4xLjY=</PROPERTY>
+<PROPERTY KEY="DependencesUpdated">-1</PROPERTY>
+<PROPERTY KEY="ExibicaoImagemFundo"></PROPERTY>
+<PROPERTY KEY="FluxosExternos">Login - BTN Esqueci minha senha
+Login - Esqueci minha Senha
+Login - Esqueci minha Senha - Ao Confirmar
+Login - Esqueci minha Senha - Enviar E-mail
+Login - Novo - Ao entrar
+Cadastro - Ao navegar
+Cadastro - Valida Captcha
+Valida&#231;&#227;o - Ao entrar
+Geral - Define &lt;title&gt; do form externo
+Geral - Obter url do contexto
+Valida&#231;&#227;o - Ao entrar - Servidor
+Recaptcha - Obter url via post
+PreCadastro - Ao modificar tipo da pessoa
+PreCadastro - Ao navegar
+Login - Abrir cadastro
+Cadastro - Cadastrar - Cliente
+Cadastro - Cadastrar - Criar os dados
+Cadastro - Cadastrar - Enviar email
+Cadastro - Cadastrar - Usuario
+Cadastro - Cadastrar - Verifica&#231;&#245;es
+Cadastro - Callback
+Geral - Limpar Campos
+Verificacao - Envia novo link - Servidor
+</PROPERTY>
+<PROPERTY KEY="FluxosWeb"></PROPERTY>
+<PROPERTY KEY="FormularioDeGrupos">0</PROPERTY>
+<PROPERTY KEY="FormularioDeLog">0</PROPERTY>
+<PROPERTY KEY="FormularioDeLogin">464570563</PROPERTY>
+<PROPERTY KEY="FormularioDeSenha">0</PROPERTY>
+<PROPERTY KEY="FormularioDeUsuarios">0</PROPERTY>
+<PROPERTY KEY="FormularioDoSerial">0</PROPERTY>
+<PROPERTY KEY="FormularioLocalizar">0</PROPERTY>
+<PROPERTY KEY="FormulariosExternos">{F75389C0-3525-4CE3-A27E-B819A59618EF}
+{B44E5703-08F1-435C-ABC2-33A56D2F3FF6}
+{B9086A62-6D66-4192-AD9E-57F0129DF072}
+{957595A3-96BF-4CC5-8FC1-58D97B251B3A}
+{8369795A-A4C3-4592-ABDC-054F3BA50C4B}
+</PROPERTY>
+<PROPERTY KEY="GER_TAB_CHAVE_EXTERNA">%CAMPO%</PROPERTY>
+<PROPERTY KEY="GER_TAB_CHAVE_PRIMARIA">%SISTEMA%_%TAB%_ID</PROPERTY>
+<PROPERTY KEY="GER_TAB_INDICE_UNICO">%SISTEMA%_%TABELA%_%CAMPO%_UNQ</PROPERTY>
+<PROPERTY KEY="GER_TAB_NOME_CAMPO">%SISTEMA%_%TAB%_%CAMPO%</PROPERTY>
+<PROPERTY KEY="GER_TAB_NOME_INDICE">%SISTEMA%_%TABELA%_%CAMPO%_IDX</PROPERTY>
+<PROPERTY KEY="GER_TAB_NOME_TABELA">%SISTEMA%_%TABELA%</PROPERTY>
+<PROPERTY KEY="IMG_CODIGO">0</PROPERTY>
+<PROPERTY KEY="IMG_CODIGO_ICONE">0</PROPERTY>
+<PROPERTY KEY="IdiomaBase">pt_BR</PROPERTY>
+<PROPERTY KEY="Idiomas"></PROPERTY>
+<PROPERTY KEY="RelatoriosExternos"></PROPERTY>
+<!-- RequerAutenticacao:  -->
+<PROPERTY KEY="RequerAutenticacao">True</PROPERTY>
+<PROPERTY KEY="SIS_CHECK">B9C32DA350BU65ED5681CADE</PROPERTY>
+<PROPERTY KEY="SIS_DESCRICAO">Peg2Pag</PROPERTY>
+<PROPERTY KEY="SIS_RESUMO">Empr&#233;stimos peer-to-peer</PROPERTY>
+<PROPERTY KEY="SIS_SQLDADOSENTIDADE"></PROPERTY>
+<PROPERTY KEY="SIS_SQLDATALIMITE"></PROPERTY>
+<PROPERTY KEY="Skin">AbasPeg</PROPERTY>
+<PROPERTY KEY="VersaoMenu">2</PROPERTY>
+<PROPERTY KEY="WebServices"></PROPERTY>
+</PROPERTIES>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">01-Cadastro</PROPERTY>
+<PROPERTY KEY="Alinhar">0</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">79</PROPERTY>
+<PROPERTY KEY="AoClicar"></PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">1041746</PROPERTY>
+<PROPERTY KEY="Container"></PROPERTY>
+<!-- Cor: Valor númerico que representa uma cor. Utiliza o padrão Delphi. Valor: inteiro. -->
+<PROPERTY KEY="Cor">-16777211</PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<PROPERTY KEY="EstiloCss"></PROPERTY>
+<PROPERTY KEY="LarguraMaxima">0</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">MakerContainer6</PROPERTY>
+<PROPERTY KEY="NomeClasseCss">form-group user-button d-flex justify-content-end position-fixed
+ fixed-height</PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">8</PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">914</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">79</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">83</PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">False</PROPERTY>
+</PROPERTIES>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">03-SubMenu</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">34</PROPERTY>
+<PROPERTY KEY="AlturaZoom">0</PROPERTY>
+<PROPERTY KEY="AoClicar">[12]
+Entrada=Aba='Menu'
+Nome=Menu - Ativar Aba
+
+</PROPERTY>
+<!-- ApenasLeitura: Valor lógico que informa se o componente é apenas para leitura -->
+<PROPERTY KEY="ApenasLeitura">False</PROPERTY>
+<!-- Campo: Informa o valor do campo da consulta que o componente está associado. Valor: string. -->
+<PROPERTY KEY="Campo"></PROPERTY>
+<!-- CampoCodImpDigital: Informa o campo onde deve ser armazenado o código FIR de uma impressão gidital. Valor: string. -->
+<PROPERTY KEY="CampoCodImpDigital"></PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">1001631</PROPERTY>
+<PROPERTY KEY="Container"></PROPERTY>
+<!-- Descricao: Informa a descrição do campo. Valor: string. -->
+<PROPERTY KEY="Descricao"></PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<PROPERTY KEY="EstiloCss"></PROPERTY>
+<PROPERTY KEY="Exibicao">Estender</PROPERTY>
+<!-- GravarEmArquivo:  -->
+<PROPERTY KEY="GravarEmArquivo"></PROPERTY>
+<!-- Habilitado:  -->
+<PROPERTY KEY="Habilitado">True</PROPERTY>
+<!-- Imagem:  -->
+<PROPERTY KEY="Imagem"></PROPERTY>
+<PROPERTY KEY="LarguraZoom">0</PROPERTY>
+<PROPERTY KEY="LenteAumento">False</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">MakerImage5</PROPERTY>
+<PROPERTY KEY="NomeClasseCss"></PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">2</PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">322</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">251</PROPERTY>
+<!-- Tabulacao:  -->
+<PROPERTY KEY="Tabulacao">2</PROPERTY>
+<!-- Tabular:  -->
+<PROPERTY KEY="Tabular">True</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">34</PROPERTY>
+<PROPERTY KEY="TipoExibicao">0</PROPERTY>
+<!-- URL:  -->
+<PROPERTY KEY="URL">fas fa-times</PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">True</PROPERTY>
+</PROPERTIES>

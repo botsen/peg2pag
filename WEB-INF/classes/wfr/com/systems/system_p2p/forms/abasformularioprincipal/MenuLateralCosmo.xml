@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">01-Cadastro</PROPERTY>
+<PROPERTY KEY="Alinhamento">L</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">583</PROPERTY>
+<PROPERTY KEY="AutoRetrair">true</PROPERTY>
+<PROPERTY KEY="Categoria">Maker 3</PROPERTY>
+<PROPERTY KEY="ClasseComponente">Menu</PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">1041740</PROPERTY>
+<PROPERTY KEY="Container"></PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<!-- Habilitado:  -->
+<PROPERTY KEY="Habilitado">True</PROPERTY>
+<PROPERTY KEY="MenuAbas"></PROPERTY>
+<PROPERTY KEY="MenuLegado">false</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">MenuLateralCosmo</PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">6</PROPERTY>
+<PROPERTY KEY="Orientacao">V</PROPERTY>
+<PROPERTY KEY="PesquisaMenu">true</PROPERTY>
+<PROPERTY KEY="PlaceHolder">Buscar no menu</PROPERTY>
+<PROPERTY KEY="PosicaoPesquisa">T</PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">4</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">82</PROPERTY>
+<!-- Tabulacao:  -->
+<PROPERTY KEY="Tabulacao">1</PROPERTY>
+<!-- Tabular:  -->
+<PROPERTY KEY="Tabular">False</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">224</PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">True</PROPERTY>
+<PROPERTY KEY="XMLMenu">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
+4oY=
+</PROPERTY>
+</PROPERTIES>

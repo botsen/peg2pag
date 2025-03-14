@@ -1,0 +1,6182 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ROOT>
+
+  <!--
+  <DICTIONARY>
+    <CODE>Código do Tipo de Dados utilizado (DATATYPE.CODE de dataTypes.xml)</CODE>
+    <DESCRIPTION>Descrição</DESCRIPTION>
+    <TABLENAME>Tabela</TABLENAME>
+    <FIELDNAME>Campo</FIELDNAME>
+    <DEFAULT>Valor Padrão</DEFAULT>
+  </DICTIONARY>
+  -->
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>REG_DEPENDENCIA</DESCRIPTION>
+    <TABLENAME>fr_doc_regras_imagem</TABLENAME>
+    <FIELDNAME>reg_hash</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tabela</DESCRIPTION>
+    <TABLENAME>fr_dicionario_fk_vi</TABLENAME>
+    <FIELDNAME>tabela</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tabelafk</DESCRIPTION>
+    <TABLENAME>fr_dicionario_fk_vi</TABLENAME>
+    <FIELDNAME>tabelafk</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Campofk</DESCRIPTION>
+    <TABLENAME>fr_dicionario_fk_vi</TABLENAME>
+    <FIELDNAME>campofk</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tabela</DESCRIPTION>
+    <TABLENAME>fr_dicionario_vi</TABLENAME>
+    <FIELDNAME>tabela</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Campo</DESCRIPTION>
+    <TABLENAME>fr_dicionario_vi</TABLENAME>
+    <FIELDNAME>campo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_dicionario_vi</TABLENAME>
+    <FIELDNAME>descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tipo</DESCRIPTION>
+    <TABLENAME>fr_dicionario_vi</TABLENAME>
+    <FIELDNAME>tipo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Pk</DESCRIPTION>
+    <TABLENAME>fr_dicionario_vi</TABLENAME>
+    <FIELDNAME>pk</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Fk</DESCRIPTION>
+    <TABLENAME>fr_dicionario_vi</TABLENAME>
+    <FIELDNAME>fk</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tamanho</DESCRIPTION>
+    <TABLENAME>fr_dicionario_vi</TABLENAME>
+    <FIELDNAME>tamanho</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Precisao</DESCRIPTION>
+    <TABLENAME>fr_dicionario_vi</TABLENAME>
+    <FIELDNAME>precisao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nulo</DESCRIPTION>
+    <TABLENAME>fr_dicionario_vi</TABLENAME>
+    <FIELDNAME>nulo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Ordem</DESCRIPTION>
+    <TABLENAME>fr_doc_formulario_comando_vi</TABLENAME>
+    <FIELDNAME>com_ordem</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Botao</DESCRIPTION>
+    <TABLENAME>fr_doc_formulario_comando_vi</TABLENAME>
+    <FIELDNAME>com_botao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Acao</DESCRIPTION>
+    <TABLENAME>fr_doc_formulario_comando_vi</TABLENAME>
+    <FIELDNAME>com_acao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Restricao</DESCRIPTION>
+    <TABLENAME>fr_doc_formulario_comando_vi</TABLENAME>
+    <FIELDNAME>com_restricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Ativo</DESCRIPTION>
+    <TABLENAME>fr_doc_formulario_comando_vi</TABLENAME>
+    <FIELDNAME>com_ativo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_formulario_comando_vi</TABLENAME>
+    <FIELDNAME>frm_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_formulario_comando_vi</TABLENAME>
+    <FIELDNAME>sis_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Conex&#227;o</DESCRIPTION>
+    <TABLENAME>fr_sessao_vi</TABLENAME>
+    <FIELDNAME>ses_conexao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Data e Hora Login</DESCRIPTION>
+    <TABLENAME>fr_sessao_vi</TABLENAME>
+    <FIELDNAME>ses_datahora_login</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Usu&#225;rio</DESCRIPTION>
+    <TABLENAME>fr_sessao_vi</TABLENAME>
+    <FIELDNAME>ses_usuario</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome Usu&#225;rio</DESCRIPTION>
+    <TABLENAME>fr_sessao_vi</TABLENAME>
+    <FIELDNAME>ses_nome_usuario</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome M&#225;quina</DESCRIPTION>
+    <TABLENAME>fr_sessao_vi</TABLENAME>
+    <FIELDNAME>ses_nome_maquina</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Endere&#231;o IP</DESCRIPTION>
+    <TABLENAME>fr_sessao_vi</TABLENAME>
+    <FIELDNAME>ses_end_ip</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_sessao_vi</TABLENAME>
+    <FIELDNAME>sis_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Identificador</DESCRIPTION>
+    <TABLENAME>cad_config_email</TABLENAME>
+    <FIELDNAME>id</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Email</DESCRIPTION>
+    <TABLENAME>cad_config_email</TABLENAME>
+    <FIELDNAME>email</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Porta</DESCRIPTION>
+    <TABLENAME>cad_config_email</TABLENAME>
+    <FIELDNAME>porta</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Smtp</DESCRIPTION>
+    <TABLENAME>cad_config_email</TABLENAME>
+    <FIELDNAME>smtp</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Senha</DESCRIPTION>
+    <TABLENAME>cad_config_email</TABLENAME>
+    <FIELDNAME>senha</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Par&#226;metro</DESCRIPTION>
+    <TABLENAME>cad_parametrosgerais</TABLENAME>
+    <FIELDNAME>id_parametro</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Par&#226;metro Email</DESCRIPTION>
+    <TABLENAME>cad_parametrosgerais</TABLENAME>
+    <FIELDNAME>parametro_email</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Par&#226;metro Smtp</DESCRIPTION>
+    <TABLENAME>cad_parametrosgerais</TABLENAME>
+    <FIELDNAME>parametro_smtp</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Par&#226;metro Portaemail</DESCRIPTION>
+    <TABLENAME>cad_parametrosgerais</TABLENAME>
+    <FIELDNAME>parametro_portaemail</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Par&#226;metro Senha</DESCRIPTION>
+    <TABLENAME>cad_parametrosgerais</TABLENAME>
+    <FIELDNAME>parametro_senha</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Par&#226;metro Ssl Tls</DESCRIPTION>
+    <TABLENAME>cad_parametrosgerais</TABLENAME>
+    <FIELDNAME>parametro_ssl_tls</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_acao</TABLENAME>
+    <FIELDNAME>aco_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_acao</TABLENAME>
+    <FIELDNAME>aco_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_acaocomponente</TABLENAME>
+    <FIELDNAME>frm_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_acaocomponente</TABLENAME>
+    <FIELDNAME>com_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_acaocomponente</TABLENAME>
+    <FIELDNAME>aco_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Momento</DESCRIPTION>
+    <TABLENAME>fr_acaocomponente</TABLENAME>
+    <FIELDNAME>acc_momento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Condi&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_acaocomponente</TABLENAME>
+    <FIELDNAME>acc_condicao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_acaoparametro</TABLENAME>
+    <FIELDNAME>aco_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_acaoparametro</TABLENAME>
+    <FIELDNAME>acp_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_acaoparametro</TABLENAME>
+    <FIELDNAME>act_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_acptipo</TABLENAME>
+    <FIELDNAME>act_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_acptipo</TABLENAME>
+    <FIELDNAME>act_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_campo</TABLENAME>
+    <FIELDNAME>tab_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_campo</TABLENAME>
+    <FIELDNAME>cmp_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_campo</TABLENAME>
+    <FIELDNAME>cmp_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Valorpadrao</DESCRIPTION>
+    <TABLENAME>fr_campo</TABLENAME>
+    <FIELDNAME>cmp_valorpadrao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_campo</TABLENAME>
+    <FIELDNAME>tpd_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_categoria</TABLENAME>
+    <FIELDNAME>cat_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_categoria</TABLENAME>
+    <FIELDNAME>cat_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descritor</DESCRIPTION>
+    <TABLENAME>fr_compilador</TABLENAME>
+    <FIELDNAME>cpl_descritor</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Especifica&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_compilador</TABLENAME>
+    <FIELDNAME>cpl_especificacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descritor</DESCRIPTION>
+    <TABLENAME>fr_compilador_database</TABLENAME>
+    <FIELDNAME>cpl_descritor</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_compilador_database</TABLENAME>
+    <FIELDNAME>dba_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Sintaxe</DESCRIPTION>
+    <TABLENAME>fr_compilador_database</TABLENAME>
+    <FIELDNAME>cdb_sintaxe</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_componente</TABLENAME>
+    <FIELDNAME>frm_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_componente</TABLENAME>
+    <FIELDNAME>com_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_componente</TABLENAME>
+    <FIELDNAME>img_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tipo</DESCRIPTION>
+    <TABLENAME>fr_componente</TABLENAME>
+    <FIELDNAME>com_tipo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_componente_categoria</TABLENAME>
+    <FIELDNAME>frm_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_componente_categoria</TABLENAME>
+    <FIELDNAME>com_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_componente_categoria</TABLENAME>
+    <FIELDNAME>cat_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_configuracao</TABLENAME>
+    <FIELDNAME>cnf_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Versiona Formul&#225;rio</DESCRIPTION>
+    <TABLENAME>fr_configuracao</TABLENAME>
+    <FIELDNAME>cnf_versiona_formulario</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Versiona Relat&#243;rio</DESCRIPTION>
+    <TABLENAME>fr_configuracao</TABLENAME>
+    <FIELDNAME>cnf_versiona_relatorio</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Versiona Regra</DESCRIPTION>
+    <TABLENAME>fr_configuracao</TABLENAME>
+    <FIELDNAME>cnf_versiona_regra</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Maker Version</DESCRIPTION>
+    <TABLENAME>fr_configuracao</TABLENAME>
+    <FIELDNAME>cnf_maker_version</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_consulta_avancada</TABLENAME>
+    <FIELDNAME>frm_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_consulta_avancada</TABLENAME>
+    <FIELDNAME>cav_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_consulta_avancada</TABLENAME>
+    <FIELDNAME>cav_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Texto</DESCRIPTION>
+    <TABLENAME>fr_consulta_avancada</TABLENAME>
+    <FIELDNAME>cav_texto</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_database</TABLENAME>
+    <FIELDNAME>dba_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_database</TABLENAME>
+    <FIELDNAME>dba_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_dep_formulario_campo</TABLENAME>
+    <FIELDNAME>frm_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_dep_formulario_campo</TABLENAME>
+    <FIELDNAME>tab_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_dep_formulario_campo</TABLENAME>
+    <FIELDNAME>cmp_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_dep_formulario_formulario</TABLENAME>
+    <FIELDNAME>frm_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo Referencia</DESCRIPTION>
+    <TABLENAME>fr_dep_formulario_formulario</TABLENAME>
+    <FIELDNAME>frm_codigo_referencia</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_dep_formulario_regra</TABLENAME>
+    <FIELDNAME>frm_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_dep_formulario_regra</TABLENAME>
+    <FIELDNAME>reg_cod</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_dep_formulario_relatorio</TABLENAME>
+    <FIELDNAME>frm_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_dep_formulario_relatorio</TABLENAME>
+    <FIELDNAME>rel_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_dep_formulario_tabela</TABLENAME>
+    <FIELDNAME>frm_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_dep_formulario_tabela</TABLENAME>
+    <FIELDNAME>tab_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_dep_regra_campo</TABLENAME>
+    <FIELDNAME>reg_cod</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_dep_regra_campo</TABLENAME>
+    <FIELDNAME>tab_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_dep_regra_campo</TABLENAME>
+    <FIELDNAME>cmp_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_dep_regra_componente</TABLENAME>
+    <FIELDNAME>reg_cod</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_dep_regra_componente</TABLENAME>
+    <FIELDNAME>com_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_dep_regra_componente</TABLENAME>
+    <FIELDNAME>frm_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_dep_regra_formulario</TABLENAME>
+    <FIELDNAME>reg_cod</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_dep_regra_formulario</TABLENAME>
+    <FIELDNAME>frm_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_dep_regra_funcao</TABLENAME>
+    <FIELDNAME>reg_cod</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_dep_regra_funcao</TABLENAME>
+    <FIELDNAME>fun_cod</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_dep_regra_regra</TABLENAME>
+    <FIELDNAME>reg_cod</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo Referencia</DESCRIPTION>
+    <TABLENAME>fr_dep_regra_regra</TABLENAME>
+    <FIELDNAME>reg_cod_referencia</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_dep_regra_relatorio</TABLENAME>
+    <FIELDNAME>reg_cod</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_dep_regra_relatorio</TABLENAME>
+    <FIELDNAME>rel_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_dep_regra_tabela</TABLENAME>
+    <FIELDNAME>reg_cod</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_dep_regra_tabela</TABLENAME>
+    <FIELDNAME>tab_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Pessoa</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>id_pessoa</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Foto</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>foto</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Telefone</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>telefone</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome Social</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>nome_social</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_diagrama</TABLENAME>
+    <FIELDNAME>dgr_cod</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_diagrama</TABLENAME>
+    <FIELDNAME>dgr_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Autor</DESCRIPTION>
+    <TABLENAME>fr_diagrama</TABLENAME>
+    <FIELDNAME>dgr_autor</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vers&#227;o</DESCRIPTION>
+    <TABLENAME>fr_diagrama</TABLENAME>
+    <FIELDNAME>dgr_versao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tipotabela</DESCRIPTION>
+    <TABLENAME>fr_diagrama</TABLENAME>
+    <FIELDNAME>dgr_tipotabela</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Data de cria&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_diagrama</TABLENAME>
+    <FIELDNAME>dgr_datacriacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Atualiza&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_diagrama</TABLENAME>
+    <FIELDNAME>dgr_atualizacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Coment&#225;rio</DESCRIPTION>
+    <TABLENAME>fr_diagrama</TABLENAME>
+    <FIELDNAME>dgr_comentario</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Padraofk</DESCRIPTION>
+    <TABLENAME>fr_diagrama</TABLENAME>
+    <FIELDNAME>dgr_padraofk</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Layout</DESCRIPTION>
+    <TABLENAME>fr_diagrama</TABLENAME>
+    <FIELDNAME>dgr_layout</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_doc_aprovacao</TABLENAME>
+    <FIELDNAME>apr_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_aprovacao</TABLENAME>
+    <FIELDNAME>doc_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Cargo</DESCRIPTION>
+    <TABLENAME>fr_doc_aprovacao</TABLENAME>
+    <FIELDNAME>apr_cargo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Participacao</DESCRIPTION>
+    <TABLENAME>fr_doc_aprovacao</TABLENAME>
+    <FIELDNAME>apr_participacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_ator</TABLENAME>
+    <FIELDNAME>ato_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Frequencia Uso</DESCRIPTION>
+    <TABLENAME>fr_doc_ator</TABLENAME>
+    <FIELDNAME>ato_frequencia_uso</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nivel Instrucao</DESCRIPTION>
+    <TABLENAME>fr_doc_ator</TABLENAME>
+    <FIELDNAME>ato_nivel_instrucao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_doc_ator</TABLENAME>
+    <FIELDNAME>ato_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Proficiencia Aplicacao</DESCRIPTION>
+    <TABLENAME>fr_doc_ator</TABLENAME>
+    <FIELDNAME>ato_proficiencia_aplicacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Proficiencia Informatica</DESCRIPTION>
+    <TABLENAME>fr_doc_ator</TABLENAME>
+    <FIELDNAME>ato_proficiencia_informatica</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Usu&#225;rio</DESCRIPTION>
+    <TABLENAME>fr_doc_ator</TABLENAME>
+    <FIELDNAME>ato_usuario</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_ator</TABLENAME>
+    <FIELDNAME>doc_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_doc_beneficio</TABLENAME>
+    <FIELDNAME>ben_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Valor</DESCRIPTION>
+    <TABLENAME>fr_doc_beneficio</TABLENAME>
+    <FIELDNAME>ben_valor</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_beneficio</TABLENAME>
+    <FIELDNAME>doc_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_caso_uso</TABLENAME>
+    <FIELDNAME>doc_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_caso_uso</TABLENAME>
+    <FIELDNAME>uso_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_doc_caso_uso</TABLENAME>
+    <FIELDNAME>uso_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_doc_caso_uso</TABLENAME>
+    <FIELDNAME>uso_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Requisito</DESCRIPTION>
+    <TABLENAME>fr_doc_caso_uso</TABLENAME>
+    <FIELDNAME>uso_requisito</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Validacao</DESCRIPTION>
+    <TABLENAME>fr_doc_caso_uso</TABLENAME>
+    <FIELDNAME>uso_validacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Cenario</DESCRIPTION>
+    <TABLENAME>fr_doc_caso_uso</TABLENAME>
+    <FIELDNAME>uso_cenario</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo Ativo</DESCRIPTION>
+    <TABLENAME>fr_doc_caso_uso_ator</TABLENAME>
+    <FIELDNAME>ato_codigo_ativo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo Passivo</DESCRIPTION>
+    <TABLENAME>fr_doc_caso_uso_ator</TABLENAME>
+    <FIELDNAME>ato_codigo_passivo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Uso Ato C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_caso_uso_ator</TABLENAME>
+    <FIELDNAME>cas_uso_ato_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_caso_uso_ator</TABLENAME>
+    <FIELDNAME>doc_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_caso_uso_ator</TABLENAME>
+    <FIELDNAME>uso_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_caso_uso_extensao</TABLENAME>
+    <FIELDNAME>doc_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo Principal</DESCRIPTION>
+    <TABLENAME>fr_doc_caso_uso_extensao</TABLENAME>
+    <FIELDNAME>uso_codigo_principal</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Condi&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_doc_caso_uso_extensao</TABLENAME>
+    <FIELDNAME>ext_condicao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo Extendido</DESCRIPTION>
+    <TABLENAME>fr_doc_caso_uso_extensao</TABLENAME>
+    <FIELDNAME>uso_codigo_extendido</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_caso_uso_generalizacao</TABLENAME>
+    <FIELDNAME>doc_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo Herdador</DESCRIPTION>
+    <TABLENAME>fr_doc_caso_uso_generalizacao</TABLENAME>
+    <FIELDNAME>uso_codigo_herdador</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo Herdado</DESCRIPTION>
+    <TABLENAME>fr_doc_caso_uso_generalizacao</TABLENAME>
+    <FIELDNAME>uso_codigo_herdado</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_caso_uso_inclusao</TABLENAME>
+    <FIELDNAME>doc_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo Principal</DESCRIPTION>
+    <TABLENAME>fr_doc_caso_uso_inclusao</TABLENAME>
+    <FIELDNAME>uso_codigo_principal</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo Sub Caso</DESCRIPTION>
+    <TABLENAME>fr_doc_caso_uso_inclusao</TABLENAME>
+    <FIELDNAME>uso_codigo_sub_caso</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Uso Ato C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_diag_cont_cas_uso_ato</TABLENAME>
+    <FIELDNAME>cas_uso_ato_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_diag_cont_cas_uso_ato</TABLENAME>
+    <FIELDNAME>con_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_diagrama_contexto</TABLENAME>
+    <FIELDNAME>con_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_doc_diagrama_contexto</TABLENAME>
+    <FIELDNAME>con_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Imagem</DESCRIPTION>
+    <TABLENAME>fr_doc_diagrama_contexto</TABLENAME>
+    <FIELDNAME>con_imagem</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_diagrama_contexto</TABLENAME>
+    <FIELDNAME>doc_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_formulario</TABLENAME>
+    <FIELDNAME>doc_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_formulario</TABLENAME>
+    <FIELDNAME>frm_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Observa&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_doc_formulario</TABLENAME>
+    <FIELDNAME>frm_observacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_formulario_imagem</TABLENAME>
+    <FIELDNAME>doc_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_formulario_imagem</TABLENAME>
+    <FIELDNAME>frm_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Aba</DESCRIPTION>
+    <TABLENAME>fr_doc_formulario_imagem</TABLENAME>
+    <FIELDNAME>fim_aba</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Aba Nome Original</DESCRIPTION>
+    <TABLENAME>fr_doc_formulario_imagem</TABLENAME>
+    <FIELDNAME>fim_aba_nome_original</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Imagem</DESCRIPTION>
+    <TABLENAME>fr_doc_formulario_imagem</TABLENAME>
+    <FIELDNAME>fim_imagem</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vers&#227;o</DESCRIPTION>
+    <TABLENAME>fr_doc_formulario_imagem</TABLENAME>
+    <FIELDNAME>fim_versao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_hipotese_trabalho</TABLENAME>
+    <FIELDNAME>ato_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_hipotese_trabalho</TABLENAME>
+    <FIELDNAME>doc_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_doc_hipotese_trabalho</TABLENAME>
+    <FIELDNAME>tra_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_interface</TABLENAME>
+    <FIELDNAME>doc_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_doc_interface</TABLENAME>
+    <FIELDNAME>int_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tipo</DESCRIPTION>
+    <TABLENAME>fr_doc_interface</TABLENAME>
+    <FIELDNAME>int_tipo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Padr&#227;o</DESCRIPTION>
+    <TABLENAME>fr_doc_interpretacao_campo</TABLENAME>
+    <FIELDNAME>cam_padrao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tipo</DESCRIPTION>
+    <TABLENAME>fr_doc_interpretacao_campo</TABLENAME>
+    <FIELDNAME>cam_tipo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_interpretacao_campo</TABLENAME>
+    <FIELDNAME>doc_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_limite</TABLENAME>
+    <FIELDNAME>doc_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_doc_limite</TABLENAME>
+    <FIELDNAME>lim_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_material_referencia</TABLENAME>
+    <FIELDNAME>doc_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Bibliografia</DESCRIPTION>
+    <TABLENAME>fr_doc_material_referencia</TABLENAME>
+    <FIELDNAME>ref_bibliografia</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tipo</DESCRIPTION>
+    <TABLENAME>fr_doc_material_referencia</TABLENAME>
+    <FIELDNAME>ref_tipo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_modo_operacao</TABLENAME>
+    <FIELDNAME>doc_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_doc_modo_operacao</TABLENAME>
+    <FIELDNAME>ope_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_principal</TABLENAME>
+    <FIELDNAME>doc_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Autoria</DESCRIPTION>
+    <TABLENAME>fr_doc_principal</TABLENAME>
+    <FIELDNAME>doc_autoria</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_principal</TABLENAME>
+    <FIELDNAME>sis_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Data</DESCRIPTION>
+    <TABLENAME>fr_doc_principal</TABLENAME>
+    <FIELDNAME>doc_data</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Empresa</DESCRIPTION>
+    <TABLENAME>fr_doc_principal</TABLENAME>
+    <FIELDNAME>doc_empresa</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Local</DESCRIPTION>
+    <TABLENAME>fr_doc_principal</TABLENAME>
+    <FIELDNAME>doc_local</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Modelo Dados</DESCRIPTION>
+    <TABLENAME>fr_doc_principal</TABLENAME>
+    <FIELDNAME>doc_modelo_dados</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Objetivo</DESCRIPTION>
+    <TABLENAME>fr_doc_principal</TABLENAME>
+    <FIELDNAME>doc_objetivo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Missao</DESCRIPTION>
+    <TABLENAME>fr_doc_principal</TABLENAME>
+    <FIELDNAME>doc_missao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Componentes</DESCRIPTION>
+    <TABLENAME>fr_doc_principal</TABLENAME>
+    <FIELDNAME>doc_componentes</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Visao Geral</DESCRIPTION>
+    <TABLENAME>fr_doc_principal</TABLENAME>
+    <FIELDNAME>doc_visao_geral</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Convencoes</DESCRIPTION>
+    <TABLENAME>fr_doc_principal</TABLENAME>
+    <FIELDNAME>doc_convencoes</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Observa&#231;&#245;es</DESCRIPTION>
+    <TABLENAME>fr_doc_principal</TABLENAME>
+    <FIELDNAME>doc_observacoes</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Usu&#225;rio Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_doc_principal</TABLENAME>
+    <FIELDNAME>doc_usuario_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_regras_imagem</TABLENAME>
+    <FIELDNAME>doc_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_regras_imagem</TABLENAME>
+    <FIELDNAME>reg_cod</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dependencia</DESCRIPTION>
+    <TABLENAME>fr_doc_regras_imagem</TABLENAME>
+    <FIELDNAME>reg_dependencia</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Imagem</DESCRIPTION>
+    <TABLENAME>fr_doc_regras_imagem</TABLENAME>
+    <FIELDNAME>reg_imagem</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_regras_imagem</TABLENAME>
+    <FIELDNAME>sis_cod</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_relatorio</TABLENAME>
+    <FIELDNAME>doc_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_relatorio</TABLENAME>
+    <FIELDNAME>rel_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_doc_relatorio</TABLENAME>
+    <FIELDNAME>rel_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Objetivo</DESCRIPTION>
+    <TABLENAME>fr_doc_relatorio</TABLENAME>
+    <FIELDNAME>rel_objetivo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Imagem</DESCRIPTION>
+    <TABLENAME>fr_doc_relatorio</TABLENAME>
+    <FIELDNAME>rel_imagem</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_requisito</TABLENAME>
+    <FIELDNAME>doc_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_doc_requisito</TABLENAME>
+    <FIELDNAME>req_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tipo</DESCRIPTION>
+    <TABLENAME>fr_doc_requisito</TABLENAME>
+    <FIELDNAME>req_tipo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_restricao</TABLENAME>
+    <FIELDNAME>doc_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_doc_restricao</TABLENAME>
+    <FIELDNAME>res_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tipo</DESCRIPTION>
+    <TABLENAME>fr_doc_restricao</TABLENAME>
+    <FIELDNAME>res_tipo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_doc_versao</TABLENAME>
+    <FIELDNAME>doc_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Data</DESCRIPTION>
+    <TABLENAME>fr_doc_versao</TABLENAME>
+    <FIELDNAME>ver_data</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Revisada</DESCRIPTION>
+    <TABLENAME>fr_doc_versao</TABLENAME>
+    <FIELDNAME>ver_revisada</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_doc_versao</TABLENAME>
+    <FIELDNAME>ver_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_fontedados</TABLENAME>
+    <FIELDNAME>fnt_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo Parent</DESCRIPTION>
+    <TABLENAME>fr_fontedados</TABLENAME>
+    <FIELDNAME>fnt_codigo_parent</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Campochave</DESCRIPTION>
+    <TABLENAME>fr_fontedados</TABLENAME>
+    <FIELDNAME>fnt_campochave</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tabela</DESCRIPTION>
+    <TABLENAME>fr_fontedados</TABLENAME>
+    <FIELDNAME>fnt_tabela</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Sqlselect</DESCRIPTION>
+    <TABLENAME>fr_fontedados</TABLENAME>
+    <FIELDNAME>fnt_sqlselect</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Sqlinsert</DESCRIPTION>
+    <TABLENAME>fr_fontedados</TABLENAME>
+    <FIELDNAME>fnt_sqlinsert</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Sqlupdate</DESCRIPTION>
+    <TABLENAME>fr_fontedados</TABLENAME>
+    <FIELDNAME>fnt_sqlupdate</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Sqldelete</DESCRIPTION>
+    <TABLENAME>fr_fontedados</TABLENAME>
+    <FIELDNAME>fnt_sqldelete</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Campoincremento</DESCRIPTION>
+    <TABLENAME>fr_fontedados</TABLENAME>
+    <FIELDNAME>fnt_campoincremento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_fontedados</TABLENAME>
+    <FIELDNAME>frm_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Campograde</DESCRIPTION>
+    <TABLENAME>fr_fontedados</TABLENAME>
+    <FIELDNAME>fnt_campograde</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Campopesquisa</DESCRIPTION>
+    <TABLENAME>fr_fontedados</TABLENAME>
+    <FIELDNAME>fnt_campopesquisa</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Sqldefault</DESCRIPTION>
+    <TABLENAME>fr_fontedados</TABLENAME>
+    <FIELDNAME>fnt_sqldefault</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Sqlmascara</DESCRIPTION>
+    <TABLENAME>fr_fontedados</TABLENAME>
+    <FIELDNAME>fnt_sqlmascara</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>frm_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Incluir</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>img_incluir</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Alterar</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>img_alterar</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Excluir</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>img_excluir</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Gravar</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>img_gravar</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Gravar Mais</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>img_gravar_mais</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Cancelar</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>img_cancelar</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Atualizar</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>img_atualizar</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Valores Padr&#227;o</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>img_valores_padrao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Utilit&#225;rio</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>img_utilitario</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Log</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>img_log</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Sair</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>img_sair</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Imprimir</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>img_imprimir</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Ajuda</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>img_ajuda</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Pr&#243;ximo</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>img_proximo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>&#218;ltimo</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>img_ultimo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Primeiro</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>img_primeiro</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Anterior</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>img_anterior</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>frm_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tipo</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>frm_tipo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Posicaox</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>frm_posicaox</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Posicaoy</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>frm_posicaoy</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tamanho</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>frm_tamanho</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Altura</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>frm_altura</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tipo Cria&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>frm_tipo_criacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Guid</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>frm_guid</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>rel_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>usr_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Log</DESCRIPTION>
+    <TABLENAME>fr_formulario</TABLENAME>
+    <FIELDNAME>frm_log</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_formulario_categoria</TABLENAME>
+    <FIELDNAME>frm_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_formulario_categoria</TABLENAME>
+    <FIELDNAME>cat_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_formulario_sistema</TABLENAME>
+    <FIELDNAME>frm_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_formulario_sistema</TABLENAME>
+    <FIELDNAME>sis_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_grupo</TABLENAME>
+    <FIELDNAME>grp_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_grupo</TABLENAME>
+    <FIELDNAME>sis_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_grupo</TABLENAME>
+    <FIELDNAME>grp_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Filtro Dicionario</DESCRIPTION>
+    <TABLENAME>fr_grupo</TABLENAME>
+    <FIELDNAME>grp_filtro_dicionario</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_historico_sql</TABLENAME>
+    <FIELDNAME>sql_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Script</DESCRIPTION>
+    <TABLENAME>fr_historico_sql</TABLENAME>
+    <FIELDNAME>sql_script</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Data</DESCRIPTION>
+    <TABLENAME>fr_historico_sql</TABLENAME>
+    <FIELDNAME>sql_data</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_historico_sql</TABLENAME>
+    <FIELDNAME>sis_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tabela</DESCRIPTION>
+    <TABLENAME>fr_historico_sql</TABLENAME>
+    <FIELDNAME>sql_tabela</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_idioma</TABLENAME>
+    <FIELDNAME>idi_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_idioma</TABLENAME>
+    <FIELDNAME>idi_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Sigla</DESCRIPTION>
+    <TABLENAME>fr_idioma</TABLENAME>
+    <FIELDNAME>idi_sigla</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Ordem</DESCRIPTION>
+    <TABLENAME>fr_idioma</TABLENAME>
+    <FIELDNAME>idi_ordem</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_imagem</TABLENAME>
+    <FIELDNAME>img_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Imagem</DESCRIPTION>
+    <TABLENAME>fr_imagem</TABLENAME>
+    <FIELDNAME>img_imagem</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Guid</DESCRIPTION>
+    <TABLENAME>fr_imagem</TABLENAME>
+    <FIELDNAME>img_guid</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Log</DESCRIPTION>
+    <TABLENAME>fr_log</TABLENAME>
+    <FIELDNAME>log</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Identificador</DESCRIPTION>
+    <TABLENAME>fr_log_event</TABLENAME>
+    <FIELDNAME>log_id</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Data</DESCRIPTION>
+    <TABLENAME>fr_log_event</TABLENAME>
+    <FIELDNAME>log_data</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Hora</DESCRIPTION>
+    <TABLENAME>fr_log_event</TABLENAME>
+    <FIELDNAME>log_hora</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Codform</DESCRIPTION>
+    <TABLENAME>fr_log_event</TABLENAME>
+    <FIELDNAME>log_codform</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descform</DESCRIPTION>
+    <TABLENAME>fr_log_event</TABLENAME>
+    <FIELDNAME>log_descform</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Opera&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_log_event</TABLENAME>
+    <FIELDNAME>log_operacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Usu&#225;rio</DESCRIPTION>
+    <TABLENAME>fr_log_event</TABLENAME>
+    <FIELDNAME>log_usuario</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Sistema</DESCRIPTION>
+    <TABLENAME>fr_log_event</TABLENAME>
+    <FIELDNAME>log_sistema</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Chave</DESCRIPTION>
+    <TABLENAME>fr_log_event</TABLENAME>
+    <FIELDNAME>log_chave</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Chavecont</DESCRIPTION>
+    <TABLENAME>fr_log_event</TABLENAME>
+    <FIELDNAME>log_chavecont</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Conte&#250;do</DESCRIPTION>
+    <TABLENAME>fr_log_event</TABLENAME>
+    <FIELDNAME>log_conteudo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>IP</DESCRIPTION>
+    <TABLENAME>fr_log_event</TABLENAME>
+    <FIELDNAME>log_ip</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_menu</TABLENAME>
+    <FIELDNAME>sis_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_menu</TABLENAME>
+    <FIELDNAME>mnu_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_menu</TABLENAME>
+    <FIELDNAME>mnu_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo Parent</DESCRIPTION>
+    <TABLENAME>fr_menu</TABLENAME>
+    <FIELDNAME>mnu_codigo_parent</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Indice</DESCRIPTION>
+    <TABLENAME>fr_menu</TABLENAME>
+    <FIELDNAME>mnu_indice</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_menu</TABLENAME>
+    <FIELDNAME>frm_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tecla</DESCRIPTION>
+    <TABLENAME>fr_menu</TABLENAME>
+    <FIELDNAME>mnu_tecla</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_menu</TABLENAME>
+    <FIELDNAME>img_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Separador</DESCRIPTION>
+    <TABLENAME>fr_menu</TABLENAME>
+    <FIELDNAME>mnu_separador</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Guid</DESCRIPTION>
+    <TABLENAME>fr_menu</TABLENAME>
+    <FIELDNAME>mnu_guid</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tipo</DESCRIPTION>
+    <TABLENAME>fr_menu</TABLENAME>
+    <FIELDNAME>mnu_tipo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_menu</TABLENAME>
+    <FIELDNAME>rel_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Opdr C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_operador</TABLENAME>
+    <FIELDNAME>opdr_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Opdr Nome</DESCRIPTION>
+    <TABLENAME>fr_operador</TABLENAME>
+    <FIELDNAME>opdr_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Opdr Tipo</DESCRIPTION>
+    <TABLENAME>fr_operador</TABLENAME>
+    <FIELDNAME>opdr_tipo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Opdr Par&#226;metros</DESCRIPTION>
+    <TABLENAME>fr_operador</TABLENAME>
+    <FIELDNAME>opdr_parametros</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>F&#243;rmula C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_operando</TABLENAME>
+    <FIELDNAME>fmla_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Opdo Ordem</DESCRIPTION>
+    <TABLENAME>fr_operando</TABLENAME>
+    <FIELDNAME>opdo_ordem</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Opdo F&#243;rmula C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_operando</TABLENAME>
+    <FIELDNAME>opdo_fmla_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Opdo Express&#227;o</DESCRIPTION>
+    <TABLENAME>fr_operando</TABLENAME>
+    <FIELDNAME>opdo_expressao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_parametro</TABLENAME>
+    <FIELDNAME>frm_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_parametro</TABLENAME>
+    <FIELDNAME>com_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_parametro</TABLENAME>
+    <FIELDNAME>aco_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Momento</DESCRIPTION>
+    <TABLENAME>fr_parametro</TABLENAME>
+    <FIELDNAME>acc_momento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_parametro</TABLENAME>
+    <FIELDNAME>par_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Valor</DESCRIPTION>
+    <TABLENAME>fr_parametro</TABLENAME>
+    <FIELDNAME>par_valor</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_permissao</TABLENAME>
+    <FIELDNAME>per_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_permissao</TABLENAME>
+    <FIELDNAME>grp_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_permissao</TABLENAME>
+    <FIELDNAME>sis_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_permissao</TABLENAME>
+    <FIELDNAME>rel_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_permissao</TABLENAME>
+    <FIELDNAME>frm_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_permissao</TABLENAME>
+    <FIELDNAME>com_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_permissao</TABLENAME>
+    <FIELDNAME>mnu_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Adicionar</DESCRIPTION>
+    <TABLENAME>fr_permissao</TABLENAME>
+    <FIELDNAME>per_adicionar</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Excluir</DESCRIPTION>
+    <TABLENAME>fr_permissao</TABLENAME>
+    <FIELDNAME>per_excluir</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Editar</DESCRIPTION>
+    <TABLENAME>fr_permissao</TABLENAME>
+    <FIELDNAME>per_editar</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Visualizar</DESCRIPTION>
+    <TABLENAME>fr_permissao</TABLENAME>
+    <FIELDNAME>per_visualizar</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Habilitado</DESCRIPTION>
+    <TABLENAME>fr_permissao</TABLENAME>
+    <FIELDNAME>per_habilitado</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_permissao_maker</TABLENAME>
+    <FIELDNAME>pmk_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_permissao_maker</TABLENAME>
+    <FIELDNAME>grp_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Editar</DESCRIPTION>
+    <TABLENAME>fr_permissao_maker</TABLENAME>
+    <FIELDNAME>pmk_editar</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Excluir</DESCRIPTION>
+    <TABLENAME>fr_permissao_maker</TABLENAME>
+    <FIELDNAME>pmk_excluir</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_permissao_maker</TABLENAME>
+    <FIELDNAME>frm_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_permissao_maker</TABLENAME>
+    <FIELDNAME>rel_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_permissao_maker</TABLENAME>
+    <FIELDNAME>reg_cod</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_propriedade</TABLENAME>
+    <FIELDNAME>frm_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_propriedade</TABLENAME>
+    <FIELDNAME>com_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_propriedade</TABLENAME>
+    <FIELDNAME>pro_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Valor</DESCRIPTION>
+    <TABLENAME>fr_propriedade</TABLENAME>
+    <FIELDNAME>pro_valor</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_regras</TABLENAME>
+    <FIELDNAME>reg_cod</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_regras</TABLENAME>
+    <FIELDNAME>reg_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_regras</TABLENAME>
+    <FIELDNAME>reg_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Params</DESCRIPTION>
+    <TABLENAME>fr_regras</TABLENAME>
+    <FIELDNAME>reg_params</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vari&#225;veis</DESCRIPTION>
+    <TABLENAME>fr_regras</TABLENAME>
+    <FIELDNAME>reg_variaveis</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Params Out</DESCRIPTION>
+    <TABLENAME>fr_regras</TABLENAME>
+    <FIELDNAME>reg_params_out</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Interface</DESCRIPTION>
+    <TABLENAME>fr_regras</TABLENAME>
+    <FIELDNAME>reg_interface</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Script</DESCRIPTION>
+    <TABLENAME>fr_regras</TABLENAME>
+    <FIELDNAME>reg_script</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Data</DESCRIPTION>
+    <TABLENAME>fr_regras</TABLENAME>
+    <FIELDNAME>reg_data</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Hora</DESCRIPTION>
+    <TABLENAME>fr_regras</TABLENAME>
+    <FIELDNAME>reg_hora</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Compilada</DESCRIPTION>
+    <TABLENAME>fr_regras</TABLENAME>
+    <FIELDNAME>reg_compilada</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Destino</DESCRIPTION>
+    <TABLENAME>fr_regras</TABLENAME>
+    <FIELDNAME>reg_destino</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Hash</DESCRIPTION>
+    <TABLENAME>fr_regras</TABLENAME>
+    <FIELDNAME>reg_hash</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_regras</TABLENAME>
+    <FIELDNAME>cat_cod</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_regras</TABLENAME>
+    <FIELDNAME>usr_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_regras_atividades</TABLENAME>
+    <FIELDNAME>atv_cod</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_regras_atividades</TABLENAME>
+    <FIELDNAME>atv_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome Real</DESCRIPTION>
+    <TABLENAME>fr_regras_atividades</TABLENAME>
+    <FIELDNAME>atv_nome_real</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_regras_atividades</TABLENAME>
+    <FIELDNAME>atv_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Params</DESCRIPTION>
+    <TABLENAME>fr_regras_atividades</TABLENAME>
+    <FIELDNAME>atv_params</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Retorno</DESCRIPTION>
+    <TABLENAME>fr_regras_atividades</TABLENAME>
+    <FIELDNAME>atv_retorno</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Compatibilidade</DESCRIPTION>
+    <TABLENAME>fr_regras_atividades</TABLENAME>
+    <FIELDNAME>atv_compatibilidade</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_regras_banco</TABLENAME>
+    <FIELDNAME>reg_cod</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Script</DESCRIPTION>
+    <TABLENAME>fr_regras_banco</TABLENAME>
+    <FIELDNAME>ban_script</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Compila&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_regras_banco</TABLENAME>
+    <FIELDNAME>ban_compilacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_regras_categorias</TABLENAME>
+    <FIELDNAME>cat_cod</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_regras_categorias</TABLENAME>
+    <FIELDNAME>cat_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Super</DESCRIPTION>
+    <TABLENAME>fr_regras_categorias</TABLENAME>
+    <FIELDNAME>cat_super</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_regras_funcoes</TABLENAME>
+    <FIELDNAME>fun_cod</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_regras_funcoes</TABLENAME>
+    <FIELDNAME>fun_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_regras_funcoes</TABLENAME>
+    <FIELDNAME>fun_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome Real</DESCRIPTION>
+    <TABLENAME>fr_regras_funcoes</TABLENAME>
+    <FIELDNAME>fun_nome_real</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Params</DESCRIPTION>
+    <TABLENAME>fr_regras_funcoes</TABLENAME>
+    <FIELDNAME>fun_params</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Retorno</DESCRIPTION>
+    <TABLENAME>fr_regras_funcoes</TABLENAME>
+    <FIELDNAME>fun_retorno</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tipo</DESCRIPTION>
+    <TABLENAME>fr_regras_funcoes</TABLENAME>
+    <FIELDNAME>fun_tipo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Compatibilidade</DESCRIPTION>
+    <TABLENAME>fr_regras_funcoes</TABLENAME>
+    <FIELDNAME>fun_compatibilidade</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Resumo</DESCRIPTION>
+    <TABLENAME>fr_regras_funcoes</TABLENAME>
+    <FIELDNAME>fun_resumo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Conte&#250;do Servidor</DESCRIPTION>
+    <TABLENAME>fr_regras_funcoes</TABLENAME>
+    <FIELDNAME>fun_conteudo_servidor</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Conte&#250;do Cliente</DESCRIPTION>
+    <TABLENAME>fr_regras_funcoes</TABLENAME>
+    <FIELDNAME>fun_conteudo_cliente</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Conte&#250;do Banco</DESCRIPTION>
+    <TABLENAME>fr_regras_funcoes</TABLENAME>
+    <FIELDNAME>fun_conteudo_banco</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vers&#227;o</DESCRIPTION>
+    <TABLENAME>fr_regras_funcoes</TABLENAME>
+    <FIELDNAME>fun_versao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_regras_funcoes_tipos</TABLENAME>
+    <FIELDNAME>ftp_cod</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_regras_funcoes_tipos</TABLENAME>
+    <FIELDNAME>ftp_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_regras_tipos</TABLENAME>
+    <FIELDNAME>tip_cod</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_regras_tipos</TABLENAME>
+    <FIELDNAME>tip_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vis&#237;vel</DESCRIPTION>
+    <TABLENAME>fr_regras_tipos</TABLENAME>
+    <FIELDNAME>tip_visivel</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Equivalente</DESCRIPTION>
+    <TABLENAME>fr_regras_tipos</TABLENAME>
+    <FIELDNAME>tip_equivalente</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Aspas</DESCRIPTION>
+    <TABLENAME>fr_regras_tipos</TABLENAME>
+    <FIELDNAME>tip_aspas</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Default</DESCRIPTION>
+    <TABLENAME>fr_regras_tipos</TABLENAME>
+    <FIELDNAME>tip_default</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Categoria</DESCRIPTION>
+    <TABLENAME>fr_regras_tipos</TABLENAME>
+    <FIELDNAME>tip_categoria</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Super</DESCRIPTION>
+    <TABLENAME>fr_regras_tipos</TABLENAME>
+    <FIELDNAME>tip_super</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome Interno</DESCRIPTION>
+    <TABLENAME>fr_regras_tipos</TABLENAME>
+    <FIELDNAME>tip_nome_interno</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tamanho Obrigat&#243;rio</DESCRIPTION>
+    <TABLENAME>fr_regras_tipos</TABLENAME>
+    <FIELDNAME>tip_tam_obrigatorio</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vis&#237;vel Param Entrada</DESCRIPTION>
+    <TABLENAME>fr_regras_tipos</TABLENAME>
+    <FIELDNAME>tip_visivel_param_entrada</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vis&#237;vel Var</DESCRIPTION>
+    <TABLENAME>fr_regras_tipos</TABLENAME>
+    <FIELDNAME>tip_visivel_var</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vis&#237;vel Const</DESCRIPTION>
+    <TABLENAME>fr_regras_tipos</TABLENAME>
+    <FIELDNAME>tip_visivel_const</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vis&#237;vel Param Saida</DESCRIPTION>
+    <TABLENAME>fr_regras_tipos</TABLENAME>
+    <FIELDNAME>tip_visivel_param_saida</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_regras_triggers</TABLENAME>
+    <FIELDNAME>tab_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Evento</DESCRIPTION>
+    <TABLENAME>fr_regras_triggers</TABLENAME>
+    <FIELDNAME>tab_evento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_regras_triggers</TABLENAME>
+    <FIELDNAME>reg_cod</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Params</DESCRIPTION>
+    <TABLENAME>fr_regras_triggers</TABLENAME>
+    <FIELDNAME>tab_params</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Script</DESCRIPTION>
+    <TABLENAME>fr_regras_triggers</TABLENAME>
+    <FIELDNAME>tab_script</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Compila&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_regras_triggers</TABLENAME>
+    <FIELDNAME>tab_compilacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_relatorio</TABLENAME>
+    <FIELDNAME>rel_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_relatorio</TABLENAME>
+    <FIELDNAME>sis_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_relatorio</TABLENAME>
+    <FIELDNAME>rel_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Conte&#250;do</DESCRIPTION>
+    <TABLENAME>fr_relatorio</TABLENAME>
+    <FIELDNAME>rel_conteudo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Modificado</DESCRIPTION>
+    <TABLENAME>fr_relatorio</TABLENAME>
+    <FIELDNAME>rel_modificado</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tamanho</DESCRIPTION>
+    <TABLENAME>fr_relatorio</TABLENAME>
+    <FIELDNAME>rel_tamanho</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_relatorio</TABLENAME>
+    <FIELDNAME>usr_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_relatorio_categoria</TABLENAME>
+    <FIELDNAME>rel_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_relatorio_categoria</TABLENAME>
+    <FIELDNAME>cat_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_schema</TABLENAME>
+    <FIELDNAME>sch_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vers&#227;o</DESCRIPTION>
+    <TABLENAME>fr_schema</TABLENAME>
+    <FIELDNAME>sch_versao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Conex&#227;o</DESCRIPTION>
+    <TABLENAME>fr_sessao</TABLENAME>
+    <FIELDNAME>ses_conexao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Data e Hora Login</DESCRIPTION>
+    <TABLENAME>fr_sessao</TABLENAME>
+    <FIELDNAME>ses_datahora_login</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Usu&#225;rio</DESCRIPTION>
+    <TABLENAME>fr_sessao</TABLENAME>
+    <FIELDNAME>ses_usuario</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome Usu&#225;rio</DESCRIPTION>
+    <TABLENAME>fr_sessao</TABLENAME>
+    <FIELDNAME>ses_nome_usuario</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome M&#225;quina</DESCRIPTION>
+    <TABLENAME>fr_sessao</TABLENAME>
+    <FIELDNAME>ses_nome_maquina</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Endere&#231;o IP</DESCRIPTION>
+    <TABLENAME>fr_sessao</TABLENAME>
+    <FIELDNAME>ses_end_ip</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_sessao</TABLENAME>
+    <FIELDNAME>sis_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_sistema</TABLENAME>
+    <FIELDNAME>sis_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_sistema</TABLENAME>
+    <FIELDNAME>sis_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_sistema</TABLENAME>
+    <FIELDNAME>img_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo Icone</DESCRIPTION>
+    <TABLENAME>fr_sistema</TABLENAME>
+    <FIELDNAME>img_codigo_icone</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Sqldatalimite</DESCRIPTION>
+    <TABLENAME>fr_sistema</TABLENAME>
+    <FIELDNAME>sis_sqldatalimite</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Sqldadosentidade</DESCRIPTION>
+    <TABLENAME>fr_sistema</TABLENAME>
+    <FIELDNAME>sis_sqldadosentidade</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Sqlinformacoes</DESCRIPTION>
+    <TABLENAME>fr_sistema</TABLENAME>
+    <FIELDNAME>sis_sqlinformacoes</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Check</DESCRIPTION>
+    <TABLENAME>fr_sistema</TABLENAME>
+    <FIELDNAME>sis_check</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Acessoexterno</DESCRIPTION>
+    <TABLENAME>fr_sistema</TABLENAME>
+    <FIELDNAME>sis_acessoexterno</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Grupoexterno</DESCRIPTION>
+    <TABLENAME>fr_sistema</TABLENAME>
+    <FIELDNAME>sis_grupoexterno</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Informa&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_sistema</TABLENAME>
+    <FIELDNAME>sis_informacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Resumo</DESCRIPTION>
+    <TABLENAME>fr_sistema</TABLENAME>
+    <FIELDNAME>sis_resumo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_sistema_categoria</TABLENAME>
+    <FIELDNAME>sis_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_sistema_categoria</TABLENAME>
+    <FIELDNAME>cat_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_tabela</TABLENAME>
+    <FIELDNAME>tab_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_tabela</TABLENAME>
+    <FIELDNAME>tab_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_tarefa</TABLENAME>
+    <FIELDNAME>trf_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_tarefa</TABLENAME>
+    <FIELDNAME>trf_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_tarefa</TABLENAME>
+    <FIELDNAME>sis_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_tarefa</TABLENAME>
+    <FIELDNAME>reg_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Data Inicial</DESCRIPTION>
+    <TABLENAME>fr_tarefa</TABLENAME>
+    <FIELDNAME>trf_data_inicial</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Data Final</DESCRIPTION>
+    <TABLENAME>fr_tarefa</TABLENAME>
+    <FIELDNAME>trf_data_final</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Ativa</DESCRIPTION>
+    <TABLENAME>fr_tarefa</TABLENAME>
+    <FIELDNAME>trf_ativa</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Regra Par&#226;metros</DESCRIPTION>
+    <TABLENAME>fr_tarefa</TABLENAME>
+    <FIELDNAME>trf_regra_parametros</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tipo Agendamento</DESCRIPTION>
+    <TABLENAME>fr_tarefa</TABLENAME>
+    <FIELDNAME>trf_tipo_agendamento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_tarefa_tempo</TABLENAME>
+    <FIELDNAME>trt_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_tarefa_tempo</TABLENAME>
+    <FIELDNAME>trf_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tipo</DESCRIPTION>
+    <TABLENAME>fr_tarefa_tempo</TABLENAME>
+    <FIELDNAME>trt_tipo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Valor</DESCRIPTION>
+    <TABLENAME>fr_tarefa_tempo</TABLENAME>
+    <FIELDNAME>trt_valor</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_tipo_event</TABLENAME>
+    <FIELDNAME>fte_cod</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_tipo_event</TABLENAME>
+    <FIELDNAME>fte_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Sigla</DESCRIPTION>
+    <TABLENAME>fr_tipo_event</TABLENAME>
+    <FIELDNAME>fte_sigla</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_tipodado</TABLENAME>
+    <FIELDNAME>tpd_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_tipodado</TABLENAME>
+    <FIELDNAME>tpd_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Mascaraformatacao</DESCRIPTION>
+    <TABLENAME>fr_tipodado</TABLENAME>
+    <FIELDNAME>tpd_mascaraformatacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Mascaraedicao</DESCRIPTION>
+    <TABLENAME>fr_tipodado</TABLENAME>
+    <FIELDNAME>tpd_mascaraedicao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_traducao</TABLENAME>
+    <FIELDNAME>tra_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Item</DESCRIPTION>
+    <TABLENAME>fr_traducao</TABLENAME>
+    <FIELDNAME>tra_item</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Texto</DESCRIPTION>
+    <TABLENAME>fr_traducao</TABLENAME>
+    <FIELDNAME>tra_texto</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tipo</DESCRIPTION>
+    <TABLENAME>fr_traducao</TABLENAME>
+    <FIELDNAME>tra_tipo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_traducao_idioma</TABLENAME>
+    <FIELDNAME>tra_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_traducao_idioma</TABLENAME>
+    <FIELDNAME>idi_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Texto</DESCRIPTION>
+    <TABLENAME>fr_traducao_idioma</TABLENAME>
+    <FIELDNAME>tri_texto</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Situa&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_traducao_idioma</TABLENAME>
+    <FIELDNAME>tri_situacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Hash</DESCRIPTION>
+    <TABLENAME>fr_traducao_idioma</TABLENAME>
+    <FIELDNAME>tri_hash</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_usuario</TABLENAME>
+    <FIELDNAME>usr_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Login</DESCRIPTION>
+    <TABLENAME>fr_usuario</TABLENAME>
+    <FIELDNAME>usr_login</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Senha</DESCRIPTION>
+    <TABLENAME>fr_usuario</TABLENAME>
+    <FIELDNAME>usr_senha</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Administrador</DESCRIPTION>
+    <TABLENAME>fr_usuario</TABLENAME>
+    <FIELDNAME>usr_administrador</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tipo Expira&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_usuario</TABLENAME>
+    <FIELDNAME>usr_tipo_expiracao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dias Expira&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_usuario</TABLENAME>
+    <FIELDNAME>usr_dias_expiracao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Imagem Digital</DESCRIPTION>
+    <TABLENAME>fr_usuario</TABLENAME>
+    <FIELDNAME>usr_imagem_digital</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Foto</DESCRIPTION>
+    <TABLENAME>fr_usuario</TABLENAME>
+    <FIELDNAME>usr_foto</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome</DESCRIPTION>
+    <TABLENAME>fr_usuario</TABLENAME>
+    <FIELDNAME>usr_nome</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Email</DESCRIPTION>
+    <TABLENAME>fr_usuario</TABLENAME>
+    <FIELDNAME>usr_email</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Digital</DESCRIPTION>
+    <TABLENAME>fr_usuario</TABLENAME>
+    <FIELDNAME>usr_digital</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Inicio Expira&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_usuario</TABLENAME>
+    <FIELDNAME>usr_inicio_expiracao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Pessoa</DESCRIPTION>
+    <TABLENAME>fr_usuario</TABLENAME>
+    <FIELDNAME>id_pessoa</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_usuario_grupo</TABLENAME>
+    <FIELDNAME>grp_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_usuario_grupo</TABLENAME>
+    <FIELDNAME>sis_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_usuario_grupo</TABLENAME>
+    <FIELDNAME>usr_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_usuario_sistema</TABLENAME>
+    <FIELDNAME>usr_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_usuario_sistema</TABLENAME>
+    <FIELDNAME>sis_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Acesso Externo</DESCRIPTION>
+    <TABLENAME>fr_usuario_sistema</TABLENAME>
+    <FIELDNAME>uss_acesso_externo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Administrador</DESCRIPTION>
+    <TABLENAME>fr_usuario_sistema</TABLENAME>
+    <FIELDNAME>uss_administrador</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Acesso Maker</DESCRIPTION>
+    <TABLENAME>fr_usuario_sistema</TABLENAME>
+    <FIELDNAME>uss_acesso_maker</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Criar Formul&#225;rio</DESCRIPTION>
+    <TABLENAME>fr_usuario_sistema</TABLENAME>
+    <FIELDNAME>uss_criar_formulario</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Criar Relat&#243;rio</DESCRIPTION>
+    <TABLENAME>fr_usuario_sistema</TABLENAME>
+    <FIELDNAME>uss_criar_relatorio</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Acessar</DESCRIPTION>
+    <TABLENAME>fr_usuario_sistema</TABLENAME>
+    <FIELDNAME>uss_acessar</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Criar Regra</DESCRIPTION>
+    <TABLENAME>fr_usuario_sistema</TABLENAME>
+    <FIELDNAME>uss_criar_regra</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_versao</TABLENAME>
+    <FIELDNAME>ver_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tipo</DESCRIPTION>
+    <TABLENAME>fr_versao</TABLENAME>
+    <FIELDNAME>ver_tipo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_versao</TABLENAME>
+    <FIELDNAME>sis_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_versao</TABLENAME>
+    <FIELDNAME>obj_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Descri&#231;&#227;o</DESCRIPTION>
+    <TABLENAME>fr_versao</TABLENAME>
+    <FIELDNAME>ver_descricao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Conte&#250;do</DESCRIPTION>
+    <TABLENAME>fr_versao</TABLENAME>
+    <FIELDNAME>ver_conteudo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Data Hora</DESCRIPTION>
+    <TABLENAME>fr_versao</TABLENAME>
+    <FIELDNAME>ver_data_hora</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vers&#227;o</DESCRIPTION>
+    <TABLENAME>fr_versao</TABLENAME>
+    <FIELDNAME>ver_versao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo</DESCRIPTION>
+    <TABLENAME>fr_versao</TABLENAME>
+    <FIELDNAME>usr_codigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Pessoa</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>cpf_pessoa</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Status</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>status_cadastro</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome da Mae</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>nome_mae</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Data de Nascimento</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>data_nascimento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Generate Series</DESCRIPTION>
+    <TABLENAME>vw_series</TABLENAME>
+    <FIELDNAME>generate_series</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idautenticacao</DESCRIPTION>
+    <TABLENAME>cad_autenticacao</TABLENAME>
+    <FIELDNAME>idautenticacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nmlogin</DESCRIPTION>
+    <TABLENAME>cad_autenticacao</TABLENAME>
+    <FIELDNAME>nmlogin</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>CPF</DESCRIPTION>
+    <TABLENAME>cad_autenticacao</TABLENAME>
+    <FIELDNAME>cpf</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idpessoa</DESCRIPTION>
+    <TABLENAME>cad_autenticacao</TABLENAME>
+    <FIELDNAME>idpessoa</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dssenha</DESCRIPTION>
+    <TABLENAME>cad_autenticacao</TABLENAME>
+    <FIELDNAME>dssenha</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtultatu</DESCRIPTION>
+    <TABLENAME>cad_autenticacao</TABLENAME>
+    <FIELDNAME>dtultatu</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idcontatodigital</DESCRIPTION>
+    <TABLENAME>cad_contato_digital</TABLENAME>
+    <FIELDNAME>idcontatodigital</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dscontatodigital</DESCRIPTION>
+    <TABLENAME>cad_contato_digital</TABLENAME>
+    <FIELDNAME>dscontatodigital</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idpessoa</DESCRIPTION>
+    <TABLENAME>cad_contato_digital</TABLENAME>
+    <FIELDNAME>idpessoa</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tpmeiodigital</DESCRIPTION>
+    <TABLENAME>cad_contato_digital</TABLENAME>
+    <FIELDNAME>tpmeiodigital</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tpcontatodigital</DESCRIPTION>
+    <TABLENAME>cad_contato_digital</TABLENAME>
+    <FIELDNAME>tpcontatodigital</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtultatu</DESCRIPTION>
+    <TABLENAME>cad_contato_digital</TABLENAME>
+    <FIELDNAME>dtultatu</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Estadocivil</DESCRIPTION>
+    <TABLENAME>cad_estadocivil</TABLENAME>
+    <FIELDNAME>id_estadocivil</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Estado Civil</DESCRIPTION>
+    <TABLENAME>cad_estadocivil</TABLENAME>
+    <FIELDNAME>estado_civil</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Genero</DESCRIPTION>
+    <TABLENAME>cad_genero</TABLENAME>
+    <FIELDNAME>id_genero</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome Genero</DESCRIPTION>
+    <TABLENAME>cad_genero</TABLENAME>
+    <FIELDNAME>nome_genero</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Link Validacao</DESCRIPTION>
+    <TABLENAME>cad_link_validacao</TABLENAME>
+    <FIELDNAME>id_link_validacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Pessoa</DESCRIPTION>
+    <TABLENAME>cad_link_validacao</TABLENAME>
+    <FIELDNAME>id_pessoa</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Data Hora</DESCRIPTION>
+    <TABLENAME>cad_link_validacao</TABLENAME>
+    <FIELDNAME>data_hora</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Hash</DESCRIPTION>
+    <TABLENAME>cad_link_validacao</TABLENAME>
+    <FIELDNAME>hash</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Valido</DESCRIPTION>
+    <TABLENAME>cad_link_validacao</TABLENAME>
+    <FIELDNAME>valido</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Genero</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>id_genero</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Rendamensal Declarada</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>rendamensal_declarada</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Rendamensal Aferida</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>rendamensal_aferida</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Rating</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>rating</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Termos Contrato</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>termos_contrato</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Documento Identificacao</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>documento_identificacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Documento Renda</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>documento_renda</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Estadocivil</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>id_estadocivil</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Conjuge</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>cpf_conjuge</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Comprovanete Residencia</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>comprovanete_residencia</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Identificacao Enviado</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>identificacao_enviado</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Renda Enviado</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>renda_enviado</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Residencia Enviado</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>residencia_enviado</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Logradouro</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>logradouro</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Complemento</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>complemento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>CEP</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>cep</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Bairro</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>bairro</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Cidade</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>cidade</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Uf</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>uf</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Cadastro</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>dt_cadastro</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Status Atual</DESCRIPTION>
+    <TABLENAME>cad_pessoa</TABLENAME>
+    <FIELDNAME>dt_status_atual</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Documentos Pessoa</DESCRIPTION>
+    <TABLENAME>cad_pessoa_documentos</TABLENAME>
+    <FIELDNAME>id_documentos_pessoa</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Pessoa</DESCRIPTION>
+    <TABLENAME>cad_pessoa_documentos</TABLENAME>
+    <FIELDNAME>id_pessoa</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tipo Documento</DESCRIPTION>
+    <TABLENAME>cad_pessoa_documentos</TABLENAME>
+    <FIELDNAME>id_tipo_documento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Status Envio</DESCRIPTION>
+    <TABLENAME>cad_pessoa_documentos</TABLENAME>
+    <FIELDNAME>status_envio</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Envio Documento</DESCRIPTION>
+    <TABLENAME>cad_pessoa_documentos</TABLENAME>
+    <FIELDNAME>dt_envio_documento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nome Original</DESCRIPTION>
+    <TABLENAME>cad_pessoa_documentos</TABLENAME>
+    <FIELDNAME>nome_original</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Extensao</DESCRIPTION>
+    <TABLENAME>cad_pessoa_documentos</TABLENAME>
+    <FIELDNAME>extensao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Atual</DESCRIPTION>
+    <TABLENAME>cad_pessoa_documentos</TABLENAME>
+    <FIELDNAME>atual</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Arquivo</DESCRIPTION>
+    <TABLENAME>cad_pessoa_documentos</TABLENAME>
+    <FIELDNAME>arquivo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idpessoa</DESCRIPTION>
+    <TABLENAME>cad_pessoa_fred</TABLENAME>
+    <FIELDNAME>idpessoa</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tppessoa</DESCRIPTION>
+    <TABLENAME>cad_pessoa_fred</TABLENAME>
+    <FIELDNAME>tppessoa</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nucpfcnpj</DESCRIPTION>
+    <TABLENAME>cad_pessoa_fred</TABLENAME>
+    <FIELDNAME>nucpfcnpj</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Flcpfcnpj</DESCRIPTION>
+    <TABLENAME>cad_pessoa_fred</TABLENAME>
+    <FIELDNAME>flcpfcnpj</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dgcpfcnpj</DESCRIPTION>
+    <TABLENAME>cad_pessoa_fred</TABLENAME>
+    <FIELDNAME>dgcpfcnpj</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nmpessoa</DESCRIPTION>
+    <TABLENAME>cad_pessoa_fred</TABLENAME>
+    <FIELDNAME>nmpessoa</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idpessoaprin</DESCRIPTION>
+    <TABLENAME>cad_pessoa_fred</TABLENAME>
+    <FIELDNAME>idpessoaprin</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtcadastro</DESCRIPTION>
+    <TABLENAME>cad_pessoa_fred</TABLENAME>
+    <FIELDNAME>dtcadastro</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtultatu</DESCRIPTION>
+    <TABLENAME>cad_pessoa_fred</TABLENAME>
+    <FIELDNAME>dtultatu</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Historicostatus</DESCRIPTION>
+    <TABLENAME>cad_pessoa_historicostatus</TABLENAME>
+    <FIELDNAME>id_historicostatus</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Pessoa</DESCRIPTION>
+    <TABLENAME>cad_pessoa_historicostatus</TABLENAME>
+    <FIELDNAME>id_pessoa</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Status</DESCRIPTION>
+    <TABLENAME>cad_pessoa_historicostatus</TABLENAME>
+    <FIELDNAME>id_status</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Status</DESCRIPTION>
+    <TABLENAME>cad_pessoa_historicostatus</TABLENAME>
+    <FIELDNAME>dt_status</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Status</DESCRIPTION>
+    <TABLENAME>cad_pessoa_historicostatus</TABLENAME>
+    <FIELDNAME>usr_status</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Reprovacao</DESCRIPTION>
+    <TABLENAME>cad_pessoa_historicostatus</TABLENAME>
+    <FIELDNAME>id_reprovacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Hist&#243;rico Reprovacao</DESCRIPTION>
+    <TABLENAME>cad_pessoa_historicostatus</TABLENAME>
+    <FIELDNAME>historico_reprovacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Pessoa Reprovacao</DESCRIPTION>
+    <TABLENAME>cad_pessoa_reprovacoes</TABLENAME>
+    <FIELDNAME>id_pessoa_reprovacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Pessoa</DESCRIPTION>
+    <TABLENAME>cad_pessoa_reprovacoes</TABLENAME>
+    <FIELDNAME>id_pessoa</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Reprovador</DESCRIPTION>
+    <TABLENAME>cad_pessoa_reprovacoes</TABLENAME>
+    <FIELDNAME>id_reprovador</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Hora</DESCRIPTION>
+    <TABLENAME>cad_pessoa_reprovacoes</TABLENAME>
+    <FIELDNAME>dt_hora</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Motivo Reprovacao</DESCRIPTION>
+    <TABLENAME>cad_pessoa_reprovacoes</TABLENAME>
+    <FIELDNAME>motivo_reprovacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Guid</DESCRIPTION>
+    <TABLENAME>cad_pessoa_reprovacoes</TABLENAME>
+    <FIELDNAME>guid</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idpfisica</DESCRIPTION>
+    <TABLENAME>cad_pfisica</TABLENAME>
+    <FIELDNAME>idpfisica</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idpessoa</DESCRIPTION>
+    <TABLENAME>cad_pfisica</TABLENAME>
+    <FIELDNAME>idpessoa</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nmsocial</DESCRIPTION>
+    <TABLENAME>cad_pfisica</TABLENAME>
+    <FIELDNAME>nmsocial</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtnasci</DESCRIPTION>
+    <TABLENAME>cad_pfisica</TABLENAME>
+    <FIELDNAME>dtnasci</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idcidadenatal</DESCRIPTION>
+    <TABLENAME>cad_pfisica</TABLENAME>
+    <FIELDNAME>idcidadenatal</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tpdocident</DESCRIPTION>
+    <TABLENAME>cad_pfisica</TABLENAME>
+    <FIELDNAME>tpdocident</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nudocident</DESCRIPTION>
+    <TABLENAME>cad_pfisica</TABLENAME>
+    <FIELDNAME>nudocident</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Sexo</DESCRIPTION>
+    <TABLENAME>cad_pfisica</TABLENAME>
+    <FIELDNAME>sexo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nmpai</DESCRIPTION>
+    <TABLENAME>cad_pfisica</TABLENAME>
+    <FIELDNAME>nmpai</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nmmae</DESCRIPTION>
+    <TABLENAME>cad_pfisica</TABLENAME>
+    <FIELDNAME>nmmae</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idescolaridade</DESCRIPTION>
+    <TABLENAME>cad_pfisica</TABLENAME>
+    <FIELDNAME>idescolaridade</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idprofissao</DESCRIPTION>
+    <TABLENAME>cad_pfisica</TABLENAME>
+    <FIELDNAME>idprofissao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idestadocivil</DESCRIPTION>
+    <TABLENAME>cad_pfisica</TABLENAME>
+    <FIELDNAME>idestadocivil</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nudependente</DESCRIPTION>
+    <TABLENAME>cad_pfisica</TABLENAME>
+    <FIELDNAME>nudependente</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nufilhos</DESCRIPTION>
+    <TABLENAME>cad_pfisica</TABLENAME>
+    <FIELDNAME>nufilhos</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtultatu</DESCRIPTION>
+    <TABLENAME>cad_pfisica</TABLENAME>
+    <FIELDNAME>dtultatu</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idpjuridica</DESCRIPTION>
+    <TABLENAME>cad_pjuridica</TABLENAME>
+    <FIELDNAME>idpjuridica</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idpessoa</DESCRIPTION>
+    <TABLENAME>cad_pjuridica</TABLENAME>
+    <FIELDNAME>idpessoa</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nmfantasia</DESCRIPTION>
+    <TABLENAME>cad_pjuridica</TABLENAME>
+    <FIELDNAME>nmfantasia</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtabertura</DESCRIPTION>
+    <TABLENAME>cad_pjuridica</TABLENAME>
+    <FIELDNAME>dtabertura</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Strelac</DESCRIPTION>
+    <TABLENAME>cad_pjuridica</TABLENAME>
+    <FIELDNAME>strelac</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtultatu</DESCRIPTION>
+    <TABLENAME>cad_pjuridica</TABLENAME>
+    <FIELDNAME>dtultatu</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idportador</DESCRIPTION>
+    <TABLENAME>cad_portador</TABLENAME>
+    <FIELDNAME>idportador</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idpessoa</DESCRIPTION>
+    <TABLENAME>cad_portador</TABLENAME>
+    <FIELDNAME>idpessoa</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtultatu</DESCRIPTION>
+    <TABLENAME>cad_portador</TABLENAME>
+    <FIELDNAME>dtultatu</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Status</DESCRIPTION>
+    <TABLENAME>cad_status</TABLENAME>
+    <FIELDNAME>id_status</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Status</DESCRIPTION>
+    <TABLENAME>cad_status</TABLENAME>
+    <FIELDNAME>status</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Ordem</DESCRIPTION>
+    <TABLENAME>cad_status</TABLENAME>
+    <FIELDNAME>ordem</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idstlancamento</DESCRIPTION>
+    <TABLENAME>cad_status_lancamento</TABLENAME>
+    <FIELDNAME>idstlancamento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Stlancamento</DESCRIPTION>
+    <TABLENAME>cad_status_lancamento</TABLENAME>
+    <FIELDNAME>stlancamento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idsttransac</DESCRIPTION>
+    <TABLENAME>cad_status_transacao</TABLENAME>
+    <FIELDNAME>idsttransac</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Sttransac</DESCRIPTION>
+    <TABLENAME>cad_status_transacao</TABLENAME>
+    <FIELDNAME>sttransac</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Textosemails</DESCRIPTION>
+    <TABLENAME>cad_textoemails</TABLENAME>
+    <FIELDNAME>id_textosemails</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tipo Email</DESCRIPTION>
+    <TABLENAME>cad_textoemails</TABLENAME>
+    <FIELDNAME>tipo_email</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Texto Email</DESCRIPTION>
+    <TABLENAME>cad_textoemails</TABLENAME>
+    <FIELDNAME>texto_email</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tipo Documento</DESCRIPTION>
+    <TABLENAME>cad_tipo_documento</TABLENAME>
+    <FIELDNAME>id_tipo_documento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tipo Documento</DESCRIPTION>
+    <TABLENAME>cad_tipo_documento</TABLENAME>
+    <FIELDNAME>tipo_documento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idcartao</DESCRIPTION>
+    <TABLENAME>fin_cartao</TABLENAME>
+    <FIELDNAME>idcartao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nucartao</DESCRIPTION>
+    <TABLENAME>fin_cartao</TABLENAME>
+    <FIELDNAME>nucartao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idportador</DESCRIPTION>
+    <TABLENAME>fin_cartao</TABLENAME>
+    <FIELDNAME>idportador</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idconta</DESCRIPTION>
+    <TABLENAME>fin_cartao</TABLENAME>
+    <FIELDNAME>idconta</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Stcartao</DESCRIPTION>
+    <TABLENAME>fin_cartao</TABLENAME>
+    <FIELDNAME>stcartao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Sttipocartao</DESCRIPTION>
+    <TABLENAME>fin_cartao</TABLENAME>
+    <FIELDNAME>sttipocartao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dssenha</DESCRIPTION>
+    <TABLENAME>fin_cartao</TABLENAME>
+    <FIELDNAME>dssenha</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dsultsenha</DESCRIPTION>
+    <TABLENAME>fin_cartao</TABLENAME>
+    <FIELDNAME>dsultsenha</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nutentsenha</DESCRIPTION>
+    <TABLENAME>fin_cartao</TABLENAME>
+    <FIELDNAME>nutentsenha</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtcadastro</DESCRIPTION>
+    <TABLENAME>fin_cartao</TABLENAME>
+    <FIELDNAME>dtcadastro</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtultatu</DESCRIPTION>
+    <TABLENAME>fin_cartao</TABLENAME>
+    <FIELDNAME>dtultatu</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idconciliacao</DESCRIPTION>
+    <TABLENAME>fin_conciliacao</TABLENAME>
+    <FIELDNAME>idconciliacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Slanterior</DESCRIPTION>
+    <TABLENAME>fin_conciliacao</TABLENAME>
+    <FIELDNAME>slanterior</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vldespesas</DESCRIPTION>
+    <TABLENAME>fin_conciliacao</TABLENAME>
+    <FIELDNAME>vldespesas</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vlreceitas</DESCRIPTION>
+    <TABLENAME>fin_conciliacao</TABLENAME>
+    <FIELDNAME>vlreceitas</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Slatual</DESCRIPTION>
+    <TABLENAME>fin_conciliacao</TABLENAME>
+    <FIELDNAME>slatual</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Stconciliacao</DESCRIPTION>
+    <TABLENAME>fin_conciliacao</TABLENAME>
+    <FIELDNAME>stconciliacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtultatu</DESCRIPTION>
+    <TABLENAME>fin_conciliacao</TABLENAME>
+    <FIELDNAME>dtultatu</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idconclanc</DESCRIPTION>
+    <TABLENAME>fin_conciliacao_lancamento</TABLENAME>
+    <FIELDNAME>idconclanc</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idlancamento</DESCRIPTION>
+    <TABLENAME>fin_conciliacao_lancamento</TABLENAME>
+    <FIELDNAME>idlancamento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idconciliacao</DESCRIPTION>
+    <TABLENAME>fin_conciliacao_lancamento</TABLENAME>
+    <FIELDNAME>idconciliacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Stconclanc</DESCRIPTION>
+    <TABLENAME>fin_conciliacao_lancamento</TABLENAME>
+    <FIELDNAME>stconclanc</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtultatu</DESCRIPTION>
+    <TABLENAME>fin_conciliacao_lancamento</TABLENAME>
+    <FIELDNAME>dtultatu</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idconcprefat</DESCRIPTION>
+    <TABLENAME>fin_conciliacao_prefaturamento</TABLENAME>
+    <FIELDNAME>idconcprefat</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idconciliacao</DESCRIPTION>
+    <TABLENAME>fin_conciliacao_prefaturamento</TABLENAME>
+    <FIELDNAME>idconciliacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idprefaturamento</DESCRIPTION>
+    <TABLENAME>fin_conciliacao_prefaturamento</TABLENAME>
+    <FIELDNAME>idprefaturamento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Stconcprefat</DESCRIPTION>
+    <TABLENAME>fin_conciliacao_prefaturamento</TABLENAME>
+    <FIELDNAME>stconcprefat</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtultatu</DESCRIPTION>
+    <TABLENAME>fin_conciliacao_prefaturamento</TABLENAME>
+    <FIELDNAME>dtultatu</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idconta</DESCRIPTION>
+    <TABLENAME>fin_conta</TABLENAME>
+    <FIELDNAME>idconta</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtcadastro</DESCRIPTION>
+    <TABLENAME>fin_conta</TABLENAME>
+    <FIELDNAME>dtcadastro</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Stconta</DESCRIPTION>
+    <TABLENAME>fin_conta</TABLENAME>
+    <FIELDNAME>stconta</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtultatu</DESCRIPTION>
+    <TABLENAME>fin_conta</TABLENAME>
+    <FIELDNAME>dtultatu</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idpessoa</DESCRIPTION>
+    <TABLENAME>fin_conta</TABLENAME>
+    <FIELDNAME>idpessoa</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nnconta</DESCRIPTION>
+    <TABLENAME>fin_conta</TABLENAME>
+    <FIELDNAME>nnconta</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dgconta</DESCRIPTION>
+    <TABLENAME>fin_conta</TABLENAME>
+    <FIELDNAME>dgconta</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Iddividendo</DESCRIPTION>
+    <TABLENAME>fin_dividendo</TABLENAME>
+    <FIELDNAME>iddividendo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idprefaturamento</DESCRIPTION>
+    <TABLENAME>fin_dividendo</TABLENAME>
+    <FIELDNAME>idprefaturamento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtdividendo</DESCRIPTION>
+    <TABLENAME>fin_dividendo</TABLENAME>
+    <FIELDNAME>dtdividendo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Stdividendo</DESCRIPTION>
+    <TABLENAME>fin_dividendo</TABLENAME>
+    <FIELDNAME>stdividendo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vlretornado</DESCRIPTION>
+    <TABLENAME>fin_dividendo</TABLENAME>
+    <FIELDNAME>vlretornado</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtultatu</DESCRIPTION>
+    <TABLENAME>fin_dividendo</TABLENAME>
+    <FIELDNAME>dtultatu</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idemprestimo</DESCRIPTION>
+    <TABLENAME>fin_emprestimo</TABLENAME>
+    <FIELDNAME>idemprestimo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idtomador</DESCRIPTION>
+    <TABLENAME>fin_emprestimo</TABLENAME>
+    <FIELDNAME>idtomador</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vlemprestimo</DESCRIPTION>
+    <TABLENAME>fin_emprestimo</TABLENAME>
+    <FIELDNAME>vlemprestimo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtpedido</DESCRIPTION>
+    <TABLENAME>fin_emprestimo</TABLENAME>
+    <FIELDNAME>dtpedido</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtprimvenc</DESCRIPTION>
+    <TABLENAME>fin_emprestimo</TABLENAME>
+    <FIELDNAME>dtprimvenc</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vlcotasrec</DESCRIPTION>
+    <TABLENAME>fin_emprestimo</TABLENAME>
+    <FIELDNAME>vlcotasrec</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Diavencimento</DESCRIPTION>
+    <TABLENAME>fin_emprestimo</TABLENAME>
+    <FIELDNAME>diavencimento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Guid</DESCRIPTION>
+    <TABLENAME>fin_emprestimo</TABLENAME>
+    <FIELDNAME>guid</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Ativo</DESCRIPTION>
+    <TABLENAME>fin_emprestimo</TABLENAME>
+    <FIELDNAME>ativo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idemprestimocotas</DESCRIPTION>
+    <TABLENAME>fin_emprestimocotas</TABLENAME>
+    <FIELDNAME>idemprestimocotas</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idemprestimo</DESCRIPTION>
+    <TABLENAME>fin_emprestimocotas</TABLENAME>
+    <FIELDNAME>idemprestimo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idinvestidor</DESCRIPTION>
+    <TABLENAME>fin_emprestimocotas</TABLENAME>
+    <FIELDNAME>idinvestidor</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vlcota</DESCRIPTION>
+    <TABLENAME>fin_emprestimocotas</TABLENAME>
+    <FIELDNAME>vlcota</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtinvestimento</DESCRIPTION>
+    <TABLENAME>fin_emprestimocotas</TABLENAME>
+    <FIELDNAME>dtinvestimento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtconfirma</DESCRIPTION>
+    <TABLENAME>fin_emprestimocotas</TABLENAME>
+    <FIELDNAME>dtconfirma</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idfaturamento</DESCRIPTION>
+    <TABLENAME>fin_faturamento</TABLENAME>
+    <FIELDNAME>idfaturamento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idprefaturamento</DESCRIPTION>
+    <TABLENAME>fin_faturamento</TABLENAME>
+    <FIELDNAME>idprefaturamento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtfaturamento</DESCRIPTION>
+    <TABLENAME>fin_faturamento</TABLENAME>
+    <FIELDNAME>dtfaturamento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Stfaturamento</DESCRIPTION>
+    <TABLENAME>fin_faturamento</TABLENAME>
+    <FIELDNAME>stfaturamento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vlfaturado</DESCRIPTION>
+    <TABLENAME>fin_faturamento</TABLENAME>
+    <FIELDNAME>vlfaturado</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtultatu</DESCRIPTION>
+    <TABLENAME>fin_faturamento</TABLENAME>
+    <FIELDNAME>dtultatu</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idinvestidor</DESCRIPTION>
+    <TABLENAME>fin_investidor</TABLENAME>
+    <FIELDNAME>idinvestidor</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idpessoa</DESCRIPTION>
+    <TABLENAME>fin_investidor</TABLENAME>
+    <FIELDNAME>idpessoa</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idriscopri</DESCRIPTION>
+    <TABLENAME>fin_investidor</TABLENAME>
+    <FIELDNAME>idriscopri</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtultatu</DESCRIPTION>
+    <TABLENAME>fin_investidor</TABLENAME>
+    <FIELDNAME>dtultatu</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idlancamento</DESCRIPTION>
+    <TABLENAME>fin_lancamento</TABLENAME>
+    <FIELDNAME>idlancamento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idtransacao</DESCRIPTION>
+    <TABLENAME>fin_lancamento</TABLENAME>
+    <FIELDNAME>idtransacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Nuparcela</DESCRIPTION>
+    <TABLENAME>fin_lancamento</TABLENAME>
+    <FIELDNAME>nuparcela</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vlnominal</DESCRIPTION>
+    <TABLENAME>fin_lancamento</TABLENAME>
+    <FIELDNAME>vlnominal</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vljuros</DESCRIPTION>
+    <TABLENAME>fin_lancamento</TABLENAME>
+    <FIELDNAME>vljuros</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vlmultaprcant</DESCRIPTION>
+    <TABLENAME>fin_lancamento</TABLENAME>
+    <FIELDNAME>vlmultaprcant</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Stlancamento</DESCRIPTION>
+    <TABLENAME>fin_lancamento</TABLENAME>
+    <FIELDNAME>stlancamento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtultatu</DESCRIPTION>
+    <TABLENAME>fin_lancamento</TABLENAME>
+    <FIELDNAME>dtultatu</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idparametrosfinanceiros</DESCRIPTION>
+    <TABLENAME>fin_parametrosfinanceiros</TABLENAME>
+    <FIELDNAME>idparametrosfinanceiros</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vlminimo</DESCRIPTION>
+    <TABLENAME>fin_parametrosfinanceiros</TABLENAME>
+    <FIELDNAME>vlminimo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vlmax</DESCRIPTION>
+    <TABLENAME>fin_parametrosfinanceiros</TABLENAME>
+    <FIELDNAME>vlmax</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idprefaturamento</DESCRIPTION>
+    <TABLENAME>fin_prefaturamento</TABLENAME>
+    <FIELDNAME>idprefaturamento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtprefaturamento</DESCRIPTION>
+    <TABLENAME>fin_prefaturamento</TABLENAME>
+    <FIELDNAME>dtprefaturamento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Stfatura</DESCRIPTION>
+    <TABLENAME>fin_prefaturamento</TABLENAME>
+    <FIELDNAME>stfatura</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Stprefaturamento</DESCRIPTION>
+    <TABLENAME>fin_prefaturamento</TABLENAME>
+    <FIELDNAME>stprefaturamento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vlafaturar</DESCRIPTION>
+    <TABLENAME>fin_prefaturamento</TABLENAME>
+    <FIELDNAME>vlafaturar</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtultatu</DESCRIPTION>
+    <TABLENAME>fin_prefaturamento</TABLENAME>
+    <FIELDNAME>dtultatu</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Rating</DESCRIPTION>
+    <TABLENAME>fin_rating</TABLENAME>
+    <FIELDNAME>id_rating</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Rating</DESCRIPTION>
+    <TABLENAME>fin_rating</TABLENAME>
+    <FIELDNAME>rating</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Rating Juros</DESCRIPTION>
+    <TABLENAME>fin_rating</TABLENAME>
+    <FIELDNAME>rating_juros</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Rating Valormax</DESCRIPTION>
+    <TABLENAME>fin_rating</TABLENAME>
+    <FIELDNAME>rating_valormax</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Rating Maxparcelas</DESCRIPTION>
+    <TABLENAME>fin_rating</TABLENAME>
+    <FIELDNAME>rating_maxparcelas</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idsaldo</DESCRIPTION>
+    <TABLENAME>fin_saldo</TABLENAME>
+    <FIELDNAME>idsaldo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idconta</DESCRIPTION>
+    <TABLENAME>fin_saldo</TABLENAME>
+    <FIELDNAME>idconta</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtsaldo</DESCRIPTION>
+    <TABLENAME>fin_saldo</TABLENAME>
+    <FIELDNAME>dtsaldo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vlsaldo</DESCRIPTION>
+    <TABLENAME>fin_saldo</TABLENAME>
+    <FIELDNAME>vlsaldo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtultatu</DESCRIPTION>
+    <TABLENAME>fin_saldo</TABLENAME>
+    <FIELDNAME>dtultatu</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idtomador</DESCRIPTION>
+    <TABLENAME>fin_tomador</TABLENAME>
+    <FIELDNAME>idtomador</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idpessoa</DESCRIPTION>
+    <TABLENAME>fin_tomador</TABLENAME>
+    <FIELDNAME>idpessoa</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Scoreatu</DESCRIPTION>
+    <TABLENAME>fin_tomador</TABLENAME>
+    <FIELDNAME>scoreatu</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Scoteult</DESCRIPTION>
+    <TABLENAME>fin_tomador</TABLENAME>
+    <FIELDNAME>scoteult</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtultatu</DESCRIPTION>
+    <TABLENAME>fin_tomador</TABLENAME>
+    <FIELDNAME>dtultatu</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtultatu</DESCRIPTION>
+    <TABLENAME>fin_transacao</TABLENAME>
+    <FIELDNAME>dtultatu</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Guid</DESCRIPTION>
+    <TABLENAME>fin_transacao</TABLENAME>
+    <FIELDNAME>guid</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Identificador</DESCRIPTION>
+    <TABLENAME>hour_angle</TABLENAME>
+    <FIELDNAME>id</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Minute</DESCRIPTION>
+    <TABLENAME>hour_angle</TABLENAME>
+    <FIELDNAME>minute</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Day</DESCRIPTION>
+    <TABLENAME>hour_angle</TABLENAME>
+    <FIELDNAME>day</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Id</DESCRIPTION>
+    <TABLENAME>fin_transacao</TABLENAME>
+    <FIELDNAME>idtransacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Valor</DESCRIPTION>
+    <TABLENAME>fin_transacao</TABLENAME>
+    <FIELDNAME>vltransacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Data</DESCRIPTION>
+    <TABLENAME>fin_transacao</TABLENAME>
+    <FIELDNAME>dttransacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Investidor</DESCRIPTION>
+    <TABLENAME>fin_transacao</TABLENAME>
+    <FIELDNAME>idinvestidor</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tomador</DESCRIPTION>
+    <TABLENAME>fin_transacao</TABLENAME>
+    <FIELDNAME>idtomador</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Status</DESCRIPTION>
+    <TABLENAME>fin_transacao</TABLENAME>
+    <FIELDNAME>sttransacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Qt de Parcelas</DESCRIPTION>
+    <TABLENAME>fin_transacao</TABLENAME>
+    <FIELDNAME>qtparcelas</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vl. Cotas Recebidas</DESCRIPTION>
+    <TABLENAME>fin_transacao</TABLENAME>
+    <FIELDNAME>vlcotasrec</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dt Primeiro Pagamento</DESCRIPTION>
+    <TABLENAME>fin_transacao</TABLENAME>
+    <FIELDNAME>dtprimpag</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Ativo?</DESCRIPTION>
+    <TABLENAME>fin_transacao</TABLENAME>
+    <FIELDNAME>stativo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Valor Juros</DESCRIPTION>
+    <TABLENAME>fin_transacao</TABLENAME>
+    <FIELDNAME>vljuros</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Rating</DESCRIPTION>
+    <TABLENAME>fin_transacao</TABLENAME>
+    <FIELDNAME>vlrating</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idratingcotas</DESCRIPTION>
+    <TABLENAME>fin_rating_cotas</TABLENAME>
+    <FIELDNAME>idratingcotas</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Rating</DESCRIPTION>
+    <TABLENAME>fin_rating_cotas</TABLENAME>
+    <FIELDNAME>id_rating</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE>33</CODE>
+    <DESCRIPTION>Valor da Cota</DESCRIPTION>
+    <TABLENAME>fin_rating_cotas</TABLENAME>
+    <FIELDNAME>vlcota</FIELDNAME>
+    <DEFAULT>0</DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idquestionarioresp</DESCRIPTION>
+    <TABLENAME>cad_questionarioresp</TABLENAME>
+    <FIELDNAME>idquestionarioresp</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idquestionarioquestao</DESCRIPTION>
+    <TABLENAME>cad_questionarioresp</TABLENAME>
+    <FIELDNAME>idquestionarioquestao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Usrcodigo</DESCRIPTION>
+    <TABLENAME>cad_questionarioresp</TABLENAME>
+    <FIELDNAME>usrcodigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtcadastro</DESCRIPTION>
+    <TABLENAME>cad_questionarioresp</TABLENAME>
+    <FIELDNAME>dtcadastro</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idaprovisionamento</DESCRIPTION>
+    <TABLENAME>fin_aprovisionamento</TABLENAME>
+    <FIELDNAME>idaprovisionamento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idconta</DESCRIPTION>
+    <TABLENAME>fin_aprovisionamento</TABLENAME>
+    <FIELDNAME>idconta</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vlaprovisionamento</DESCRIPTION>
+    <TABLENAME>fin_aprovisionamento</TABLENAME>
+    <FIELDNAME>vlaprovisionamento</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idtransacao</DESCRIPTION>
+    <TABLENAME>fin_aprovisionamento</TABLENAME>
+    <FIELDNAME>idtransacao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtcadastro</DESCRIPTION>
+    <TABLENAME>fin_aprovisionamento</TABLENAME>
+    <FIELDNAME>dtcadastro</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vlspread</DESCRIPTION>
+    <TABLENAME>fin_lancamento</TABLENAME>
+    <FIELDNAME>vlspread</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vltotalspread</DESCRIPTION>
+    <TABLENAME>fin_lancamento</TABLENAME>
+    <FIELDNAME>vltotalspread</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vlsemjuros</DESCRIPTION>
+    <TABLENAME>fin_lancamento</TABLENAME>
+    <FIELDNAME>vlsemjuros</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vlparcelaspread</DESCRIPTION>
+    <TABLENAME>fin_lancamento</TABLENAME>
+    <FIELDNAME>vlparcelaspread</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Rating Spread</DESCRIPTION>
+    <TABLENAME>fin_rating</TABLENAME>
+    <FIELDNAME>rating_spread</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vlspread</DESCRIPTION>
+    <TABLENAME>fin_transacao</TABLENAME>
+    <FIELDNAME>vlspread</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vltotalinvestidor</DESCRIPTION>
+    <TABLENAME>fin_transacao</TABLENAME>
+    <FIELDNAME>vltotalinvestidor</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Vltotaltomador</DESCRIPTION>
+    <TABLENAME>fin_transacao</TABLENAME>
+    <FIELDNAME>vltotaltomador</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Resposta</DESCRIPTION>
+    <TABLENAME>cad_questionarioresp</TABLENAME>
+    <FIELDNAME>nmresp</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Pontos</DESCRIPTION>
+    <TABLENAME>cad_questionarioresp</TABLENAME>
+    <FIELDNAME>respvlponto</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idquestionario</DESCRIPTION>
+    <TABLENAME>cad_questionario</TABLENAME>
+    <FIELDNAME>idquestionario</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Tipo</DESCRIPTION>
+    <TABLENAME>cad_questionario</TABLENAME>
+    <FIELDNAME>tipo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Usrcodigo</DESCRIPTION>
+    <TABLENAME>cad_questionario</TABLENAME>
+    <FIELDNAME>usrcodigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Dtcadastro</DESCRIPTION>
+    <TABLENAME>cad_questionario</TABLENAME>
+    <FIELDNAME>dtcadastro</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Data Cadastro</DESCRIPTION>
+    <TABLENAME>cad_questionarioquestao</TABLENAME>
+    <FIELDNAME>dtcadastro</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Questao</DESCRIPTION>
+    <TABLENAME>cad_questionarioquestao</TABLENAME>
+    <FIELDNAME>questao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Idquestionario</DESCRIPTION>
+    <TABLENAME>cad_questionarioquestao</TABLENAME>
+    <FIELDNAME>idquestionario</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Questaotipo</DESCRIPTION>
+    <TABLENAME>cad_questionarioquestao</TABLENAME>
+    <FIELDNAME>questaotipo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Usu&#225;rio de Cadastro</DESCRIPTION>
+    <TABLENAME>cad_questionarioquestao</TABLENAME>
+    <FIELDNAME>usrcodigo</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>Id</DESCRIPTION>
+    <TABLENAME>cad_questionarioquestao</TABLENAME>
+    <FIELDNAME>idquestionarioquestao</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+  <DICTIONARY>
+    <CODE></CODE>
+    <DESCRIPTION>C&#243;digo &#218;nico</DESCRIPTION>
+    <TABLENAME>cad_questionarioquestao</TABLENAME>
+    <FIELDNAME>questaocodunico</FIELDNAME>
+    <DEFAULT></DEFAULT>
+  </DICTIONARY>
+
+</ROOT>

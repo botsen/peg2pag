@@ -1,0 +1,55 @@
+/*Rodrigo*/
+
+[webrun-type="HTMLButton"] [type="button"] {
+  border: none;
+  color:  #82eea6 !important;
+  background: #eebf82  !important;
+  cursor: pointer !important;
+  padding: 0;
+  vertical-align: middle;
+  outline: none;
+}
+
+[webrun-type="HTMLButton"] [type="button"]:hover {
+  background:  #82eea6 !important;
+  color: #eebf82; 
+}
+
+.headerButton{
+  background-color: #eebf82;
+}
+  
+.sorterButton{
+  background-color: #eebf82;
+}
+  
+.listGrid [role="toolbar"] {
+  background-color:  #eebf82 !important;
+}
+
+.nav-tabs .nav-link.active {
+  color:  #82eea6!important;
+  background-color: #eebf82 !important;
+}
+
+.gridSelected, 
+.gridSelectedAltCol, 
+.gridSelectedOver,
+.gridSelectedOverAltCol,
+.gridSelectedDark,
+.gridSelectedOverDark,
+.gridSelectedOverDarkAltCol, 
+.gridSelectedDarkAltCol {
+ background-color: #986!important;
+  color: #fff;
+}
+
+.nav-item .nav-link.active [type="button"].btn.btn-light.d-inline-flex.align-items-center.ml-2.p-2.tab-close-button {
+      background-color: #eebf82;
+      border: 0px;
+  }
+
+  .nav-item .nav-link.active [type="button"].btn.btn-light.d-inline-flex.align-items-center.ml-2.p-2.tab-close-button {
+    background-color:  #82eea6;
+    border: 0px;
+}

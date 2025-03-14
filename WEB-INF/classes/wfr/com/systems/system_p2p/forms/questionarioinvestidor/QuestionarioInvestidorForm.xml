@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- AbaLocalizar: Informa se a Aba Localizar padrão de um formulário deve ser exibida. Valor: true|false. -->
+<PROPERTY KEY="AbaLocalizar">FALSE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirImportarDados">FALSE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirOrdenarGrade">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioHtml">FALSE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioListagem">FALSE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioTxt">FALSE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioXml">FALSE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRemoverOrdenacaoGrade">TRUE</PROPERTY>
+<!-- Abas: Informa se o controle de abas padrão de um formulário deve ser exibido ou não. Valor: true|false. -->
+<PROPERTY KEY="Abas">FALSE</PROPERTY>
+<!-- Ajuda: Propriedade que contém um texto de ajuda. Valor: string. -->
+<PROPERTY KEY="Ajuda"></PROPERTY>
+<!-- Apresentacao: Informa o modo de apresentação de um formulário (Desktop ou Web). Valor: 0 ou 1. -->
+<PROPERTY KEY="Apresentacao">0</PROPERTY>
+<!-- BarraDeRolagem: Informa se o formulário poderá ou não apresentar uma barra de rolagem. Valor: true|false. -->
+<PROPERTY KEY="BarraDeRolagem">True</PROPERTY>
+<PROPERTY KEY="BarraNavegacaoFixa">FALSE</PROPERTY>
+<!-- BotaoFechar: Informa se o botão fechar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoFechar">True</PROPERTY>
+<!-- BotaoMaximizar: Informa se o botão maximizar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoMaximizar">False</PROPERTY>
+<!-- BotaoMinimizar: Informa se o botão minimizar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoMinimizar">True</PROPERTY>
+<PROPERTY KEY="CODE">464570603</PROPERTY>
+<PROPERTY KEY="CampoVersao"></PROPERTY>
+<!-- Centralizado: Informa se o formulário deve estar centralizado na tela. Valor: true|false. -->
+<PROPERTY KEY="Centralizado">False</PROPERTY>
+<PROPERTY KEY="CentralizadoVertical">False</PROPERTY>
+<PROPERTY KEY="ClasseCss"></PROPERTY>
+<!-- Cor: Valor númerico que representa uma cor. Utiliza o padrão Delphi. Valor: inteiro. -->
+<PROPERTY KEY="Cor">clWindow</PROPERTY>
+<PROPERTY KEY="EditarAoDuploClicar">TRUE</PROPERTY>
+<!-- EntrarComoPesquisa: Informa se o formulário deve entrar sem dados e direto na aba Localizar. Valor: true|false. -->
+<PROPERTY KEY="EntrarComoPesquisa">FALSE</PROPERTY>
+<PROPERTY KEY="ExibicaoImagemFundo"></PROPERTY>
+<PROPERTY KEY="FNT_CAMPOCHAVE"></PROPERTY>
+<PROPERTY KEY="FNT_CAMPOGRADE">Tipo de Querion&#225;rio</PROPERTY>
+<PROPERTY KEY="FNT_CAMPOPESQUISA">Tipo de Querion&#225;rio</PROPERTY>
+<PROPERTY KEY="FNT_SQLDEFAULT">dtcadastro=FUNCAO(&quot;DATAHORA&quot;)
+usrcodigo=FUNCAO(&quot;MAKER_CODIGO_USUARIO&quot;)
+</PROPERTY>
+<PROPERTY KEY="FNT_SQLMASCARA"></PROPERTY>
+<PROPERTY KEY="FNT_SQLSELECT">Select
+  cad_questionario.idquestionario,
+  cad_questionario.tipo,
+  cad_questionario.usrcodigo,
+  cad_questionario.dtcadastro,
+  Case When cad_questionario.tipo = 1 Then 'TOMADOR' Else 'INVESTIDOR' End As &quot;Tipo de Querion&#225;rio&quot;
+From
+  cad_questionario
+Where
+  cad_questionario.tipo = 2
+
+
+/*WHERE_ADD*/
+/*ORDER_NEW*/
+</PROPERTY>
+<PROPERTY KEY="FNT_SQLUPDATE">idquestionario
+tipo
+usrcodigo
+dtcadastro
+</PROPERTY>
+<PROPERTY KEY="FNT_TABELA">cad_questionario</PROPERTY>
+<PROPERTY KEY="FRM_ALTURA">739</PROPERTY>
+<PROPERTY KEY="FRM_DESCRICAO">Question&#225;rio - Investidor</PROPERTY>
+<PROPERTY KEY="FRM_GUID">{682A4A0E-ABD3-451C-828A-3E4235B63CB2}</PROPERTY>
+<PROPERTY KEY="FRM_LOG">S</PROPERTY>
+<PROPERTY KEY="FRM_POSICAOX">592</PROPERTY>
+<PROPERTY KEY="FRM_POSICAOY">164</PROPERTY>
+<PROPERTY KEY="FRM_TAMANHO">715</PROPERTY>
+<PROPERTY KEY="FRM_TIPO"></PROPERTY>
+<PROPERTY KEY="FRM_TIPO_CRIACAO">0</PROPERTY>
+<!-- FonteDeDados:  -->
+<PROPERTY KEY="FonteDeDados">(Conex&#227;o principal)</PROPERTY>
+<PROPERTY KEY="FormularioLocalizar">0</PROPERTY>
+<PROPERTY KEY="IMG_AJUDA">0</PROPERTY>
+<PROPERTY KEY="IMG_ALTERAR">0</PROPERTY>
+<PROPERTY KEY="IMG_ANTERIOR">0</PROPERTY>
+<PROPERTY KEY="IMG_ATUALIZAR">0</PROPERTY>
+<PROPERTY KEY="IMG_CANCELAR">0</PROPERTY>
+<PROPERTY KEY="IMG_EXCLUIR">0</PROPERTY>
+<PROPERTY KEY="IMG_GRAVAR">0</PROPERTY>
+<PROPERTY KEY="IMG_GRAVAR_MAIS">0</PROPERTY>
+<PROPERTY KEY="IMG_IMPRIMIR">0</PROPERTY>
+<PROPERTY KEY="IMG_INCLUIR">0</PROPERTY>
+<PROPERTY KEY="IMG_LOG">0</PROPERTY>
+<PROPERTY KEY="IMG_PRIMEIRO">0</PROPERTY>
+<PROPERTY KEY="IMG_PROXIMO">0</PROPERTY>
+<PROPERTY KEY="IMG_SAIR">0</PROPERTY>
+<PROPERTY KEY="IMG_ULTIMO">0</PROPERTY>
+<PROPERTY KEY="IMG_UTILITARIO">17</PROPERTY>
+<PROPERTY KEY="IMG_VALORES_PADRAO">0</PROPERTY>
+<!-- Imagem:  -->
+<PROPERTY KEY="Imagem"></PROPERTY>
+<PROPERTY KEY="MensagemErroChaveEstrangeira">Tipo de question&#225;rio j&#225; existe!</PROPERTY>
+<PROPERTY KEY="MensagemErroChavePrimaria"></PROPERTY>
+<PROPERTY KEY="Modal">True</PROPERTY>
+<!-- Navegacao:  -->
+<PROPERTY KEY="Navegacao">FALSE</PROPERTY>
+<PROPERTY KEY="Popup">FALSE</PROPERTY>
+<PROPERTY KEY="PreLoad">FALSE</PROPERTY>
+<PROPERTY KEY="REL_CODIGO">0</PROPERTY>
+<PROPERTY KEY="Responsivo">TRUE</PROPERTY>
+<PROPERTY KEY="UltimaModificacao">04/12/2022 13:40:51</PROPERTY>
+<PROPERTY KEY="UltimoUsuario">master</PROPERTY>
+</PROPERTIES>

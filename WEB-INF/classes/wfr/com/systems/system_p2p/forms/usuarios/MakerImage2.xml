@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">01-Cadastro</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">150</PROPERTY>
+<PROPERTY KEY="AlturaZoom">0</PROPERTY>
+<!-- ApenasLeitura: Valor lógico que informa se o componente é apenas para leitura -->
+<PROPERTY KEY="ApenasLeitura">False</PROPERTY>
+<!-- Campo: Informa o valor do campo da consulta que o componente está associado. Valor: string. -->
+<PROPERTY KEY="Campo">usr_foto</PROPERTY>
+<!-- CampoCodImpDigital: Informa o campo onde deve ser armazenado o código FIR de uma impressão gidital. Valor: string. -->
+<PROPERTY KEY="CampoCodImpDigital"></PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">1026451</PROPERTY>
+<PROPERTY KEY="Container">MakerContainer2</PROPERTY>
+<!-- Descricao: Informa a descrição do campo. Valor: string. -->
+<PROPERTY KEY="Descricao">USR_FOTO</PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<PROPERTY KEY="EstiloCss"></PROPERTY>
+<PROPERTY KEY="Exibicao">Estender</PROPERTY>
+<!-- GravarEmArquivo:  -->
+<PROPERTY KEY="GravarEmArquivo"></PROPERTY>
+<!-- Habilitado:  -->
+<PROPERTY KEY="Habilitado">True</PROPERTY>
+<!-- Imagem:  -->
+<PROPERTY KEY="Imagem"></PROPERTY>
+<PROPERTY KEY="LarguraZoom">0</PROPERTY>
+<PROPERTY KEY="LenteAumento">False</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">MakerImage2</PROPERTY>
+<PROPERTY KEY="NomeClasseCss"></PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">0</PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">0</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">27</PROPERTY>
+<!-- Tabela:  -->
+<PROPERTY KEY="Tabela"></PROPERTY>
+<!-- Tabulacao:  -->
+<PROPERTY KEY="Tabulacao">10</PROPERTY>
+<!-- Tabular:  -->
+<PROPERTY KEY="Tabular">True</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">177</PROPERTY>
+<!-- Tipo:  -->
+<PROPERTY KEY="Tipo"></PROPERTY>
+<PROPERTY KEY="TipoExibicao">0</PROPERTY>
+<!-- URL:  -->
+<PROPERTY KEY="URL"></PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">True</PROPERTY>
+</PROPERTIES>

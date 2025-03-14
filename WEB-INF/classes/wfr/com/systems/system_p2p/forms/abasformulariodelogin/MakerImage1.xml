@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">01-Cadastro</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">57</PROPERTY>
+<PROPERTY KEY="AlturaZoom">0</PROPERTY>
+<PROPERTY KEY="AoClicar"></PROPERTY>
+<PROPERTY KEY="AoModificar"></PROPERTY>
+<!-- ApenasLeitura: Valor lógico que informa se o componente é apenas para leitura -->
+<PROPERTY KEY="ApenasLeitura">False</PROPERTY>
+<!-- Campo: Informa o valor do campo da consulta que o componente está associado. Valor: string. -->
+<PROPERTY KEY="Campo"></PROPERTY>
+<!-- CampoCodImpDigital: Informa o campo onde deve ser armazenado o código FIR de uma impressão gidital. Valor: string. -->
+<PROPERTY KEY="CampoCodImpDigital"></PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">115</PROPERTY>
+<PROPERTY KEY="Container">MakerContainer3</PROPERTY>
+<!-- Descricao: Informa a descrição do campo. Valor: string. -->
+<PROPERTY KEY="Descricao"></PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<PROPERTY KEY="EstiloCss"></PROPERTY>
+<PROPERTY KEY="Exibicao">Estender</PROPERTY>
+<!-- GravarEmArquivo:  -->
+<PROPERTY KEY="GravarEmArquivo"></PROPERTY>
+<!-- Habilitado:  -->
+<PROPERTY KEY="Habilitado">True</PROPERTY>
+<!-- Imagem:  -->
+<PROPERTY KEY="Imagem">{0766DB56-0E72-4C01-BC3B-B5507E7009CB}</PROPERTY>
+<PROPERTY KEY="LarguraZoom">0</PROPERTY>
+<PROPERTY KEY="LenteAumento">False</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">MakerImage1</PROPERTY>
+<PROPERTY KEY="NomeClasseCss"></PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">0</PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">24</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">8</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">225</PROPERTY>
+<PROPERTY KEY="TipoExibicao">0</PROPERTY>
+<!-- URL:  -->
+<PROPERTY KEY="URL"></PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">True</PROPERTY>
+</PROPERTIES>

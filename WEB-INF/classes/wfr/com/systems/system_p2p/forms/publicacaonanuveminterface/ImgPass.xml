@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">02-Configurar</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">35</PROPERTY>
+<PROPERTY KEY="AoClicar"></PROPERTY>
+<!-- Campo: Informa o valor do campo da consulta que o componente está associado. Valor: string. -->
+<PROPERTY KEY="Campo"></PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">1033237</PROPERTY>
+<PROPERTY KEY="Container">containePass</PROPERTY>
+<!-- Cor: Valor númerico que representa uma cor. Utiliza o padrão Delphi. Valor: inteiro. -->
+<PROPERTY KEY="Cor">-16777211</PROPERTY>
+<!-- Descricao: Informa a descrição do campo. Valor: string. -->
+<PROPERTY KEY="Descricao">&lt;i class=&quot;fas fa-key&quot; style=&quot;color: white; font-size: 1.5rem&quot;&gt;&lt;/i&gt;</PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<PROPERTY KEY="EstiloCss"></PROPERTY>
+<!-- Fonte: Representa uma fonte do sistema. Valor: Nome da Fonte, tamanho, propriedades, cor -->
+<PROPERTY KEY="Fonte">MS Sans Serif,8,0000,clWindowText</PROPERTY>
+<!-- Habilitado:  -->
+<PROPERTY KEY="Habilitado">True</PROPERTY>
+<PROPERTY KEY="HorzAlignment">center</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">imgPass</PROPERTY>
+<PROPERTY KEY="NomeClasseCss">bg-primary form-group form-label fixed-height label-radius
+</PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">1</PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">8</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">8</PROPERTY>
+<PROPERTY KEY="QuebraAutomaticaDeLinha">True</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">35</PROPERTY>
+<PROPERTY KEY="ValorInicial"></PROPERTY>
+<PROPERTY KEY="VertAlignment">middle</PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">True</PROPERTY>
+</PROPERTIES>

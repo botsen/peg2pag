@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- AbaLocalizar: Informa se a Aba Localizar padrão de um formulário deve ser exibida. Valor: true|false. -->
+<PROPERTY KEY="AbaLocalizar">FALSE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirImportarDados">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirOrdenarGrade">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioHtml">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioListagem">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioTxt">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioXml">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRemoverOrdenacaoGrade">TRUE</PROPERTY>
+<!-- Abas: Informa se o controle de abas padrão de um formulário deve ser exibido ou não. Valor: true|false. -->
+<PROPERTY KEY="Abas">FALSE</PROPERTY>
+<!-- Ajuda: Propriedade que contém um texto de ajuda. Valor: string. -->
+<PROPERTY KEY="Ajuda"></PROPERTY>
+<!-- Apresentacao: Informa o modo de apresentação de um formulário (Desktop ou Web). Valor: 0 ou 1. -->
+<PROPERTY KEY="Apresentacao">0</PROPERTY>
+<!-- BarraDeRolagem: Informa se o formulário poderá ou não apresentar uma barra de rolagem. Valor: true|false. -->
+<PROPERTY KEY="BarraDeRolagem">True</PROPERTY>
+<PROPERTY KEY="BarraNavegacaoFixa">FALSE</PROPERTY>
+<!-- BotaoFechar: Informa se o botão fechar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoFechar">True</PROPERTY>
+<!-- BotaoMaximizar: Informa se o botão maximizar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoMaximizar">False</PROPERTY>
+<!-- BotaoMinimizar: Informa se o botão minimizar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoMinimizar">True</PROPERTY>
+<PROPERTY KEY="CODE">464570582</PROPERTY>
+<PROPERTY KEY="CampoVersao"></PROPERTY>
+<!-- Centralizado: Informa se o formulário deve estar centralizado na tela. Valor: true|false. -->
+<PROPERTY KEY="Centralizado">False</PROPERTY>
+<PROPERTY KEY="CentralizadoVertical">False</PROPERTY>
+<PROPERTY KEY="ClasseCss"></PROPERTY>
+<!-- Cor: Valor númerico que representa uma cor. Utiliza o padrão Delphi. Valor: inteiro. -->
+<PROPERTY KEY="Cor">clWindow</PROPERTY>
+<PROPERTY KEY="EditarAoDuploClicar">TRUE</PROPERTY>
+<!-- EntrarComoPesquisa: Informa se o formulário deve entrar sem dados e direto na aba Localizar. Valor: true|false. -->
+<PROPERTY KEY="EntrarComoPesquisa">FALSE</PROPERTY>
+<PROPERTY KEY="ExibicaoImagemFundo"></PROPERTY>
+<PROPERTY KEY="FNT_CAMPOCHAVE">id_textosemails</PROPERTY>
+<PROPERTY KEY="FNT_CAMPOGRADE">id_textosemails;tipo_email;texto_email</PROPERTY>
+<PROPERTY KEY="FNT_CAMPOPESQUISA">id_textosemails;tipo_email;texto_email</PROPERTY>
+<PROPERTY KEY="FNT_SQLDEFAULT"></PROPERTY>
+<PROPERTY KEY="FNT_SQLMASCARA"></PROPERTY>
+<PROPERTY KEY="FNT_SQLSELECT">Select
+  cad_textoemails.id_textosemails,
+  cad_textoemails.tipo_email,
+  cad_textoemails.texto_email
+From
+  cad_textoemails
+
+
+/*WHERE_NEW*/
+/*ORDER_NEW*/
+</PROPERTY>
+<PROPERTY KEY="FNT_SQLUPDATE">id_textosemails
+tipo_email
+</PROPERTY>
+<PROPERTY KEY="FNT_TABELA">cad_textoemails</PROPERTY>
+<PROPERTY KEY="FRM_ALTURA">532</PROPERTY>
+<PROPERTY KEY="FRM_DESCRICAO">Textos Padr&#227;o dos E-mails - Texto</PROPERTY>
+<PROPERTY KEY="FRM_GUID">{1CCA60D8-4EF6-42DB-86B0-9762C7AE049A}</PROPERTY>
+<PROPERTY KEY="FRM_LOG">S</PROPERTY>
+<PROPERTY KEY="FRM_POSICAOX">499</PROPERTY>
+<PROPERTY KEY="FRM_POSICAOY">377</PROPERTY>
+<PROPERTY KEY="FRM_TAMANHO">880</PROPERTY>
+<PROPERTY KEY="FRM_TIPO"></PROPERTY>
+<PROPERTY KEY="FRM_TIPO_CRIACAO">0</PROPERTY>
+<!-- FonteDeDados:  -->
+<PROPERTY KEY="FonteDeDados">(Conex&#227;o principal)</PROPERTY>
+<PROPERTY KEY="FormularioLocalizar">0</PROPERTY>
+<PROPERTY KEY="IMG_AJUDA">0</PROPERTY>
+<PROPERTY KEY="IMG_ALTERAR">2</PROPERTY>
+<PROPERTY KEY="IMG_ANTERIOR">0</PROPERTY>
+<PROPERTY KEY="IMG_ATUALIZAR">0</PROPERTY>
+<PROPERTY KEY="IMG_CANCELAR">13</PROPERTY>
+<PROPERTY KEY="IMG_EXCLUIR">0</PROPERTY>
+<PROPERTY KEY="IMG_GRAVAR">12</PROPERTY>
+<PROPERTY KEY="IMG_GRAVAR_MAIS">0</PROPERTY>
+<PROPERTY KEY="IMG_IMPRIMIR">0</PROPERTY>
+<PROPERTY KEY="IMG_INCLUIR">0</PROPERTY>
+<PROPERTY KEY="IMG_LOG">0</PROPERTY>
+<PROPERTY KEY="IMG_PRIMEIRO">0</PROPERTY>
+<PROPERTY KEY="IMG_PROXIMO">0</PROPERTY>
+<PROPERTY KEY="IMG_SAIR">0</PROPERTY>
+<PROPERTY KEY="IMG_ULTIMO">0</PROPERTY>
+<PROPERTY KEY="IMG_UTILITARIO">17</PROPERTY>
+<PROPERTY KEY="IMG_VALORES_PADRAO">0</PROPERTY>
+<!-- Imagem:  -->
+<PROPERTY KEY="Imagem"></PROPERTY>
+<PROPERTY KEY="MensagemErroChaveEstrangeira"></PROPERTY>
+<PROPERTY KEY="MensagemErroChavePrimaria"></PROPERTY>
+<PROPERTY KEY="Modal">False</PROPERTY>
+<!-- Navegacao:  -->
+<PROPERTY KEY="Navegacao">TRUE</PROPERTY>
+<PROPERTY KEY="Popup">FALSE</PROPERTY>
+<PROPERTY KEY="PreLoad">FALSE</PROPERTY>
+<PROPERTY KEY="REL_CODIGO">0</PROPERTY>
+<PROPERTY KEY="Responsivo">TRUE</PROPERTY>
+<PROPERTY KEY="UltimaModificacao">28/09/2022 19:29:29</PROPERTY>
+<PROPERTY KEY="UltimoUsuario">master</PROPERTY>
+</PROPERTIES>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">01-Cadastro</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">213</PROPERTY>
+<PROPERTY KEY="AlturaMiniatura">60</PROPERTY>
+<PROPERTY KEY="BarraRolagem">V</PROPERTY>
+<PROPERTY KEY="Categoria">Maker 3</PROPERTY>
+<PROPERTY KEY="ClasseComponente">Galeria de Imagens</PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">1049118</PROPERTY>
+<PROPERTY KEY="Container"></PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<PROPERTY KEY="ExpandirAoClicar">False</PROPERTY>
+<!-- FonteDeDados:  -->
+<PROPERTY KEY="FonteDeDados"></PROPERTY>
+<!-- Habilitado:  -->
+<PROPERTY KEY="Habilitado">True</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Galeria</PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">2</PROPERTY>
+<PROPERTY KEY="PermitirExclusao">False</PROPERTY>
+<PROPERTY KEY="PermitirUpload">False</PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">677</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">79</PROPERTY>
+<!-- Tabulacao:  -->
+<PROPERTY KEY="Tabulacao">0</PROPERTY>
+<!-- Tabular:  -->
+<PROPERTY KEY="Tabular">False</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">401</PROPERTY>
+<PROPERTY KEY="TamanhoMiniatura">60</PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">False</PROPERTY>
+<PROPERTY KEY="campoID">IMG_GUID</PROPERTY>
+<PROPERTY KEY="campoImagem">IMG_IMAGEM</PROPERTY>
+<PROPERTY KEY="campoMiniatura">IMG_IMAGEM</PROPERTY>
+<PROPERTY KEY="consultaSQL">Select
+  FR_IMAGEM.IMG_CODIGO,
+  FR_IMAGEM.IMG_IMAGEM,
+  FR_IMAGEM.IMG_GUID
+From
+  FR_IMAGEM
+
+
+/*WHERE_NEW*/
+/*ORDER_NEW*/
+</PROPERTY>
+</PROPERTIES>

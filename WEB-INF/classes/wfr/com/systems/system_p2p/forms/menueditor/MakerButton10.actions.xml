@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ACTIONS>
+<EVENT TYPE="Ao Clicar">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Entrada">Conte&#250;do XML={MakerMemo1}</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Menu - Retornar XML</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+</ACTIONS>

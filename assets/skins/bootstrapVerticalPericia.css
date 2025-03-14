@@ -1,0 +1,532 @@
+.bg-primary {
+    /*background-color: #6610f2!important;*/
+    background-color: #173557 !important;
+}
+
+:root {
+    --azul: #173557;
+  }
+  
+.btn-primary:hover {
+    color: #fff;
+    background-color: #e83e8c;
+    border-color: #e83e8c;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #173557 ;
+    border-color: #173557 ;
+}
+
+.border-primary {
+    border-color: #173557 !important;
+}
+
+
+.listGrid [role="toolbar"] {
+    /*background-color: var(--indigo) !important;*/
+    background-color:  #565656 !important;
+}
+
+.headerButton{
+	
+	background-color:  #565656 !important;
+}
+
+.sorterButton{
+	
+	background-color:  #565656!important;
+}
+
+
+
+a {
+    color: #4E8CC5;
+}
+
+a:hover {
+    color: #1c3347;
+}
+
+.nav-link.active {
+    color: #1c3347 !important;
+}
+
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #df0839 !important;
+    /*background-color: #e00b0b !important;*/
+    border-color: #4E8CC5 !important;
+	
+
+}
+
+
+
+.nav-item i.fa-plus-circle {
+    color: var(--cyan) !important;
+}
+
+.nav-item i.fa-trash-alt {
+    color: var(--danger) !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: red;
+}
+
+
+[webrun-type="HTMLButton"] [type="button"] {
+    border: none;
+    color:  #fff !important;
+    background: #173557 !important;
+    cursor: pointer !important;
+    padding: 0;
+    vertical-align: middle;
+    outline: none;
+  }
+
+ html, body {
+    font-size: .9rem!important;
+}
+
+#Aba {
+    width: calc(100% - 250px) !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 2px !important;
+  }
+  
+  /* Track    */
+  ::-webkit-scrollbar-track {
+   background: #f1f1f1;
+  }
+   
+  /* Handle   background: #888;  */
+  ::-webkit-scrollbar-thumb {
+  
+   background: #4E8CC5;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+/*RODRIGO*/
+
+/*GRADE*/
+
+.listGrid [role="rowheader"] {
+    outline-style: solid !important;
+    outline-color: white;
+    outline-width: thin;
+    border-radius: 1px;
+    color: white !important;
+  }
+
+  .listGrid {
+    border: 1px solid rgba(23, 53, 87, 0.5) !important;
+  }
+  
+  .grid table tbody tr td [role="presentation"] {
+    
+  white-space: break-spaces !important;
+  
+  }
+
+.headerButton {
+    
+    white-space: break-spaces !important;
+    
+}
+
+[webrun-type="HTMLGrid"] [id$="bar"]{
+    padding-top: .9rem!important;
+    padding-bottom: 2px !important;
+   }
+  
+[webrun-type="HTMLGrid"] [id$="bar"] > i > i{
+    font-size: 0.9rem !important;
+  }
+
+.headerButton {
+    
+    white-space: break-spaces !important;
+    
+}
+
+table tr[role="listitem"]:hover{
+      background-color: #2f5faf;
+      cursor: pointer;
+      color: #fff;
+}  
+
+/*BOTÃO*/
+  [webrun-type="HTMLButton"] [type="button"]:hover {
+    background:  #4E8CC5 !important;
+    color: #fff!important;; 
+  }
+  
+[webrun-type="HTMLButton"] [type="button"]:hover:disabled{
+    background: #173557 !important;
+    cursor: not-allowed !important;
+  }
+
+/*Barra de naveção do Form*/
+#formNavbar{
+	padding: 0rem 0rem;
+}
+
+#navbarMenu>ul>li>a>i{
+  font-size: 1.3rem;
+}
+
+
+/*FONTE*/
+.listGrid [eventproxy$="body"], #results-table { 
+    color: black !important;
+	font-weight: 500;
+}
+.required{
+	    font-weight: 700;
+}
+
+.form-control {
+	font-size: 0.9rem !important;
+}
+
+.form-label {
+	font-size: 0.9rem !important;
+}
+ul > li > a[role="tab"] {
+  font-size: 0.9rem !important;
+  text-overflow: unset !important;
+}
+
+.form-control:disabled, .form-control[readonly], .form-control, .form-group, .custom-select:disabled, .custom-select {
+    color: black !important;
+	font-weight: 400;
+}
+
+/*ABAS E NAVEGAÇÃO*/
+  /*Cores dos ícones*/
+  .nav-item i.fa-plus-circle {
+    color: var(--green) !important;
+}
+
+.nav-item i.fa-trash-alt {
+    color: var(--danger) !important;
+}
+
+.nav-item i.fa-save {
+    color: var(--green) !important;
+}
+
+.nav-item i.fa-redo {
+    color: var(--cyan) !important;
+}
+
+.nav-item i.fa-times-circle {
+    color: var(--danger) !important;
+}
+
+.nav-item i.fa-pencil-alt{
+    color: var(--primary) !important;
+}
+
+
+
+
+
+
+/* *************************************************************************************** */
+
+/* CHAT */
+:root {
+  /* Cor primária do chat */
+  --chat-primary-color: #465EFC;
+
+  /* Cor secundária do chat */
+  --chat-secondary-color: #F0F1F5;
+
+  /* Cor secundária do chat */
+  --chat-secondary-color-darker: #969696;
+}
+
+/* ------------------- *
+ * -    SUBMENUS     - *
+ * ------------------- */
+
+/* Estilizar submenus do componente chat */
+[webrun-type="HTMLChat"] .dropdown-menu {
+  border-radius: 0.5rem !important;
+}
+
+[webrun-type="HTMLChat"] .dropdown-menu:not(.p-0) {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
+/* Estilizar itens dos submenus do componente chat */
+[webrun-type="HTMLChat"] .dropdown-menu .dropdown-item {
+  background-color: #fff !important;
+  color: #495057 !important;
+  transition: all 0.2s ease;
+}
+
+/* Estilizar itens dos submenus do componente chat (selecionado) */
+[webrun-type="HTMLChat"] .dropdown-menu .dropdown-item:hover,
+[webrun-type="HTMLChat"] .dropdown-menu .dropdown-item:focus {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Estilizar itens dos submenus do componente chat (clicado) */
+[webrun-type="HTMLChat"] .dropdown-menu .dropdown-item.active,
+[webrun-type="HTMLChat"] .dropdown-menu .dropdown-item:active {
+  background-color: var(--chat-primary-color) !important;
+  color: #fff !important;
+}
+
+/* Estilizar itens do submenu de mídia na tela de conversa */
+.chat-layout-right-col > .border-top .btn-group .dropdown-menu .dropdown-item {
+  color: var(--chat-primary-color) !important;
+}
+
+/* Estilizar submenu de mídia na tela de conversa */
+.chat-layout-right-col > .border-top .btn-group .dropdown-menu {
+  overflow: hidden !important;
+}
+
+/* Estilizar itens do submenu de mídia na tela de conversa */
+.chat-layout-right-col > .border-top .btn-group .dropdown-menu .dropdown-item:hover,
+.chat-layout-right-col > .border-top .btn-group .dropdown-menu .dropdown-item.active,
+.chat-layout-right-col > .border-top .btn-group .dropdown-menu .dropdown-item:active {
+  background-color: var(--chat-primary-color) !important;
+  color: #fff !important;
+}
+
+
+
+/* ------------------- *
+ * -  TELA PRINCIPAL - *
+ * ------------------- */
+
+/* Remover bordas dos elementos da tela principal */
+.chat-layout-left-nav,
+.chat-container-item {
+  border: none !important;
+}
+
+/* Aumentar a margem da barra superior da tela principal */
+.chat-layout-left-nav {
+  padding: 1rem !important;
+}
+
+/* Estilizar a barra de pesquisa da tela principal */
+.chat-search {
+  margin: 0.5rem !important;
+  width: calc(100% - 1rem) !important;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.01);
+  border: 1px solid rgba(0, 0, 0, 0.025) !important;
+  border-radius: 1rem !important;
+}
+
+/* Aumentar a distância da lista de usuários/grupo com a barra de pesquisa */
+[webrun-type="HTMLChat"] .h-auto.overflow-auto > .list-group {
+  margin-top: 1rem !important;
+}
+
+/* Estilizar itens dos usuários/grupos e submenus do componente */
+.chat-container-item {
+  background-color: #fff !important;
+  color: #495057 !important;
+  transition: all 0.2s ease;
+}
+
+/* Estilizar itens dos usuários/grupos e submenus do componente (selecionado) */
+.chat-container-item:hover,
+.chat-container-item:focus {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Estilizar itens dos usuários/grupos e submenus do componente (clicado/ativo) */
+.chat-container-item.active,
+.chat-container-item:active {
+  background-color: var(--chat-primary-color) !important;
+  color: #fff !important;
+}
+
+/* Estilizar label de visualização da última mensagem da lista de usuários/grupos */
+.chat-container-item.active .text-muted,
+.chat-container-item:active .text-muted {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+
+
+/* -------------------- *
+ * - TELA DE CONVERSA - *
+ * -------------------- */
+
+/* Remover bordas dos elementos da tela de conversa */
+.chat-layout-right-nav,
+.chat-layout-right-col > .border-top {
+  border: none !important;
+}
+
+/* Estilizar mensagens (internas/externas) */
+.chat-message {
+  border-radius: 1rem !important;
+  border: none !important;
+  padding: 0.1rem !important;
+}
+
+/* Estilizar mensagens internas */
+.chat-message.chat-message-same-origin {
+  background-color: var(--chat-primary-color) !important;
+  color: #fff !important;
+}
+
+/* Estilizar mensagens internas */
+.chat-message.chat-message-external-origin {
+  background-color: var(--chat-secondary-color) !important;
+  color: #000 !important;
+}
+
+/* Estilizar ícone de indicador das mensagens */
+.chat-message i {
+  color: #fff !important;
+  opacity: 0.5 !important;
+}
+
+/* Estilizar ícone de indicador das mensagens (mensagens lidas) */
+.chat-message i.fa-check-double.text-primary {
+  opacity: 1.0 !important;
+}
+
+/* Estilizar elemento de indicador dos dias das mensagens */
+.chat-message-section > div {
+  background-color: var(--chat-secondary-color-darker) !important;
+  color: #fff !important;
+  border-radius: 0.5rem !important;
+}
+
+/* Estilizar barra inferior da tela de conversa */
+.chat-layout-right-col > .border-top {
+  background: var(--light) !important;
+}
+
+/* Estilizar botões da barra inferior da tela de conversa */
+.chat-nav-button {
+  background-color: var(--chat-primary-color) !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 0.75rem !important;
+  margin-left: 0.5rem !important;
+  opacity: 0.9 !important;
+  transition: all 0.2s ease;
+}
+
+.chat-nav-button:hover {
+  opacity: 1.0 !important;
+}
+
+/* Estilizar input de enviar mensagens */
+.chat-message-input {
+  margin-right: 0.5rem !important;
+}
+
+.chat-message-input textarea {
+  box-shadow: 0 0 0.5rem rgb(0 0 0 / 10%) !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  border-radius: 1rem !important;
+}
+
+.chat-message-input textarea:focus {
+  border: 1px solid var(--chat-primary-color) !important;
+}
+
+
+/* ------------------- *
+ * -   TRANSIÇÕES    - *
+ * ------------------- */
+
+/* Ajustar layout da div principal */
+.chat-layout-content {
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+/* Ajustar layout das duas colunas/telas */
+.chat-layout-left-col,
+.chat-layout-right-col {
+  position: absolute !important;
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 1 auto !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+/* Animação de entrada da tela principal */
+.chat-layout-left-col.chat-layout-active {
+  animation-name: slideInLeft;
+}
+
+/* Animação de saída da tela principal */
+.chat-layout-left-col.chat-layout-inactive {
+  animation-name: slideOutLeft;
+}
+
+/* Animação de entrada da tela de conversa */
+.chat-layout-right-col.chat-layout-active {
+  animation-name: slideInRight;
+}
+
+/* Animação de saída da tela de conversa */
+.chat-layout-right-col.chat-layout-inactive {
+  animation-name: slideOutRight;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translate(-100%, 0);
+  } to {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translate(100%, 0);
+  } to {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes slideOutLeft {
+  from {
+    transform: translate(0, 0);
+  } to {
+    transform: translate(-100%, 0);
+  }
+}
+
+@keyframes slideOutRight {
+  from {
+    transform: translate(0, 0);
+  } to {
+    transform: translate(100%, 0);
+  }
+}

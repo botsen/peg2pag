@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ACTIONS>
+<EVENT TYPE="Ao Clicar">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Entrada">Conte&#250;do={xmltemplate};Nome={nometemplate}</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Listagem - Baixar Template</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+</ACTIONS>

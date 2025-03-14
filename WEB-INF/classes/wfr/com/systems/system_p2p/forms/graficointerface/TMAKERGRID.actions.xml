@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ACTIONS>
+<EVENT TYPE="Ao Clicar">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Entrada">Linha Real=;Linha Paginada=</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Gr&#225;fico - Interface - Exibir SQL</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+<EVENT TYPE="Ao Duplo Clicar">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Entrada"></PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Gr&#225;fico - Interface - Alterar Registros</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+</ACTIONS>

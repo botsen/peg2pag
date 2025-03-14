@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component-dependences>
+  <component name="ImageObject"/>
+  <component name="HTMLLabeledComponent"/>
+  <component name="HTMLLabel"/>
+  <component name="HTMLHidden"/>
+  <component name="HTMLButton"/>
+  <component name="HTMLImageButton"/>
+  <component name="HTMLNavigationButton"/>
+  <component name="HTMLNavigationButtonSameImage"/>
+  <component name="HTMLShape"/>
+  <component name="HTMLTreeview"/>
+  <component name="HTMLProgressBar"/>
+  <component name="HTMLShapeBase"/>
+  <component name="HTMLTimer"/>
+  <component name="HTMLSerie"/>
+  <component name="HTMLTreeViewLevel"/>
+  <component name="HTMLContainer"/>
+  <component name="HTMLActionButton" />
+  <component name="HTMLSliderPanel" />
+  <component name="HTMLImageGallery" />
+  <component name="HTMLMultiSelect" />
+  <component name="HTMLIntegration" />
+  <component name="HTMLPlayer" />
+  <component name="HTMLRssFeed" />
+  <component name="HTMLTimer" />
+  <component name="HTMLQuery" />
+  <component name="HTMLCalendar" />
+  <component name="HTMLDualList">
+    <dependent>ImageObject</dependent>
+  </component>
+  <component name="HTMLChart">
+    <dependent>ImageObject</dependent>
+    <dependent>HTMLSerie</dependent>
+  </component>  
+  <component name="HTMLEdit">
+    <dependent>HTMLLabeledComponent</dependent>
+    <dependent>HTMLLabel</dependent>
+    <dependent>ImageObject</dependent>
+  </component>
+  <component name="HTMLMemo">
+    <dependent>HTMLEdit</dependent>
+  </component>
+  <component name="HTMLGroupBox">
+    <dependent>HTMLLabel</dependent>
+    <dependent>HTMLContainer</dependent>
+  </component>
+  <component name="HTMLRadioGroup">
+    <dependent>HTMLGroupBox</dependent>
+    <dependent>HTMLHidden</dependent>
+  </component>
+  <component name="HTMLLookup">
+    <dependent>HTMLEdit</dependent>
+    <dependent>HTMLHidden</dependent>
+    <dependent>HTMLButton</dependent>
+    <dependent>ImageObject</dependent>
+  </component>
+  <component name="HTMLComboBox">
+    <dependent>HTMLLookup</dependent>
+  </component>
+  <component name="HTMLCheckbox">
+    <dependent>HTMLHidden</dependent>
+  </component>
+  <component name="HTMLNavigationGrid"/>
+  <component name="HTMLPaging">
+    <dependent>HTMLButton</dependent>
+  </component>
+  <component name="HTMLDetailPanel">
+    <dependent>HTMLGroupBox</dependent>
+  </component>
+  <component name="HTMLImage">
+    <dependent>ImageObject</dependent>
+  </component>
+  <component name="HTMLGrid">
+    <dependent>HTMLNavigationGrid</dependent>
+    <dependent>HTMLPaging</dependent>
+    <dependent>ImageObject</dependent>
+  </component>
+  <component name="HTMLAccordion">
+    <dependent>HTMLLabeledComponent</dependent>
+  </component>
+  <component name="HTMLSlider">
+    <dependent>HTMLLabeledComponent</dependent>
+  </component>
+  <component name="HTMLMultiSelect">
+    <dependent>HTMLComboBox</dependent>
+  </component>
+  <component name="HTMLChat">
+    <dependent>HTMLGroupBox</dependent>
+  </component>
+  <component name="HTMLMakerFlowComponent">
+    <dependent>HTMLButton</dependent>
+    <dependent>HTMLCheckbox</dependent>
+    <dependent>HTMLComboBox</dependent>
+    <dependent>HTMLContainer</dependent>
+    <dependent>HTMLEdit</dependent>
+    <dependent>HTMLGroupBox</dependent>
+    <dependent>HTMLImage</dependent>
+    <dependent>HTMLLabel</dependent>
+    <dependent>HTMLLookup</dependent>
+  </component>
+</component-dependences>

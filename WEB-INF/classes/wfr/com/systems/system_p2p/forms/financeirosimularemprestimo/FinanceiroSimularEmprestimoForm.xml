@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- AbaLocalizar: Informa se a Aba Localizar padrão de um formulário deve ser exibida. Valor: true|false. -->
+<PROPERTY KEY="AbaLocalizar">FALSE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirImportarDados">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirOrdenarGrade">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioHtml">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioListagem">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioTxt">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioXml">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRemoverOrdenacaoGrade">TRUE</PROPERTY>
+<!-- Abas: Informa se o controle de abas padrão de um formulário deve ser exibido ou não. Valor: true|false. -->
+<PROPERTY KEY="Abas">FALSE</PROPERTY>
+<!-- Ajuda: Propriedade que contém um texto de ajuda. Valor: string. -->
+<PROPERTY KEY="Ajuda"></PROPERTY>
+<!-- Apresentacao: Informa o modo de apresentação de um formulário (Desktop ou Web). Valor: 0 ou 1. -->
+<PROPERTY KEY="Apresentacao">0</PROPERTY>
+<!-- BarraDeRolagem: Informa se o formulário poderá ou não apresentar uma barra de rolagem. Valor: true|false. -->
+<PROPERTY KEY="BarraDeRolagem">False</PROPERTY>
+<PROPERTY KEY="BarraNavegacaoFixa">FALSE</PROPERTY>
+<!-- BotaoFechar: Informa se o botão fechar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoFechar">True</PROPERTY>
+<!-- BotaoMaximizar: Informa se o botão maximizar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoMaximizar">False</PROPERTY>
+<!-- BotaoMinimizar: Informa se o botão minimizar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoMinimizar">True</PROPERTY>
+<PROPERTY KEY="CODE">464570590</PROPERTY>
+<PROPERTY KEY="CampoVersao"></PROPERTY>
+<!-- Centralizado: Informa se o formulário deve estar centralizado na tela. Valor: true|false. -->
+<PROPERTY KEY="Centralizado">False</PROPERTY>
+<PROPERTY KEY="CentralizadoVertical">False</PROPERTY>
+<PROPERTY KEY="ClasseCss">[id^=&quot;label&quot;]&gt;div label,#bemvindo&gt;div label{
+ /*color: #4d934c;[webrun-type=&quot;HTMLLabel&quot;]*/ 
+ color: #4f564f;
+ font-weight: 500;
+ font-size: medium;
+}
+
+#main,#mainCompleto {
+ background-color: rgb(217,217,217);   
+ border: none !important;
+}
+
+[id^=&quot;botao&quot;] [type=&quot;button&quot;] {
+    background-color: #fdfffd !important;
+    color: #2e7d32 !important;
+    border-color: #005005 !important;
+}
+
+#enviar button, #gravar button {
+ font-size: 0.75rem !important;
+ color: #ffffff!important;     
+ background-color:#2e7d32;
+ /**  border-color: #ffffff!important; **/    
+ border: 1px solid !important;
+ border-color: #005005 !important;      
+}
+
+#enviar button:hover,#gravar button:hover {
+   background-color:#005005 !important;
+}
+
+[webrun-type=&quot;HTMLEdit&quot;]&gt;label&gt;span,[webrun-type=&quot;HTMLLookup&quot;]&gt;label&gt;span{
+ color: #212529 !important;
+}
+</PROPERTY>
+<!-- Cor: Valor númerico que representa uma cor. Utiliza o padrão Delphi. Valor: inteiro. -->
+<PROPERTY KEY="Cor">$00D9D9D9</PROPERTY>
+<PROPERTY KEY="EditarAoDuploClicar">TRUE</PROPERTY>
+<!-- EntrarComoPesquisa: Informa se o formulário deve entrar sem dados e direto na aba Localizar. Valor: true|false. -->
+<PROPERTY KEY="EntrarComoPesquisa">FALSE</PROPERTY>
+<PROPERTY KEY="ExibicaoImagemFundo"></PROPERTY>
+<PROPERTY KEY="FNT_CAMPOCHAVE">id_pessoa</PROPERTY>
+<PROPERTY KEY="FNT_CAMPOGRADE">id_pessoa;cpf_pessoa;data_nascimento;nome_social;nome_mae;telefone;status_cadastro;foto;usr_nome;usr_email</PROPERTY>
+<PROPERTY KEY="FNT_CAMPOPESQUISA">id_pessoa;cpf_pessoa;data_nascimento</PROPERTY>
+<PROPERTY KEY="FNT_SQLDEFAULT"></PROPERTY>
+<PROPERTY KEY="FNT_SQLMASCARA"></PROPERTY>
+<PROPERTY KEY="FNT_SQLSELECT">Select
+  cad_pessoa.id_pessoa,
+  cad_pessoa.cpf_pessoa,
+  cad_pessoa.data_nascimento,
+  cad_pessoa.nome_social,
+  cad_pessoa.nome_mae,
+  cad_pessoa.telefone,
+  cad_pessoa.status_cadastro,
+  cad_pessoa.foto,
+  fr_usuario.usr_nome,
+  fr_usuario.usr_email,
+  fr_usuario.id_pessoa As pes,
+  cad_pessoa.id_genero,
+  cad_pessoa.rendamensal_declarada,
+  cad_pessoa.termos_contrato,
+  cad_pessoa.id_estadocivil,
+  cad_pessoa.cpf_conjuge,
+  cad_pessoa.identificacao_enviado,
+  cad_pessoa.renda_enviado,
+  cad_pessoa.residencia_enviado,
+  cad_pessoa.logradouro,
+  cad_pessoa.complemento,
+  cad_pessoa.cep,
+  cad_pessoa.bairro,
+  cad_pessoa.cidade,
+  cad_pessoa.uf,
+  Regexp_Replace(cad_pessoa.cpf_pessoa, '(\d{3})(\d{3})(\d{3})', '\1.\2.\3-') As cpfformatado,
+  cad_estadocivil.estado_civil,
+  cad_genero.nome_genero,
+  To_Char(cad_pessoa.rendamensal_declarada, 'L9G999G990D99') As rendaformatada,
+  Regexp_Replace(cad_pessoa.cep, '([0-9]{5})([0-9]{3})', '\1-\2') As cepformatado,
+  Regexp_Replace(cad_pessoa.cpf_conjuge, '(\d{3})(\d{3})(\d{3})', '\1.\2.\3-') As cpfconjugeformatado,
+  cad_pessoa.status_cadastro As status,
+  'Bem-vindo ' || Coalesce(cad_pessoa.nome_social, fr_usuario.usr_nome) As saudacao
+From
+  cad_pessoa
+  Inner Join
+  fr_usuario On cad_pessoa.id_pessoa = fr_usuario.id_pessoa
+  Left Join
+  cad_estadocivil On cad_pessoa.id_estadocivil = cad_estadocivil.id_estadocivil
+  Left Join
+  cad_genero On cad_pessoa.id_genero = cad_genero.id_genero
+
+/*WHERE_NEW*/
+Order By
+  cad_pessoa.id_pessoa
+
+/*ORDER_ADD*/
+</PROPERTY>
+<PROPERTY KEY="FNT_SQLUPDATE">id_pessoa
+cpf_pessoa
+data_nascimento
+nome_mae
+telefone
+status_cadastro
+id_genero
+rendamensal_declarada
+id_estadocivil
+identificacao_enviado
+renda_enviado
+residencia_enviado
+logradouro
+cep
+bairro
+cidade
+uf
+</PROPERTY>
+<PROPERTY KEY="FNT_TABELA">cad_pessoa</PROPERTY>
+<PROPERTY KEY="FRM_ALTURA">788</PROPERTY>
+<PROPERTY KEY="FRM_DESCRICAO">Financeiro - Simular Empr&#233;stimo</PROPERTY>
+<PROPERTY KEY="FRM_GUID">{D8A5A04D-863A-428B-8DE4-B58A31E7414E}</PROPERTY>
+<PROPERTY KEY="FRM_LOG">S</PROPERTY>
+<PROPERTY KEY="FRM_POSICAOX">588</PROPERTY>
+<PROPERTY KEY="FRM_POSICAOY">139</PROPERTY>
+<PROPERTY KEY="FRM_TAMANHO">723</PROPERTY>
+<PROPERTY KEY="FRM_TIPO"></PROPERTY>
+<PROPERTY KEY="FRM_TIPO_CRIACAO">0</PROPERTY>
+<!-- FonteDeDados:  -->
+<PROPERTY KEY="FonteDeDados">(Conex&#227;o principal)</PROPERTY>
+<PROPERTY KEY="FormularioLocalizar">0</PROPERTY>
+<PROPERTY KEY="IMG_AJUDA">0</PROPERTY>
+<PROPERTY KEY="IMG_ALTERAR">2</PROPERTY>
+<PROPERTY KEY="IMG_ANTERIOR">0</PROPERTY>
+<PROPERTY KEY="IMG_ATUALIZAR">0</PROPERTY>
+<PROPERTY KEY="IMG_CANCELAR">13</PROPERTY>
+<PROPERTY KEY="IMG_EXCLUIR">0</PROPERTY>
+<PROPERTY KEY="IMG_GRAVAR">12</PROPERTY>
+<PROPERTY KEY="IMG_GRAVAR_MAIS">0</PROPERTY>
+<PROPERTY KEY="IMG_IMPRIMIR">0</PROPERTY>
+<PROPERTY KEY="IMG_INCLUIR">0</PROPERTY>
+<PROPERTY KEY="IMG_LOG">0</PROPERTY>
+<PROPERTY KEY="IMG_PRIMEIRO">0</PROPERTY>
+<PROPERTY KEY="IMG_PROXIMO">0</PROPERTY>
+<PROPERTY KEY="IMG_SAIR">0</PROPERTY>
+<PROPERTY KEY="IMG_ULTIMO">0</PROPERTY>
+<PROPERTY KEY="IMG_UTILITARIO">1</PROPERTY>
+<PROPERTY KEY="IMG_VALORES_PADRAO">0</PROPERTY>
+<!-- Imagem:  -->
+<PROPERTY KEY="Imagem"></PROPERTY>
+<PROPERTY KEY="MensagemErroChaveEstrangeira"></PROPERTY>
+<PROPERTY KEY="MensagemErroChavePrimaria"></PROPERTY>
+<PROPERTY KEY="Modal">False</PROPERTY>
+<!-- Navegacao:  -->
+<PROPERTY KEY="Navegacao">FALSE</PROPERTY>
+<PROPERTY KEY="Popup">TRUE</PROPERTY>
+<PROPERTY KEY="PreLoad">FALSE</PROPERTY>
+<PROPERTY KEY="REL_CODIGO">0</PROPERTY>
+<PROPERTY KEY="Responsivo">TRUE</PROPERTY>
+<PROPERTY KEY="UltimaModificacao">13/10/2022 20:49:09</PROPERTY>
+<PROPERTY KEY="UltimoUsuario">master</PROPERTY>
+</PROPERTIES>

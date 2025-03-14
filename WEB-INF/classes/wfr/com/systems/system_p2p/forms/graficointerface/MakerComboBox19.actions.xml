@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ACTIONS>
+<EVENT TYPE="Ao Modificar">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Entrada">Posi&#231;&#227;o Elemento='7';Campo={MakerComboBox19}</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Gr&#225;fico - Interface - Alterar Registro</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+</ACTIONS>

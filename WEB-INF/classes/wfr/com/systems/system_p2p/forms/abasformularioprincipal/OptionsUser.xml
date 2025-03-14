@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">01-Cadastro</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">47</PROPERTY>
+<PROPERTY KEY="Categoria">Maker 3</PROPERTY>
+<PROPERTY KEY="ClasseComponente">Menu</PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">1041747</PROPERTY>
+<PROPERTY KEY="Container">MakerContainer6</PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<!-- Habilitado:  -->
+<PROPERTY KEY="Habilitado">True</PROPERTY>
+<PROPERTY KEY="MenuAbas"></PROPERTY>
+<PROPERTY KEY="MenuLegado">false</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">optionsUser</PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">0</PROPERTY>
+<PROPERTY KEY="Orientacao">H</PROPERTY>
+<PROPERTY KEY="PesquisaMenu">false</PROPERTY>
+<PROPERTY KEY="PlaceHolder">Buscar no menu</PROPERTY>
+<PROPERTY KEY="PosicaoPesquisa">L</PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">16</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">5</PROPERTY>
+<!-- Tabulacao:  -->
+<PROPERTY KEY="Tabulacao">1</PROPERTY>
+<!-- Tabular:  -->
+<PROPERTY KEY="Tabular">False</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">65</PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">True</PROPERTY>
+<PROPERTY KEY="XMLMenu">eJytkkFrgzAYhn9NTiFDTYV4lJgyYTVD7WW34KwNywwYHfv5+1xaux4mLfQi+Ob58n4PBFGO6Pb7
+0+CvdnDa9ohmKIrCpwC+uO0b+677zofaWcJYnJAQfmAKUYGCFFFeSlnj+lnshAeN7o7jL3MCdqLY
+Yy6z03nEwpjRCxAkwGSi4mX+WueygDg1YzuoAe/dhEQ4aAsEirbX0DKbc1nA/S+y9AXz7lX+Js4y
+se86KIcPikwOVEljO3/nPLxsmvLrBaBfLe3LoWchmcX+swyDiNENu0mzavujukuxWHc0tvm4Qe9P
+751ySRJQtlmVq5QeHunkdNcTO41EmXHN7dK76nSO5tcL0Q9rDMbE
+</PROPERTY>
+</PROPERTIES>

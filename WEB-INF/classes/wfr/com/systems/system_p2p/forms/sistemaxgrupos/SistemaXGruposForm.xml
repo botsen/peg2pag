@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<PROPERTY KEY="AUTODEPLOY_FORM">false</PROPERTY>
+<!-- AbaLocalizar: Informa se a Aba Localizar padrão de um formulário deve ser exibida. Valor: true|false. -->
+<PROPERTY KEY="AbaLocalizar">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirImportarDados">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirOrdenarGrade">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioHtml">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioListagem">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioTxt">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioXml">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRemoverOrdenacaoGrade">TRUE</PROPERTY>
+<!-- Abas: Informa se o controle de abas padrão de um formulário deve ser exibido ou não. Valor: true|false. -->
+<PROPERTY KEY="Abas">TRUE</PROPERTY>
+<!-- Ajuda: Propriedade que contém um texto de ajuda. Valor: string. -->
+<PROPERTY KEY="Ajuda"></PROPERTY>
+<!-- Apresentacao: Informa o modo de apresentação de um formulário (Desktop ou Web). Valor: 0 ou 1. -->
+<PROPERTY KEY="Apresentacao">0</PROPERTY>
+<!-- BarraDeRolagem: Informa se o formulário poderá ou não apresentar uma barra de rolagem. Valor: true|false. -->
+<PROPERTY KEY="BarraDeRolagem">True</PROPERTY>
+<!-- BotaoFechar: Informa se o botão fechar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoFechar">True</PROPERTY>
+<!-- BotaoMaximizar: Informa se o botão maximizar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoMaximizar">False</PROPERTY>
+<!-- BotaoMinimizar: Informa se o botão minimizar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoMinimizar">True</PROPERTY>
+<PROPERTY KEY="CODE">1036069641</PROPERTY>
+<PROPERTY KEY="CampoVersao"></PROPERTY>
+<!-- Centralizado: Informa se o formulário deve estar centralizado na tela. Valor: true|false. -->
+<PROPERTY KEY="Centralizado">True</PROPERTY>
+<PROPERTY KEY="CentralizadoVertical">False</PROPERTY>
+<PROPERTY KEY="ClasseCss"></PROPERTY>
+<!-- Cor: Valor númerico que representa uma cor. Utiliza o padrão Delphi. Valor: inteiro. -->
+<PROPERTY KEY="Cor">clWindow</PROPERTY>
+<PROPERTY KEY="EditarAoDuploClicar">TRUE</PROPERTY>
+<!-- EntrarComoPesquisa: Informa se o formulário deve entrar sem dados e direto na aba Localizar. Valor: true|false. -->
+<PROPERTY KEY="EntrarComoPesquisa">FALSE</PROPERTY>
+<PROPERTY KEY="ExibicaoImagemFundo"></PROPERTY>
+<PROPERTY KEY="FNT_CAMPOCHAVE">grp_codigo;sis_codigo</PROPERTY>
+<PROPERTY KEY="FNT_CAMPOGRADE"></PROPERTY>
+<PROPERTY KEY="FNT_CAMPOPESQUISA"></PROPERTY>
+<PROPERTY KEY="FNT_SQLDEFAULT">grp_codigo=SQL(&quot;SELECT COALESCE(MAX(GRP_CODIGO),0)+1 FROM FR_GRUPO&quot;)
+</PROPERTY>
+<PROPERTY KEY="FNT_SQLSELECT">Select
+  FR_GRUPO.GRP_CODIGO,
+  FR_GRUPO.SIS_CODIGO,
+  FR_GRUPO.GRP_NOME
+From
+  FR_GRUPO
+/*WHERE_NEW*/
+/*ORDER_NEW*/</PROPERTY>
+<PROPERTY KEY="FNT_SQLUPDATE">grp_codigo
+sis_codigo
+grp_nome
+</PROPERTY>
+<PROPERTY KEY="FRM_ALTURA">191</PROPERTY>
+<PROPERTY KEY="FRM_DESCRICAO">Sistema X Grupos</PROPERTY>
+<PROPERTY KEY="FRM_GUID">{44441485-1BCA-4821-A023-D05384C0D4AE}</PROPERTY>
+<PROPERTY KEY="FRM_LOG"></PROPERTY>
+<PROPERTY KEY="FRM_POSICAOX">399</PROPERTY>
+<PROPERTY KEY="FRM_POSICAOY">266</PROPERTY>
+<PROPERTY KEY="FRM_TAMANHO">546</PROPERTY>
+<!-- FonteDeDados:  -->
+<PROPERTY KEY="FonteDeDados"></PROPERTY>
+<PROPERTY KEY="FormularioLocalizar">0</PROPERTY>
+<PROPERTY KEY="IMG_AJUDA">14</PROPERTY>
+<PROPERTY KEY="IMG_ALTERAR">2</PROPERTY>
+<PROPERTY KEY="IMG_ANTERIOR">4</PROPERTY>
+<PROPERTY KEY="IMG_ATUALIZAR">7</PROPERTY>
+<PROPERTY KEY="IMG_CANCELAR">13</PROPERTY>
+<PROPERTY KEY="IMG_EXCLUIR">8</PROPERTY>
+<PROPERTY KEY="IMG_GRAVAR">12</PROPERTY>
+<PROPERTY KEY="IMG_GRAVAR_MAIS">15</PROPERTY>
+<PROPERTY KEY="IMG_IMPRIMIR">10</PROPERTY>
+<PROPERTY KEY="IMG_INCLUIR">1</PROPERTY>
+<PROPERTY KEY="IMG_LOG">16</PROPERTY>
+<PROPERTY KEY="IMG_PRIMEIRO">3</PROPERTY>
+<PROPERTY KEY="IMG_PROXIMO">5</PROPERTY>
+<PROPERTY KEY="IMG_SAIR">11</PROPERTY>
+<PROPERTY KEY="IMG_ULTIMO">6</PROPERTY>
+<PROPERTY KEY="IMG_UTILITARIO">1</PROPERTY>
+<PROPERTY KEY="IMG_VALORES_PADRAO">17</PROPERTY>
+<PROPERTY KEY="IdiomaBase">pt_BR</PROPERTY>
+<!-- Imagem:  -->
+<PROPERTY KEY="Imagem"></PROPERTY>
+<PROPERTY KEY="MensagemErroChaveEstrangeira"></PROPERTY>
+<PROPERTY KEY="MensagemErroChavePrimaria"></PROPERTY>
+<PROPERTY KEY="Modal">False</PROPERTY>
+<!-- Navegacao:  -->
+<PROPERTY KEY="Navegacao">TRUE</PROPERTY>
+<PROPERTY KEY="Popup">FALSE</PROPERTY>
+<PROPERTY KEY="PreLoad">FALSE</PROPERTY>
+<PROPERTY KEY="Responsivo">TRUE</PROPERTY>
+<PROPERTY KEY="SomenteAdministrador">true</PROPERTY>
+<PROPERTY KEY="UltimaModificacao">22/01/2020 15:58:35</PROPERTY>
+<PROPERTY KEY="UltimoUsuario">danilo</PROPERTY>
+</PROPERTIES>

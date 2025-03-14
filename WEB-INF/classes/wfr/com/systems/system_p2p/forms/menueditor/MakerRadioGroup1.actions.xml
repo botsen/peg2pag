@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ACTIONS>
+<EVENT TYPE="Ao Modificar">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Entrada">Tipo={MakerRadioGroup1}</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Menu - Preview</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+</ACTIONS>

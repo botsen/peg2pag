@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<PROPERTY KEY="AUTODEPLOY_FORM">true</PROPERTY>
+<!-- AbaLocalizar: Informa se a Aba Localizar padrão de um formulário deve ser exibida. Valor: true|false. -->
+<PROPERTY KEY="AbaLocalizar">FALSE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirImportarDados">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirOrdenarGrade">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioHtml">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioListagem">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioTxt">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioXml">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRemoverOrdenacaoGrade">TRUE</PROPERTY>
+<!-- Abas: Informa se o controle de abas padrão de um formulário deve ser exibido ou não. Valor: true|false. -->
+<PROPERTY KEY="Abas">FALSE</PROPERTY>
+<!-- Ajuda: Propriedade que contém um texto de ajuda. Valor: string. -->
+<PROPERTY KEY="Ajuda"></PROPERTY>
+<!-- Apresentacao: Informa o modo de apresentação de um formulário (Desktop ou Web). Valor: 0 ou 1. -->
+<PROPERTY KEY="Apresentacao">0</PROPERTY>
+<!-- BarraDeRolagem: Informa se o formulário poderá ou não apresentar uma barra de rolagem. Valor: true|false. -->
+<PROPERTY KEY="BarraDeRolagem">True</PROPERTY>
+<!-- BotaoFechar: Informa se o botão fechar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoFechar">True</PROPERTY>
+<!-- BotaoMaximizar: Informa se o botão maximizar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoMaximizar">False</PROPERTY>
+<!-- BotaoMinimizar: Informa se o botão minimizar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoMinimizar">True</PROPERTY>
+<PROPERTY KEY="CODE">2044928412</PROPERTY>
+<PROPERTY KEY="CampoVersao"></PROPERTY>
+<!-- Centralizado: Informa se o formulário deve estar centralizado na tela. Valor: true|false. -->
+<PROPERTY KEY="Centralizado">False</PROPERTY>
+<PROPERTY KEY="CentralizadoVertical">False</PROPERTY>
+<!-- Cor: Valor númerico que representa uma cor. Utiliza o padrão Delphi. Valor: inteiro. -->
+<PROPERTY KEY="Cor">clWindow</PROPERTY>
+<PROPERTY KEY="EditarAoDuploClicar">FALSE</PROPERTY>
+<!-- EntrarComoPesquisa: Informa se o formulário deve entrar sem dados e direto na aba Localizar. Valor: true|false. -->
+<PROPERTY KEY="EntrarComoPesquisa">FALSE</PROPERTY>
+<PROPERTY KEY="ExibicaoImagemFundo"></PROPERTY>
+<PROPERTY KEY="FNT_CAMPOCHAVE"></PROPERTY>
+<PROPERTY KEY="FNT_CAMPOGRADE"></PROPERTY>
+<PROPERTY KEY="FNT_CAMPOPESQUISA"></PROPERTY>
+<PROPERTY KEY="FNT_SQLDEFAULT"></PROPERTY>
+<PROPERTY KEY="FNT_SQLSELECT"></PROPERTY>
+<PROPERTY KEY="FNT_SQLUPDATE"></PROPERTY>
+<PROPERTY KEY="FRM_ALTURA">700</PROPERTY>
+<PROPERTY KEY="FRM_DESCRICAO">Organograma - Editor</PROPERTY>
+<PROPERTY KEY="FRM_GUID">{C142A9CB-AF5B-4EA3-BA3D-208C373490D9}</PROPERTY>
+<PROPERTY KEY="FRM_LOG"></PROPERTY>
+<PROPERTY KEY="FRM_POSICAOX">130</PROPERTY>
+<PROPERTY KEY="FRM_POSICAOY">12</PROPERTY>
+<PROPERTY KEY="FRM_TAMANHO">1024</PROPERTY>
+<!-- FonteDeDados:  -->
+<PROPERTY KEY="FonteDeDados">(Conex&#227;o principal)</PROPERTY>
+<PROPERTY KEY="IMG_AJUDA">1</PROPERTY>
+<PROPERTY KEY="IMG_ALTERAR">1</PROPERTY>
+<PROPERTY KEY="IMG_ANTERIOR">1</PROPERTY>
+<PROPERTY KEY="IMG_ATUALIZAR">1</PROPERTY>
+<PROPERTY KEY="IMG_CANCELAR">1</PROPERTY>
+<PROPERTY KEY="IMG_EXCLUIR">1</PROPERTY>
+<PROPERTY KEY="IMG_GRAVAR">1</PROPERTY>
+<PROPERTY KEY="IMG_GRAVAR_MAIS">1</PROPERTY>
+<PROPERTY KEY="IMG_IMPRIMIR">1</PROPERTY>
+<PROPERTY KEY="IMG_INCLUIR">1</PROPERTY>
+<PROPERTY KEY="IMG_LOG">1</PROPERTY>
+<PROPERTY KEY="IMG_PRIMEIRO">1</PROPERTY>
+<PROPERTY KEY="IMG_PROXIMO">1</PROPERTY>
+<PROPERTY KEY="IMG_SAIR">1</PROPERTY>
+<PROPERTY KEY="IMG_ULTIMO">1</PROPERTY>
+<PROPERTY KEY="IMG_UTILITARIO">1</PROPERTY>
+<PROPERTY KEY="IMG_VALORES_PADRAO">1</PROPERTY>
+<!-- Imagem:  -->
+<PROPERTY KEY="Imagem"></PROPERTY>
+<PROPERTY KEY="MensagemErroChaveEstrangeira"></PROPERTY>
+<PROPERTY KEY="MensagemErroChavePrimaria"></PROPERTY>
+<PROPERTY KEY="Modal">False</PROPERTY>
+<!-- Navegacao:  -->
+<PROPERTY KEY="Navegacao">FALSE</PROPERTY>
+<PROPERTY KEY="Popup">TRUE</PROPERTY>
+<PROPERTY KEY="PreLoad">FALSE</PROPERTY>
+<PROPERTY KEY="Responsivo">TRUE</PROPERTY>
+<PROPERTY KEY="UltimaModificacao">26/11/2015 17:16:51</PROPERTY>
+<PROPERTY KEY="UltimoUsuario">master</PROPERTY>
+</PROPERTIES>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">01-Cadastro</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">29</PROPERTY>
+<PROPERTY KEY="AoClicar"></PROPERTY>
+<!-- Campo: Informa o valor do campo da consulta que o componente está associado. Valor: string. -->
+<PROPERTY KEY="Campo"></PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">1027133</PROPERTY>
+<PROPERTY KEY="Container">MakerContainer1</PROPERTY>
+<!-- Cor: Valor númerico que representa uma cor. Utiliza o padrão Delphi. Valor: inteiro. -->
+<PROPERTY KEY="Cor">12879936</PROPERTY>
+<!-- Descricao: Informa a descrição do campo. Valor: string. -->
+<PROPERTY KEY="Descricao">Preencha os dados. A senha ser&#225; enviada via e-mail</PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<PROPERTY KEY="EstiloCss"></PROPERTY>
+<!-- Fonte: Representa uma fonte do sistema. Valor: Nome da Fonte, tamanho, propriedades, cor -->
+<PROPERTY KEY="Fonte">Calibri,12,0000,clWhite</PROPERTY>
+<!-- Habilitado:  -->
+<PROPERTY KEY="Habilitado">True</PROPERTY>
+<PROPERTY KEY="HorzAlignment">center</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">MakerLabel1</PROPERTY>
+<PROPERTY KEY="NomeClasseCss"></PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">22</PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">208</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">568</PROPERTY>
+<PROPERTY KEY="QuebraAutomaticaDeLinha">False</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">657</PROPERTY>
+<PROPERTY KEY="ValorInicial"></PROPERTY>
+<PROPERTY KEY="VertAlignment">middle</PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">False</PROPERTY>
+</PROPERTIES>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ACTIONS>
+<EVENT TYPE="Ao Duplo Clicar">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Entrada"></PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Busca textual - Seleciona objeto para abrir</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+</ACTIONS>

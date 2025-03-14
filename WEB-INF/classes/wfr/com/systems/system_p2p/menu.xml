@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ROOT>
+
+  <MENU CODE="1">
+    <DESCRIPTION>Abas - Formul&#225;rio Principal</DESCRIPTION>
+    <FORM>2</FORM>
+  </MENU>
+
+  <MENU CODE="2">
+    <DESCRIPTION>Cadastro - Usuario - Complemento</DESCRIPTION>
+    <FORM>464570565</FORM>
+  </MENU>
+
+</ROOT>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ACTIONS>
+<EVENT TYPE="Ao Clicar">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Destino">2</PROPERTY>
+<PROPERTY KEY="Entrada">data1={MakerEdit1};data2={MakerEdit3}</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Testes - Hour Angle</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+</ACTIONS>

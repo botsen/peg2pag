@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ACTIONS>
+<EVENT TYPE="Ao Clicar">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Entrada">A&#231;&#227;o='E'</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Tabela - Interface - Salvar SQL Lista Din&#226;mica</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+</ACTIONS>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ACTIONS>
+<EVENT TYPE="Ao Sair">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Entrada"></PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Tabela - Interface - Atualizar Campos SQL Lista</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+<EVENT TYPE="Ao Modificar">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Entrada"></PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Tabela - Interface - Atualizar Campos SQL Lista</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+</ACTIONS>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">01-Cadastro</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">124</PROPERTY>
+<PROPERTY KEY="Categoria">Maker 3</PROPERTY>
+<PROPERTY KEY="ClasseComponente">Menu</PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">836884</PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<!-- Habilitado:  -->
+<PROPERTY KEY="Habilitado">True</PROPERTY>
+<PROPERTY KEY="MenuLegado">True</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Menu1</PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">1</PROPERTY>
+<PROPERTY KEY="Orientacao">H</PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">344</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">213</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">329</PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">True</PROPERTY>
+<PROPERTY KEY="XMLMenu"></PROPERTY>
+</PROPERTIES>

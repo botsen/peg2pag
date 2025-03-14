@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- AbaLocalizar: Informa se a Aba Localizar padrão de um formulário deve ser exibida. Valor: true|false. -->
+<PROPERTY KEY="AbaLocalizar">FALSE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirImportarDados">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirOrdenarGrade">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioHtml">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioListagem">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioTxt">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRelatorioXml">TRUE</PROPERTY>
+<PROPERTY KEY="AbaLocalizarPermitirRemoverOrdenacaoGrade">TRUE</PROPERTY>
+<!-- Abas: Informa se o controle de abas padrão de um formulário deve ser exibido ou não. Valor: true|false. -->
+<PROPERTY KEY="Abas">FALSE</PROPERTY>
+<!-- Ajuda: Propriedade que contém um texto de ajuda. Valor: string. -->
+<PROPERTY KEY="Ajuda"></PROPERTY>
+<!-- Apresentacao: Informa o modo de apresentação de um formulário (Desktop ou Web). Valor: 0 ou 1. -->
+<PROPERTY KEY="Apresentacao">0</PROPERTY>
+<!-- BarraDeRolagem: Informa se o formulário poderá ou não apresentar uma barra de rolagem. Valor: true|false. -->
+<PROPERTY KEY="BarraDeRolagem">False</PROPERTY>
+<PROPERTY KEY="BarraNavegacaoFixa">FALSE</PROPERTY>
+<!-- BotaoFechar: Informa se o botão fechar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoFechar">True</PROPERTY>
+<!-- BotaoMaximizar: Informa se o botão maximizar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoMaximizar">False</PROPERTY>
+<!-- BotaoMinimizar: Informa se o botão minimizar da jabela do formulário deve ser exibido. Valor: true|false. -->
+<PROPERTY KEY="BotaoMinimizar">True</PROPERTY>
+<PROPERTY KEY="CODE">464570608</PROPERTY>
+<PROPERTY KEY="CampoVersao"></PROPERTY>
+<!-- Centralizado: Informa se o formulário deve estar centralizado na tela. Valor: true|false. -->
+<PROPERTY KEY="Centralizado">False</PROPERTY>
+<PROPERTY KEY="CentralizadoVertical">False</PROPERTY>
+<PROPERTY KEY="ClasseCss">[id^=&quot;label&quot;]&gt;div label,#bemvindo&gt;div label{
+ /*color: #4d934c;[webrun-type=&quot;HTMLLabel&quot;] 
+ color: #4f564f;
+ font-weight: 500;
+ font-size: medium;         */
+}
+
+/*#main,#mainCompleto {
+ background-color: rgb(217,217,217);   
+ border: none !important;
+}  */
+
+[id^=&quot;botao&quot;] [type=&quot;button&quot;] {
+    background-color: #fdfffd !important;
+    color: #2e7d32 !important;
+    border-color: #005005 !important;
+}
+
+#enviar button, #gravar button {
+ font-size: 0.75rem !important;
+ color: #ffffff!important;     
+ background-color:#2e7d32;
+ /**  border-color: #ffffff!important; **/    
+ border: 1px solid !important;
+ border-color: #005005 !important;      
+}
+
+#enviar button:hover,#gravar button:hover {
+   background-color:#005005 !important;
+}
+
+[webrun-type=&quot;HTMLEdit&quot;]&gt;label&gt;span,[webrun-type=&quot;HTMLLookup&quot;]&gt;label&gt;span{
+ color: #212529 !important;
+}
+
+.listGrid {
+    top: 10px !important;
+}
+
+
+.card {
+    margin-bottom: 1.875rem;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 10px 40px 0 rgb(62 57 107 / 7%), 0 2px 9px 0 rgb(62 57 107 / 6%);
+}
+
+[class*=&quot;form&quot;],label{
+    font-family: Montserrat,Georgia,'Times New Roman',Times,serif !important;   
+    overflow: unset !important;       
+}
+
+input,input:focus {
+    border: none !important;
+    border-bottom: 1px solid grey!important;  
+    box-shadow: none !important;    
+}
+
+#sair&gt;button {
+    color: #212529;
+    background-color: #E5E5E5; 
+    border: none;     
+}
+
+#sair&gt;button:hover {
+    color: #212529;
+    background-color: #D9D9D9; 
+    border: none;     
+}
+</PROPERTY>
+<!-- Cor: Valor númerico que representa uma cor. Utiliza o padrão Delphi. Valor: inteiro. -->
+<PROPERTY KEY="Cor">$00E5E5E5</PROPERTY>
+<PROPERTY KEY="EditarAoDuploClicar">FALSE</PROPERTY>
+<!-- EntrarComoPesquisa: Informa se o formulário deve entrar sem dados e direto na aba Localizar. Valor: true|false. -->
+<PROPERTY KEY="EntrarComoPesquisa">FALSE</PROPERTY>
+<PROPERTY KEY="ExibicaoImagemFundo"></PROPERTY>
+<PROPERTY KEY="FNT_CAMPOCHAVE">id_pessoa</PROPERTY>
+<PROPERTY KEY="FNT_CAMPOGRADE">id_pessoa;cpf_pessoa;nome_social;idtomador;idpessoa;scoreatu;scoteult;dtultatu</PROPERTY>
+<PROPERTY KEY="FNT_CAMPOPESQUISA">id_pessoa;cpf_pessoa</PROPERTY>
+<PROPERTY KEY="FNT_SQLDEFAULT"></PROPERTY>
+<PROPERTY KEY="FNT_SQLMASCARA"></PROPERTY>
+<PROPERTY KEY="FNT_SQLSELECT">Select
+  fin_tomador.idtomador,
+  fin_tomador.idpessoa,
+  fin_tomador.scoreatu,
+  fin_tomador.scoteult,
+  fin_tomador.dtultatu,
+  fin_transacao.vltransacao,
+  'R$ ' || Trim(To_Char(fin_transacao.vltransacao, '999G999G999D99')) As valorsolicitado,
+  fin_transacao.dttransacao,
+  To_Char(fin_transacao.dttransacao, 'DD/MM/YYYY') As datatransacao,
+  fin_transacao.qtparcelas,
+  fin_transacao.vlcotasrec,
+  'R$ ' || Trim(To_Char(fin_transacao.vlcotasrec, '999G999G999D99')) As valorcotas,
+  fin_transacao.vljuros,
+  Trim(To_Char(fin_transacao.vljuros, '999G999G999D99')) || '% a.m.' As valorjuros,
+  fin_transacao.stativo,
+  cad_pessoa.id_pessoa,
+  cad_pessoa.cpf_pessoa,
+  cad_pessoa.nome_social,
+  fin_transacao.idtransacao,
+  cad_status_transacao.sttransac As transacao,
+  'R$ ' || Trim(To_Char(fin_transacao.vltotalinvestidor, '999G999G999D99')) As valorinvestidor,
+  fin_rating.id_rating,
+  fin_transacao.vlcota,
+  fin_transacao.qtcotas,
+  Coalesce(fin_transacao.qtcotasrecebidas, 0) As qtcotasrecebidas,
+  Coalesce(fin_transacao.qtcotas - Coalesce(fin_transacao.qtcotasrecebidas, 0), 0) As cotasrestantes,
+  fin_transacao.vlcotasimples,
+  'R$ ' || Trim(To_Char(fin_transacao.vlcotasimples, '999G999G999D99')) As cotasimples,
+  'Qtd de Cotas Desejada (max. ' || fr.qtmaxcotas || ')' As textocotas,
+  fr_usuario.usr_email,
+  fin_rating.qtmaxcotas As oldmaxtquota,
+  fr.qtmaxcotas
+From
+  cad_pessoa
+  Inner Join
+  fin_tomador On cad_pessoa.id_pessoa = fin_tomador.idpessoa
+  Inner Join
+  fin_transacao On fin_tomador.idtomador = fin_transacao.idtomador
+  Inner Join
+  cad_status_transacao On fin_transacao.sttransacao = cad_status_transacao.idsttransac
+  Left Join
+  fin_rating On cad_pessoa.rating = fin_rating.rating
+  Left Join
+  fr_usuario On cad_pessoa.id_pessoa = fr_usuario.id_pessoa
+  Left Join
+  cad_pessoa cp On cp.id_pessoa = :FUNCAO_sessao_sessaoIdPessoa
+  Left Join
+  fin_rating fr On fr.rating = cp.rating
+Where
+  fin_transacao.stativo = 1
+
+
+/*WHERE_ADD*/
+/*ORDER_NEW*/
+</PROPERTY>
+<PROPERTY KEY="FNT_SQLUPDATE">id_pessoa
+cpf_pessoa
+</PROPERTY>
+<PROPERTY KEY="FNT_TABELA">cad_pessoa</PROPERTY>
+<PROPERTY KEY="FRM_ALTURA">726</PROPERTY>
+<PROPERTY KEY="FRM_DESCRICAO">Investidor - Meus Investimentos - Detalhes</PROPERTY>
+<PROPERTY KEY="FRM_GUID">{7BAE0F09-6DF2-4769-9EAB-A668461A880C}</PROPERTY>
+<PROPERTY KEY="FRM_LOG">S</PROPERTY>
+<PROPERTY KEY="FRM_POSICAOX">457</PROPERTY>
+<PROPERTY KEY="FRM_POSICAOY">170</PROPERTY>
+<PROPERTY KEY="FRM_TAMANHO">985</PROPERTY>
+<PROPERTY KEY="FRM_TIPO"></PROPERTY>
+<PROPERTY KEY="FRM_TIPO_CRIACAO">0</PROPERTY>
+<!-- FonteDeDados:  -->
+<PROPERTY KEY="FonteDeDados">(Conex&#227;o principal)</PROPERTY>
+<PROPERTY KEY="FormularioLocalizar">0</PROPERTY>
+<PROPERTY KEY="IMG_AJUDA">14</PROPERTY>
+<PROPERTY KEY="IMG_ALTERAR">2</PROPERTY>
+<PROPERTY KEY="IMG_ANTERIOR">4</PROPERTY>
+<PROPERTY KEY="IMG_ATUALIZAR">7</PROPERTY>
+<PROPERTY KEY="IMG_CANCELAR">13</PROPERTY>
+<PROPERTY KEY="IMG_EXCLUIR">8</PROPERTY>
+<PROPERTY KEY="IMG_GRAVAR">12</PROPERTY>
+<PROPERTY KEY="IMG_GRAVAR_MAIS">15</PROPERTY>
+<PROPERTY KEY="IMG_IMPRIMIR">10</PROPERTY>
+<PROPERTY KEY="IMG_INCLUIR">1</PROPERTY>
+<PROPERTY KEY="IMG_LOG">16</PROPERTY>
+<PROPERTY KEY="IMG_PRIMEIRO">3</PROPERTY>
+<PROPERTY KEY="IMG_PROXIMO">5</PROPERTY>
+<PROPERTY KEY="IMG_SAIR">11</PROPERTY>
+<PROPERTY KEY="IMG_ULTIMO">6</PROPERTY>
+<PROPERTY KEY="IMG_UTILITARIO">17</PROPERTY>
+<PROPERTY KEY="IMG_VALORES_PADRAO">17</PROPERTY>
+<!-- Imagem:  -->
+<PROPERTY KEY="Imagem"></PROPERTY>
+<PROPERTY KEY="MensagemErroChaveEstrangeira"></PROPERTY>
+<PROPERTY KEY="MensagemErroChavePrimaria"></PROPERTY>
+<PROPERTY KEY="Modal">True</PROPERTY>
+<!-- Navegacao:  -->
+<PROPERTY KEY="Navegacao">FALSE</PROPERTY>
+<PROPERTY KEY="Popup">FALSE</PROPERTY>
+<PROPERTY KEY="PreLoad">FALSE</PROPERTY>
+<PROPERTY KEY="REL_CODIGO">0</PROPERTY>
+<PROPERTY KEY="Responsivo">TRUE</PROPERTY>
+<PROPERTY KEY="UltimaModificacao">27/02/2023 19:53:45</PROPERTY>
+<PROPERTY KEY="UltimoUsuario">master</PROPERTY>
+</PROPERTIES>

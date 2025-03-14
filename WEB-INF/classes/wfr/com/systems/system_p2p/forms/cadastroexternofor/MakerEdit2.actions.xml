@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ACTIONS>
+<EVENT TYPE="Ao Pressionar Tecla">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Destino">1</PROPERTY>
+<PROPERTY KEY="Entrada">parametroAlt=;parametroCtrl=;parametroShift=;c&#243;digoTecla=;nome=;componenteMsg='feedbackcpf'</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">PreCadastro - Limpar ao pressionar tecla</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+<EVENT TYPE="Ao Sair">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Destino">1</PROPERTY>
+<PROPERTY KEY="Entrada">cnpj={MakerEdit2};componente='MakerEdit2';componenteMsg='feedbackcpf';mensagem='CNPJ Inv&#225;lido'</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">PreCadastro - Validar CNPJ</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+</ACTIONS>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">01-Cadastro</PROPERTY>
+<PROPERTY KEY="AdicionarItem">True</PROPERTY>
+<PROPERTY KEY="AdicionarTodos">True</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">174</PROPERTY>
+<!-- ApenasLeitura: Valor lógico que informa se o componente é apenas para leitura -->
+<PROPERTY KEY="ApenasLeitura">False</PROPERTY>
+<PROPERTY KEY="CampoChavePrincipal">SIS_CODIGO</PROPERTY>
+<PROPERTY KEY="CampoChaveSelecionados">SIS_CODIGO</PROPERTY>
+<PROPERTY KEY="CampoListaPrincipal">SIS_DESCRICAO</PROPERTY>
+<PROPERTY KEY="CampoListaSelecionados">SIS_DESCRICAO</PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">836859</PROPERTY>
+<!-- Cor: Valor númerico que representa uma cor. Utiliza o padrão Delphi. Valor: inteiro. -->
+<PROPERTY KEY="Cor">-16777211</PROPERTY>
+<PROPERTY KEY="DescricaoPrincipal"></PROPERTY>
+<PROPERTY KEY="DescricaoSelecionados"></PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<PROPERTY KEY="DuploClique">True</PROPERTY>
+<!-- Fonte: Representa uma fonte do sistema. Valor: Nome da Fonte, tamanho, propriedades, cor -->
+<PROPERTY KEY="Fonte">MS Sans Serif,8,0000,clWindowText</PROPERTY>
+<PROPERTY KEY="FonteDescricaoPrincipal">Tahoma,8,0000,clWindowText</PROPERTY>
+<PROPERTY KEY="FonteDescricaoSelecionados">Tahoma,8,0000,clWindowText</PROPERTY>
+<!-- Habilitado:  -->
+<PROPERTY KEY="Habilitado">True</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">MakerDualList1</PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">10</PROPERTY>
+<PROPERTY KEY="ParametrosPrincipal">FR_SISTEMA.SIS_CODIGO=SIS_CODIGO
+</PROPERTY>
+<PROPERTY KEY="ParametrosSelecionados">FR_SISTEMA.SIS_CODIGO=SIS_CODIGO
+</PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">520</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">224</PROPERTY>
+<PROPERTY KEY="RemoverItem">True</PROPERTY>
+<PROPERTY KEY="RemoverTodos">True</PROPERTY>
+<PROPERTY KEY="SQLPrincipal">Select
+  FR_SISTEMA.SIS_CODIGO,
+  FR_SISTEMA.SIS_DESCRICAO
+From
+  FR_SISTEMA
+
+
+/*WHERE_NEW*/
+/*ORDER_NEW*/
+</PROPERTY>
+<PROPERTY KEY="SQLSelecionados">Select
+  FR_SISTEMA.SIS_CODIGO,
+  FR_SISTEMA.SIS_DESCRICAO
+From
+  FR_SISTEMA
+
+
+/*WHERE_NEW*/
+/*ORDER_NEW*/
+</PROPERTY>
+<!-- Tabulacao:  -->
+<PROPERTY KEY="Tabulacao">10</PROPERTY>
+<!-- Tabular:  -->
+<PROPERTY KEY="Tabular">True</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">192</PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">True</PROPERTY>
+</PROPERTIES>

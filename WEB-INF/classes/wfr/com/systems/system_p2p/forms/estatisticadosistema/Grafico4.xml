@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">01-Cadastro</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">265</PROPERTY>
+<PROPERTY KEY="Categoria">GoogleCharts</PROPERTY>
+<PROPERTY KEY="ClasseComponente">Grafico</PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">1033844</PROPERTY>
+<PROPERTY KEY="Container"></PROPERTY>
+<PROPERTY KEY="CorFundo">#0F0000</PROPERTY>
+<PROPERTY KEY="CorGrafico">#008080</PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<PROPERTY KEY="ExibirLegenda">true</PROPERTY>
+<!-- Habilitado:  -->
+<PROPERTY KEY="Habilitado">True</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Grafico4</PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">14</PROPERTY>
+<PROPERTY KEY="PosicaoLegenda">right</PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">724</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">516</PROPERTY>
+<!-- Tabulacao:  -->
+<PROPERTY KEY="Tabulacao">0</PROPERTY>
+<!-- Tabular:  -->
+<PROPERTY KEY="Tabular">False</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">373</PROPERTY>
+<PROPERTY KEY="TituloEixoX"></PROPERTY>
+<PROPERTY KEY="TituloEixoY"></PROPERTY>
+<PROPERTY KEY="TituloGrafico">Formul&#225;rios por Categoria (%)</PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">True</PROPERTY>
+<PROPERTY KEY="animation">true</PROPERTY>
+<PROPERTY KEY="animationTime">500</PROPERTY>
+<PROPERTY KEY="gSerie">%7B%0A+%228E6F3DB5-E349-4017-A27C-F4D257581B87%22%3A+%7B%0A++%22nome%22%3A+%22Formul%25E1rios+Por+Categoria%22%2C%0A++%22tipo%22%3A+%22Pizza%22%2C%0A++%22fontedados%22%3A+%22%22%2C%0A++%22sql%22%3A+%22Select%5Cn++Count%28fr_formulario.frm_codigo%29+As+Contador%2C%5Cn++fr_categoria.cat_nome+As+Descricao%5CnFrom%5Cn++fr_formulario%5Cn++Inner+Join%5Cn++fr_formulario_sistema+On+fr_formulario.frm_codigo+%3D+fr_formulario_sistema.frm_codigo%5Cn++Inner+Join%5Cn++fr_formulario_categoria+On+fr_formulario.frm_codigo+%3D+fr_formulario_categoria.frm_codigo%5Cn++Inner+Join%5Cn++fr_categoria+On+fr_formulario_categoria.cat_codigo+%3D+fr_categoria.cat_codigo%5CnWhere%5Cn++fr_formulario_sistema.sis_codigo+%3D+%3AFUNCAO_sistema%5CnGroup+By%5Cn++fr_formulario_sistema.sis_codigo%2C%5Cn++fr_categoria.cat_nome%22%2C%0A++%22campos%22%3A+%22descricao%3Bcontador%3B%3B%3B%3B%3B%3B%3B%3B%22%0A+%7D%0A%7D
+</PROPERTY>
+</PROPERTIES>

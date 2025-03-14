@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<wfr.database.XMLResultSet>
+  <a>
+    <a>
+      <entry>
+        <int>1</int>
+        <wfr.database.XMLResultSetMetaDataItem>
+          <catalogName></catalogName>
+          <columnClassName>java.lang.Integer</columnClassName>
+          <columnDisplaySize>11</columnDisplaySize>
+          <columnLabel>id_rating</columnLabel>
+          <columnName>id_rating</columnName>
+          <columnType>4</columnType>
+          <columnTypeName>serial</columnTypeName>
+          <precision>10</precision>
+          <scale>0</scale>
+          <schemaName></schemaName>
+          <tableName>fin_rating</tableName>
+          <isAutoIncrement>true</isAutoIncrement>
+          <isCaseSensitive>false</isCaseSensitive>
+          <isCurrency>false</isCurrency>
+          <isDefinitelyWritable>false</isDefinitelyWritable>
+          <isNullable>0</isNullable>
+          <isReadOnly>false</isReadOnly>
+          <isSearchable>true</isSearchable>
+          <isSigned>true</isSigned>
+          <isWritable>true</isWritable>
+        </wfr.database.XMLResultSetMetaDataItem>
+      </entry>
+    </a>
+    <b>1</b>
+  </a>
+</wfr.database.XMLResultSet>

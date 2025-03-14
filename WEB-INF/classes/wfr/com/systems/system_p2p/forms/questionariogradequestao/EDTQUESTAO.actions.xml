@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ACTIONS>
+<EVENT TYPE="Ao Entrar">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Destino">2</PROPERTY>
+<PROPERTY KEY="Entrada">idquestionario={EDTIDQUESTIONARIO}</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Question&#225;rio - Grade - Carrega ordem</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+</ACTIONS>

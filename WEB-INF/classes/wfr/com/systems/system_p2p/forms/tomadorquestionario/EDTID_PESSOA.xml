@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">01-Cadastro</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">35</PROPERTY>
+<!-- ApenasLeitura: Valor lógico que informa se o componente é apenas para leitura -->
+<PROPERTY KEY="ApenasLeitura">False</PROPERTY>
+<!-- Atributos: Informa os atributos de um componente. Valor: números separados por ";". -->
+<PROPERTY KEY="Atributos"></PROPERTY>
+<PROPERTY KEY="BuscaIncremental">True</PROPERTY>
+<!-- Campo: Informa o valor do campo da consulta que o componente está associado. Valor: string. -->
+<PROPERTY KEY="Campo">id_pessoa</PROPERTY>
+<!-- CampoChave: Informa o campo chave do componente. Valor: string. -->
+<PROPERTY KEY="CampoChave">id_pessoa</PROPERTY>
+<!-- CampoLista: Informa o campo de exibição do componente. Valor: string. -->
+<PROPERTY KEY="CampoLista">cpf_pessoa</PROPERTY>
+<!-- ChamaSubForm: Informa se o componente deve chamar o subformulário definido na propriedade Formulário. Valor: true|false. -->
+<PROPERTY KEY="ChamaSubForm">True</PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">1042479</PROPERTY>
+<!-- CodigoForm: Código do formulário: Valor: inteiro. -->
+<PROPERTY KEY="CodigoForm">0</PROPERTY>
+<PROPERTY KEY="Container"></PROPERTY>
+<!-- Cor: Valor númerico que representa uma cor. Utiliza o padrão Delphi. Valor: inteiro. -->
+<PROPERTY KEY="Cor">-16777211</PROPERTY>
+<!-- Descricao: Informa a descrição do campo. Valor: string. -->
+<PROPERTY KEY="Descricao">id_pessoa</PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<!-- Estilo: Informa o estilo do lookup (Como, Edit e Memo). Valor: 0, 1 ou 2. -->
+<PROPERTY KEY="Estilo">0</PROPERTY>
+<PROPERTY KEY="EstiloCss"></PROPERTY>
+<!-- Fonte: Representa uma fonte do sistema. Valor: Nome da Fonte, tamanho, propriedades, cor -->
+<PROPERTY KEY="Fonte">MS Sans Serif,8,0000,clWindowText</PROPERTY>
+<!-- FonteDeDados:  -->
+<PROPERTY KEY="FonteDeDados">(Conex&#227;o principal)</PROPERTY>
+<PROPERTY KEY="FonteDescricao"></PROPERTY>
+<!-- Habilitado:  -->
+<PROPERTY KEY="Habilitado">True</PROPERTY>
+<PROPERTY KEY="LabelPosition">0</PROPERTY>
+<PROPERTY KEY="LarguraExibicao">0</PROPERTY>
+<!-- Mascara:  -->
+<PROPERTY KEY="Mascara"></PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">EDTID_PESSOA</PROPERTY>
+<PROPERTY KEY="NomeClasseCss"></PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">2</PROPERTY>
+<!-- Paginacao:  -->
+<PROPERTY KEY="Paginacao">0</PROPERTY>
+<PROPERTY KEY="Placeholder"></PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">872</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">24</PROPERTY>
+<!-- SQL:  -->
+<PROPERTY KEY="SQL">select 
+  cad_pessoa.id_pessoa,
+  cad_pessoa.cpf_pessoa
+from
+  cad_pessoa
+/*WHERE_NEW*/
+ order by cad_pessoa.cpf_pessoa 
+/*ORDER_ADD*/</PROPERTY>
+<!-- Tabulacao:  -->
+<PROPERTY KEY="Tabulacao">2</PROPERTY>
+<!-- Tabular:  -->
+<PROPERTY KEY="Tabular">True</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">102</PROPERTY>
+<!-- Tipo:  -->
+<PROPERTY KEY="Tipo"></PROPERTY>
+<PROPERTY KEY="TipoFiltroInicial">2</PROPERTY>
+<PROPERTY KEY="ValorInicial"></PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">False</PROPERTY>
+</PROPERTIES>

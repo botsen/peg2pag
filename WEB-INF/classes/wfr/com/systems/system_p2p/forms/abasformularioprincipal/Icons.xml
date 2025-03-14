@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">01-Cadastro</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">49</PROPERTY>
+<PROPERTY KEY="Categoria">Maker 3</PROPERTY>
+<PROPERTY KEY="ClasseComponente">Menu</PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">1041739</PROPERTY>
+<PROPERTY KEY="Container">IconButtonContainer</PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<!-- Habilitado:  -->
+<PROPERTY KEY="Habilitado">True</PROPERTY>
+<PROPERTY KEY="MenuAbas"></PROPERTY>
+<PROPERTY KEY="MenuLegado">false</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">icons</PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">0</PROPERTY>
+<PROPERTY KEY="Orientacao">H</PROPERTY>
+<PROPERTY KEY="PesquisaMenu">false</PROPERTY>
+<PROPERTY KEY="PlaceHolder">Buscar no menu</PROPERTY>
+<PROPERTY KEY="PosicaoPesquisa">L</PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">4</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">6</PROPERTY>
+<!-- Tabulacao:  -->
+<PROPERTY KEY="Tabulacao">1</PROPERTY>
+<!-- Tabular:  -->
+<PROPERTY KEY="Tabular">False</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">48</PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">True</PROPERTY>
+<PROPERTY KEY="XMLMenu">eJytlU1vozAQhn+NT4gKQyBwjAjJRkqgG9JLby5Msl4RHNmmyvbXdyhdaKRdp0hcEH49nnce+WOI
+FxNvdT1X1itIxUVNvCVxXfrg4NeCuhAlr0+dyJWww9CPbIoDXEW8hDgL4sX7LDtYhx/JLukCK376
+pT9iPgN2Sfpkxdnyc56G4TyY0yHCiTBomeTxfvN42GQpymvZXIRCmbir25l+wSbOUsy6zfZd2rQt
+Od88J8MQw49MWUdmNwr5unTtur60RfwPw17sYlBpCf6LE0SR74ZGnCfVkIRKPiUSK0sJStkFk6WJ
+DL3Z4DyazXV8z8i2zdbTQR15BTartAmoNxzHMqM+Ne9SXkh+0Vb+czsdUMk0e2EKTEDJFYpGM9n5
+9/bj8Dw3cGaRkW8PeFYknJi0cq40nNl0nOpPXZgYB+8b65GMXuA65tO4E6WwUiHPrJr29TDBtaZf
+PcdR+e6cBsF9qjVIqDVMi2VrbjybrfON8Ti2iIaB499ne5TiN2gxHRt2rrtcN6bjuEKK76L5tsWi
+PvJTI/G24S9cycqHCZ//F3jjuH1FI1+NoEMZH1UIUIuSF9jqGf9OS/grtU0epXf9gRw3
+</PROPERTY>
+</PROPERTIES>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ACTIONS>
+<EVENT TYPE="Ao Entrar">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Destino">1</PROPERTY>
+<PROPERTY KEY="Entrada"></PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Investidor - Ao Entrar</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+<EVENT TYPE="Ao Navegar">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Destino">1</PROPERTY>
+<PROPERTY KEY="Entrada"></PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Investidor - Emprestimos Dispon&#237;veis - Ao Navegar</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+</ACTIONS>

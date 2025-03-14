@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ACTIONS>
+<EVENT TYPE="Ao Clicar">
+<ACTION TYPE="EXECUTE_RULE">
+<PROPERTIES>
+<PROPERTY KEY="Destino">1</PROPERTY>
+<PROPERTY KEY="Entrada">idLancamento=idlancamento;idTransacao=idtransacao;idPessoa=idtomador</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Tomador - Pagar Parcela - Ao clicar</PROPERTY>
+</PROPERTIES></ACTION>
+</EVENT>
+</ACTIONS>

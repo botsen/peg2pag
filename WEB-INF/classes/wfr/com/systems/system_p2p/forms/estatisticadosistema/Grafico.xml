@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">01-Cadastro</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">265</PROPERTY>
+<PROPERTY KEY="Categoria">GoogleCharts</PROPERTY>
+<PROPERTY KEY="ClasseComponente">Grafico</PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">1033843</PROPERTY>
+<PROPERTY KEY="Container"></PROPERTY>
+<PROPERTY KEY="CorFundo">#0F0000</PROPERTY>
+<PROPERTY KEY="CorGrafico">#008080</PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<PROPERTY KEY="ExibirLegenda">true</PROPERTY>
+<!-- Habilitado:  -->
+<PROPERTY KEY="Habilitado">True</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">Grafico</PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">13</PROPERTY>
+<PROPERTY KEY="PosicaoLegenda">right</PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">-50</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">516</PROPERTY>
+<!-- Tabulacao:  -->
+<PROPERTY KEY="Tabulacao">0</PROPERTY>
+<!-- Tabular:  -->
+<PROPERTY KEY="Tabular">False</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">408</PROPERTY>
+<PROPERTY KEY="TituloGrafico">Camadas dos Fluxos (%)</PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">True</PROPERTY>
+<PROPERTY KEY="animation">true</PROPERTY>
+<PROPERTY KEY="animationTime">500</PROPERTY>
+<PROPERTY KEY="gSerie">%7B%0A+%22D4B75645-B0E3-432A-8098-51920B3A4CEE%22%3A+%7B%0A++%22nome%22%3A+%22Fluxos%22%2C%0A++%22tipo%22%3A+%22Pizza%22%2C%0A++%22fontedados%22%3A+%22%22%2C%0A++%22sql%22%3A+%22Select%5Cn++Count%28fr_regras.reg_cod%29+As+Contador%2C%5Cn++Case+fr_regras.reg_destino+When+1+Then+%27Cliente%27++When+2+Then+%27Servidor%27+else++%27Banco+de+Dados%27+End+As+Descricao%5CnFrom%5Cn++fr_regras%5CnGroup+By%5Cn++Case+fr_regras.reg_destino+When+1+Then+%27Cliente%27++When+2+Then+%27Servidor%27+else++%27Banco+de+Dados%27+END%22%2C%0A++%22campos%22%3A+%22descricao%3Bcontador%3B%3B%3B%3B%3B%3B%3B%3B%22%0A+%7D%0A%7D
+</PROPERTY>
+</PROPERTIES>

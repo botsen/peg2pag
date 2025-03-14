@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<wfr.database.XMLResultSet>
+  <a>
+    <a>
+      <entry>
+        <int>1</int>
+        <wfr.database.XMLResultSetMetaDataItem>
+          <catalogName></catalogName>
+          <columnClassName>java.lang.Integer</columnClassName>
+          <columnDisplaySize>11</columnDisplaySize>
+          <columnLabel>dia</columnLabel>
+          <columnName>dia</columnName>
+          <columnType>4</columnType>
+          <columnTypeName>int4</columnTypeName>
+          <precision>10</precision>
+          <scale>0</scale>
+          <schemaName></schemaName>
+          <tableName>vw_diasvencimento</tableName>
+          <isAutoIncrement>false</isAutoIncrement>
+          <isCaseSensitive>false</isCaseSensitive>
+          <isCurrency>false</isCurrency>
+          <isDefinitelyWritable>false</isDefinitelyWritable>
+          <isNullable>1</isNullable>
+          <isReadOnly>false</isReadOnly>
+          <isSearchable>true</isSearchable>
+          <isSigned>true</isSigned>
+          <isWritable>true</isWritable>
+        </wfr.database.XMLResultSetMetaDataItem>
+      </entry>
+    </a>
+    <b>1</b>
+  </a>
+</wfr.database.XMLResultSet>

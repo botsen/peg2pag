@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">01-Cadastro</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">129</PROPERTY>
+<PROPERTY KEY="AlturaZoom">0</PROPERTY>
+<!-- ApenasLeitura: Valor lógico que informa se o componente é apenas para leitura -->
+<PROPERTY KEY="ApenasLeitura">False</PROPERTY>
+<!-- Campo: Informa o valor do campo da consulta que o componente está associado. Valor: string. -->
+<PROPERTY KEY="Campo"></PROPERTY>
+<!-- CampoCodImpDigital: Informa o campo onde deve ser armazenado o código FIR de uma impressão gidital. Valor: string. -->
+<PROPERTY KEY="CampoCodImpDigital"></PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">1027173</PROPERTY>
+<PROPERTY KEY="Container">MakerContainer2</PROPERTY>
+<!-- Descricao: Informa a descrição do campo. Valor: string. -->
+<PROPERTY KEY="Descricao"></PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<PROPERTY KEY="EstiloCss"></PROPERTY>
+<PROPERTY KEY="Exibicao">Estender</PROPERTY>
+<!-- GravarEmArquivo:  -->
+<PROPERTY KEY="GravarEmArquivo"></PROPERTY>
+<!-- Habilitado:  -->
+<PROPERTY KEY="Habilitado">True</PROPERTY>
+<!-- Imagem:  -->
+<PROPERTY KEY="Imagem">{0569CC6B-A904-4645-B04C-3E4B40A65805}</PROPERTY>
+<PROPERTY KEY="LarguraZoom">0</PROPERTY>
+<PROPERTY KEY="LenteAumento">False</PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">MakerImage2</PROPERTY>
+<PROPERTY KEY="NomeClasseCss"></PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">0</PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">48</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">8</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">289</PROPERTY>
+<PROPERTY KEY="TipoExibicao">0</PROPERTY>
+<!-- URL:  -->
+<PROPERTY KEY="URL"></PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">True</PROPERTY>
+</PROPERTIES>

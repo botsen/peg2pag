@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROPERTIES>
+<!-- Aba: Representa nome da Aba em que o componente está presente. Valor: String. -->
+<PROPERTY KEY="Aba">01-Cadastro</PROPERTY>
+<!-- Altura: Valor numérico que representa a altura de um componente ou formulário -->
+<PROPERTY KEY="Altura">35</PROPERTY>
+<!-- ApenasLeitura: Valor lógico que informa se o componente é apenas para leitura -->
+<PROPERTY KEY="ApenasLeitura">False</PROPERTY>
+<!-- Atributos: Informa os atributos de um componente. Valor: números separados por ";". -->
+<PROPERTY KEY="Atributos"></PROPERTY>
+<PROPERTY KEY="BuscaIncremental">True</PROPERTY>
+<!-- Campo: Informa o valor do campo da consulta que o componente está associado. Valor: string. -->
+<PROPERTY KEY="Campo"></PROPERTY>
+<!-- CampoChave: Informa o campo chave do componente. Valor: string. -->
+<PROPERTY KEY="CampoChave">idratingcotas</PROPERTY>
+<!-- CampoLista: Informa o campo de exibição do componente. Valor: string. -->
+<PROPERTY KEY="CampoLista">vlcota</PROPERTY>
+<!-- ChamaSubForm: Informa se o componente deve chamar o subformulário definido na propriedade Formulário. Valor: true|false. -->
+<PROPERTY KEY="ChamaSubForm">True</PROPERTY>
+<!-- Codigo: Código do componente. Valor: inteiro. -->
+<PROPERTY KEY="Codigo">1042589</PROPERTY>
+<!-- CodigoForm: Código do formulário: Valor: inteiro. -->
+<PROPERTY KEY="CodigoForm">0</PROPERTY>
+<PROPERTY KEY="Container">containerCotas</PROPERTY>
+<!-- Cor: Valor númerico que representa uma cor. Utiliza o padrão Delphi. Valor: inteiro. -->
+<PROPERTY KEY="Cor">-16777211</PROPERTY>
+<!-- Descricao: Informa a descrição do campo. Valor: string. -->
+<PROPERTY KEY="Descricao">Cotas Dispon&#237;veis</PROPERTY>
+<!-- Dica: Texto de ajuda para o componente. Valor: string. -->
+<PROPERTY KEY="Dica"></PROPERTY>
+<!-- Estilo: Informa o estilo do lookup (Como, Edit e Memo). Valor: 0, 1 ou 2. -->
+<PROPERTY KEY="Estilo">0</PROPERTY>
+<PROPERTY KEY="EstiloCss"></PROPERTY>
+<!-- Fonte: Representa uma fonte do sistema. Valor: Nome da Fonte, tamanho, propriedades, cor -->
+<PROPERTY KEY="Fonte">MS Sans Serif,8,0000,clWindowText</PROPERTY>
+<!-- FonteDeDados:  -->
+<PROPERTY KEY="FonteDeDados"></PROPERTY>
+<PROPERTY KEY="FonteDescricao"></PROPERTY>
+<!-- Habilitado:  -->
+<PROPERTY KEY="Habilitado">True</PROPERTY>
+<PROPERTY KEY="LabelPosition">0</PROPERTY>
+<PROPERTY KEY="LarguraExibicao">0</PROPERTY>
+<!-- Mascara:  -->
+<PROPERTY KEY="Mascara"></PROPERTY>
+<!-- Nome:  -->
+<PROPERTY KEY="Nome">listaCota</PROPERTY>
+<PROPERTY KEY="NomeClasseCss"></PROPERTY>
+<!-- Ordem:  -->
+<PROPERTY KEY="Ordem">3</PROPERTY>
+<!-- Paginacao:  -->
+<PROPERTY KEY="Paginacao">0</PROPERTY>
+<PROPERTY KEY="Placeholder"></PROPERTY>
+<!-- PosicaoX:  -->
+<PROPERTY KEY="PosicaoX">576</PROPERTY>
+<!-- PosicaoY:  -->
+<PROPERTY KEY="PosicaoY">-11</PROPERTY>
+<!-- SQL:  -->
+<PROPERTY KEY="SQL">Select
+  fin_rating_cotas.idratingcotas,
+  fin_rating_cotas.id_rating,
+  'R$ ' || Trim(To_Char(fin_rating_cotas.vlcota, '999G999G999d99')) As vlcota
+From
+  fin_rating_cotas
+Where
+  fin_rating_cotas.id_rating = :id_rating
+
+
+/*WHERE_ADD*/
+/*ORDER_NEW*/
+</PROPERTY>
+<!-- Tabulacao:  -->
+<PROPERTY KEY="Tabulacao">34</PROPERTY>
+<!-- Tabular:  -->
+<PROPERTY KEY="Tabular">True</PROPERTY>
+<!-- Tamanho: Valor numérico que representa a largura de um componente -->
+<PROPERTY KEY="Tamanho">207</PROPERTY>
+<!-- Tipo:  -->
+<PROPERTY KEY="Tipo"></PROPERTY>
+<PROPERTY KEY="TipoFiltroInicial">2</PROPERTY>
+<PROPERTY KEY="ValorInicial"></PROPERTY>
+<!-- Visivel:  -->
+<PROPERTY KEY="Visivel">False</PROPERTY>
+</PROPERTIES>
